@@ -10,7 +10,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section className="mb-28 max-w-3xl text-center">
       <div className="flex justify-center items-center">
         <div className="relative">
           <motion.div
@@ -41,8 +41,8 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      <motion.p
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl 2xl:text-4xl"
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl 2xl:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -54,7 +54,7 @@ export default function Intro() {
         <span className="underline">React (Next.js)</span>
         <span className="italic"> & </span>
         <span className="underline">Flutter</span>.
-      </motion.p>
+      </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row justify-center items-center gap-y-2 gap-x-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -71,7 +71,7 @@ export default function Intro() {
         <a
           href="/Roman-Farooq-CV.pdf"
           download
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus-visible:scale-110 hover:scale-110 active:scale-105 transition border border-black/10"
+          className="group bg-white px-[2.4rem] sm:px-7 py-3 flex items-center gap-2 rounded-full outline-none focus-visible:scale-110 hover:scale-110 active:scale-105 transition border border-black/10"
         >
           Download CV
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -79,6 +79,7 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/roman-farooq"
           target="_blank"
+          rel="noopener noreferrer"
           className="bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full outline-none focus-visible:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition border border-black/10"
         >
           <BsLinkedin />
@@ -86,6 +87,7 @@ export default function Intro() {
         <a
           href="https://github.com/romanfarooq"
           target="_blank"
+          rel="noopener noreferrer"
           className="bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full outline-none focus-visible:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition border border-black/10"
         >
           <FaGithubSquare />
