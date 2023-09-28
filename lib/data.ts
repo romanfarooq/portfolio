@@ -2,9 +2,9 @@ import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import littlelemonImg from "@/public/littlelemon.png";
+import todoappImg from "@/public/todoapp.png";
+import newsappImg from "@/public/newsapp.png";
 
 export const links = [
   {
@@ -35,52 +35,76 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor's Degree in Computer Science",
+    location: "University of Central Punjab, Lahore, Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently pursuing a Bachelor's degree in Computer Science, currently in the 4th year with a CGPA of 3.5. Completed courses including Web Application Development, Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Operating Systems, Computer Networks, Software Engineering, Computer Architecture and Organization, and more.",
     icon: createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 - 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Web Developer Intern (Remote)",
+    location: "DevLinx Technologies, Lahore, Pakistan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Served as a remote web developer intern at DevLinx Technologies. Contributed to the 'FreeLancer Website' project by developing the backend using Node.js, Express, and MongoDB. Assisted the team in integrating the backend with the frontend, offering guidance on React since I was the sole React expert in the team.",
     icon: createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "August 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Lahore, Pakistan",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Currently working as a freelance full-stack developer with expertise in React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB. Open to exploring full-time job opportunities.",
     icon: createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "LittleLemon",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "LittleLemon is a restaurant reservation app that allows users to book tables. It serves as the capstone project for Meta's Front-End Developer Certificate on Coursera.",
+    tags: [
+      "React",
+      "JavaScript",
+      "React Router Dom",
+      "React Icons",
+      "Hooks",
+      "Context API",
+    ],
+    imageUrl: littlelemonImg,
   },
   {
-    title: "rmtDev",
+    title: "TodoApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "TodoApp is a task management application that enables users to create accounts, log in, and perform CRUD operations on their tasks. It leverages Redux for state management and MongoDB as the database. Developed as a semester project for the university course Web Application Development.",
+    tags: [
+      "React",
+      "JavaScript",
+      "React Router Dom",
+      "React Icons",
+      "Tailwind",
+      "Redux",
+      "Express",
+      "MongoDB",
+    ],
+    imageUrl: todoappImg,
   },
   {
-    title: "Word Analytics",
+    title: "NewsApp",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "NewsApp is a news aggregator application that provides users with the latest news from various categories. It utilizes the News API to fetch data and incorporates infinite scroll for seamless news browsing. Users can select different categories from the navbar.",
+    tags: [
+      "React",
+      "JavaScript",
+      "React Router Dom",
+      "React Icons",
+      "Bootstrap",
+      "News API",
+      "React Infinite Scroll",
+    ],
+    imageUrl: newsappImg,
   },
 ] as const;
 
@@ -97,11 +121,11 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "Flutter",
+  "Firebase",
   "Express",
-  "PostgreSQL",
+  "SQL",
   "Python",
-  "Django",
+  "Pandas",
   "Framer Motion",
 ] as const;
