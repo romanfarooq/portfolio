@@ -1,10 +1,10 @@
+import littlelemonImg from "@/public/littlelemon.png";
+import newsappImg from "@/public/newsapp.png";
+import todoappImg from "@/public/todoapp.png";
 import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import littlelemonImg from "@/public/littlelemon.png";
-import todoappImg from "@/public/todoapp.png";
-import newsappImg from "@/public/newsapp.png";
 
 export const links = [
   {
@@ -62,48 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "LittleLemon",
+    title: "Little Lemon",
     description:
-      "LittleLemon is a restaurant reservation app that allows users to book tables. It serves as the capstone project for Meta's Front-End Developer Certificate on Coursera.",
-    tags: [
-      "React",
-      "JavaScript",
-      "React Router Dom",
-      "React Icons",
-      "Hooks",
-      "Context API",
-    ],
+      "Little Lemon is a restaurant reservation app that allows users to book tables. It serves as the capstone project for Meta's Front-End Developer Certificate on Coursera.",
+    tags: ["React", "React Icons", "Hooks", "Context API"],
     imageUrl: littlelemonImg,
   },
   {
-    title: "TodoApp",
+    title: "Todo App",
     description:
-      "TodoApp is a task management application that enables users to create accounts, log in, and perform CRUD operations on their tasks. It leverages Redux for state management and MongoDB as the database. Developed as a semester project for the university course Web Application Development.",
-    tags: [
-      "React",
-      "JavaScript",
-      "React Router Dom",
-      "React Icons",
-      "Tailwind",
-      "Redux",
-      "Express",
-      "MongoDB",
-    ],
+      "Todo App is a task management application that enables users to create accounts, log in, and perform CRUD operations on their tasks. It leverages Redux for state management and MongoDB as the database.",
+    tags: ["React", "Redux", "Express", "MongoDB"],
     imageUrl: todoappImg,
   },
   {
-    title: "NewsApp",
+    title: "News App",
     description:
-      "NewsApp is a news aggregator application that provides users with the latest news from various categories. It utilizes the News API to fetch data and incorporates infinite scroll for seamless news browsing. Users can select different categories from the navbar.",
-    tags: [
-      "React",
-      "JavaScript",
-      "React Router Dom",
-      "React Icons",
-      "Bootstrap",
-      "News API",
-      "React Infinite Scroll",
-    ],
+      "News App is a news aggregator application that provides users with the latest news from various categories. It utilizes the News API to fetch data and incorporates infinite scroll for seamless news browsing.",
+    tags: ["React", "Bootstrap", "News API", "React Infinite Scroll"],
     imageUrl: newsappImg,
   },
 ] as const;
