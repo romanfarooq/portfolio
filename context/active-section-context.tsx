@@ -1,8 +1,7 @@
 "use client";
 
 import { useState, createContext, useContext } from "react";
-import type { SectionName } from "@/lib/type";
-
+import type { SectionName } from "@/lib/types";
 
 type ActiveSectionContextType = {
   activeSection: SectionName;
