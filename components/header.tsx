@@ -1,10 +1,20 @@
 "use client";
 
 import Link from "next/link";
+import { clsx } from "clsx";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import type { SectionName } from "@/lib/type";
 
 export default function Header() {
+  const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  function handleLinkClick(SectionName: SectionName) {
+    setActiveSection(SectionName);
+    setTimeOfLastClick(Date.now());
+  }
+
   return (
     <header className="z-50 relative">
       <motion.div
@@ -17,15 +27,28 @@ export default function Header() {
           {links.map((link) => (
             <motion.li
               key={link.name}
-              className="h-3/4 flex justify-center items-center"
+              className="relative h-3/4 flex justify-center items-center"
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
             >
               <Link
                 href={link.hash}
-                className="flex justify-center items-center p-3 hover:text-gray-950 transition"
+                className={clsx(
+                  "flex justify-center items-center p-3 hover:text-gray-950 transition",
+                  {
+                    "text-gray-950": activeSection === link.name,
+                  }
+                )}
+                onClick={() => handleLinkClick(link.name)}
               >
                 {link.name}
+                {link.name === activeSection && (
+                  <motion.span
+                    className="absolute inset-0 -z-10 bg-gray-100 rounded-full"
+                    layoutId="activeSection"
+                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  ></motion.span>
+                )}
               </Link>
             </motion.li>
           ))}
