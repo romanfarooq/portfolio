@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Bachelor's Degree in Computer Science",
     location: "University of Central Punjab, Lahore, Pakistan",
     description:
-      "Currently pursuing a Bachelor's degree in Computer Science, currently in the 4th year with a CGPA of 3.5. Completed courses including Web Application Development, Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Operating Systems, Computer Networks, Software Engineering, Computer Architecture and Organization, and more.",
+      "I am currently pursuing a Bachelor's degree in Computer Science, in my 4th year with a CGPA of 3.5. My academic journey has equipped me with a strong foundation in computer science, enabling me to excel in various technical domains.",
     icon: createElement(LuGraduationCap),
     date: "2020 - 2024",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Web Developer Intern (Remote)",
     location: "DevLinx Technologies, Lahore, Pakistan",
     description:
-      "Served as a remote web developer intern at DevLinx Technologies. Contributed to the 'FreeLancer Website' project by developing the backend using Node.js, Express, and MongoDB. Assisted the team in integrating the backend with the frontend, offering guidance on React since I was the sole React expert in the team.",
+      "I served as a remote web developer intern at DevLinx Technologies. I contributed to the 'FreeLancer Website' project by developing the backend using Node.js, Express, and MongoDB. I assisted the team in integrating the backend with the frontend, offering guidance on React since I was the sole React expert in the team.",
     icon: createElement(CgWorkAlt),
     date: "August 2023",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Lahore, Pakistan",
     description:
-      "Currently working as a freelance full-stack developer with expertise in React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB. Open to exploring full-time job opportunities.",
+      "I am currently working as a freelance full-stack developer with expertise in React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB. I am open to exploring full-time job opportunities.",
     icon: createElement(FaReact),
     date: "2023 - Present",
   },
