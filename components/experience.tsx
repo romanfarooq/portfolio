@@ -9,18 +9,18 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience", 0.65);
+  const { ref } = useSectionInView("Experience", 0.6);
   return (
     <motion.section
       id="experience"
       ref={ref}
-      className="scroll-mt-28 mb-28"
+      className="scroll-mt-28 mb-28 md:mx-32"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
     >
       <SectionHeading>My experience</SectionHeading>
-      <VerticalTimeline lineColor="" animate={true}>
+      <VerticalTimeline lineColor="">
         {experiencesData.map((experience, index) => (
           <Fragment key={index}>
             <VerticalTimelineElement
