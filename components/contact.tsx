@@ -45,6 +45,7 @@ export default function Contact() {
         <input
           type="email"
           name="email"
+          autoComplete="email"
           required
           minLength={5}
           maxLength={100}
@@ -54,6 +55,7 @@ export default function Contact() {
         <textarea
           name="message"
           required
+          autoComplete="off"
           minLength={10}
           maxLength={1000}
           placeholder="Your message"
