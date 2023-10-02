@@ -3,6 +3,7 @@
 import SectionHeading from "./section-heading";
 import { Fragment } from "react";
 import { motion } from "framer-motion";
+import { useTheme } from "next-themes";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
@@ -10,6 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience", 0.6);
+  const { resolvedTheme } = useTheme();
   return (
     <motion.section
       id="experience"
@@ -25,19 +27,28 @@ export default function Experience() {
           <Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background: "#f3f4f6",
+                background:
+                  resolvedTheme === "light"
+                    ? "#f3f4f6"
+                    : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
-                borderRight: "0.4rem solid #9ca3af",
+                borderRight:
+                  resolvedTheme === "light"
+                    ? "0.4rem solid #9ca3af"
+                    : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={experience.date}
               icon={experience.icon}
               iconStyle={{
-                background: "white",
+                background:
+                  resolvedTheme === "light"
+                    ? "white"
+                    : "#1E1A27",
                 fontSize: "1.5rem",
               }}
             >
@@ -45,7 +56,7 @@ export default function Experience() {
               <p className="!font-normal !text-sm !mt-0">
                 {experience.location}
               </p>
-              <p className="!font-normal !text-xs !mt-1 text-gray-700">
+              <p className="!font-normal !text-xs !mt-1 text-gray-700 dark:text-white/75">
                 {experience.description}
               </p>
             </VerticalTimelineElement>

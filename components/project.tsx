@@ -22,17 +22,17 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="relative bg-gray-100 max-w-2xl border border-black/5 rounded-lg overflow-hidden sm:pr-8 sm:group-even:pr-0 sm:h-80 sm:group-even:pl-8 hover:bg-gray-200 transition">
+      <section className="relative bg-gray-100 max-w-2xl border border-black/5 rounded-lg overflow-hidden sm:pr-8 sm:group-even:pr-0 sm:h-80 sm:group-even:pl-8 hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="flex flex-col h-full pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] sm:group-even:ml-72">
           <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-justify text-sm text-gray-700">
+          <p className="mt-2 leading-relaxed text-justify text-sm text-gray-700 dark:text-white/70">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2">
             {tags.map((tag, index) => (
               <li
                 key={index}
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
+                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
               >
                 {tag}
               </li>
