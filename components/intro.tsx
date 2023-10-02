@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import MyImage from "@/public/my-image.jpg";
+import MyImage from "@/public/my-image.png";
 import { motion } from "framer-motion";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
