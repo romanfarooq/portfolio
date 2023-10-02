@@ -10,7 +10,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience", 0.6);
+  const { ref } = useSectionInView("Experience", 0.5);
   const { resolvedTheme } = useTheme();
   return (
     <motion.section
