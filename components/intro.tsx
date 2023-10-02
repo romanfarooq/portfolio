@@ -8,9 +8,17 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  function handleContactClick() {
+    setActiveSection("Contact");
+    setTimeOfLastClick(Date.now());
+  }
+
   return (
     <section
       id="home"
@@ -70,6 +78,7 @@ export default function Intro() {
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus-visible:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          onClick={handleContactClick}
         >
           Contact me here
           <BsArrowRight className="mt-1 opacity-75 group-hover:translate-x-1 transition" />
