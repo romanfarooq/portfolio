@@ -15,7 +15,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 scroll-mt-28 w-[min(100%,38rem)] text-center"
+      className="mb-20 w-[min(100%,38rem)] scroll-mt-28 text-center sm:mb-28"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -50,7 +50,7 @@ export default function Contact() {
           minLength={5}
           maxLength={100}
           placeholder="Your email"
-          className="h-14 px-4 rounded-lg border border-black/10"
+          className="h-14 rounded-lg border border-black/10 px-4"
         />
         <textarea
           name="message"
@@ -59,7 +59,7 @@ export default function Contact() {
           minLength={10}
           maxLength={1000}
           placeholder="Your message"
-          className="h-52 my-3 p-4 rounded-lg border border-black/10"
+          className="my-3 h-52 rounded-lg border border-black/10 p-4"
         />
         <SubmitBtn />
       </form>

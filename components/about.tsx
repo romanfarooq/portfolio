@@ -10,7 +10,7 @@ export default function About() {
     <motion.section
       id="about"
       ref={ref}
-      className="mb-28 max-w-3xl text-center leading-8 scroll-mt-28"
+      className="mb-28 max-w-3xl scroll-mt-28 text-center leading-8"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
@@ -30,7 +30,7 @@ export default function About() {
         to my <span className="font-medium">Final Year Project (FYP)</span>.
         Additionally, I hold a{" "}
         <a
-          className="font-medium underline hover:text-blue-700 transition-colors duration-200"
+          className="font-medium underline transition-colors duration-200 hover:text-blue-700"
           href="https://www.coursera.org/account/accomplishments/specialization/certificate/XEPX26FAB3MY"
           target="_blank"
           rel="noopener noreferrer"

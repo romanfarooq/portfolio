@@ -16,7 +16,7 @@ export default function Experience() {
     <motion.section
       id="experience"
       ref={ref}
-      className="scroll-mt-28 mb-28 md:mx-32"
+      className="mb-28 scroll-mt-28 md:mx-32"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
@@ -45,18 +45,15 @@ export default function Experience() {
               date={experience.date}
               icon={experience.icon}
               iconStyle={{
-                background:
-                  resolvedTheme === "light"
-                    ? "white"
-                    : "#1E1A27",
+                background: resolvedTheme === "light" ? "white" : "#1E1A27",
                 fontSize: "1.5rem",
               }}
             >
               <h3 className="font-semibold capitalize">{experience.title}</h3>
-              <p className="!font-normal !text-sm !mt-0">
+              <p className="!mt-0 !text-sm !font-normal">
                 {experience.location}
               </p>
-              <p className="!font-normal !text-xs !mt-1 text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !text-xs !font-normal text-gray-700 dark:text-white/75">
                 {experience.description}
               </p>
             </VerticalTimelineElement>

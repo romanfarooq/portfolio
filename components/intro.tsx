@@ -23,9 +23,9 @@ export default function Intro() {
     <section
       id="home"
       ref={ref}
-      className="mb-28 max-w-3xl text-center scroll-mt-[10rem]"
+      className="mb-28 max-w-3xl scroll-mt-[10rem] text-center"
     >
-      <div className="flex justify-center items-center">
+      <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -37,7 +37,7 @@ export default function Intro() {
               alt="Roman Farooq's portrait"
               quality={100}
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -70,32 +70,32 @@ export default function Intro() {
         <span className="underline">Flutter</span>.
       </motion.h1>
       <motion.div
-        className="flex flex-col sm:flex-row justify-center items-center gap-y-2 gap-x-4 px-4 text-lg font-medium"
+        className="flex flex-col items-center justify-center gap-x-4 gap-y-2 px-4 text-lg font-medium sm:flex-row"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus-visible:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus-visible:scale-110 active:scale-105"
           onClick={handleContactClick}
         >
           Contact me here
-          <BsArrowRight className="mt-1 opacity-75 group-hover:translate-x-1 transition" />
+          <BsArrowRight className="mt-1 opacity-75 transition group-hover:translate-x-1" />
         </Link>
         <a
           href="/Roman-Farooq-CV.pdf"
           download
-          className="group bg-white px-[2.4rem] sm:px-7 py-3 flex items-center gap-2 rounded-full outline-none focus-visible:scale-110 hover:scale-110 active:scale-105 transition border border-black/10 dark:bg-white/10"
+          className="group flex items-center gap-2 rounded-full border border-black/10 bg-white px-[2.4rem] py-3 outline-none transition hover:scale-110 focus-visible:scale-110 active:scale-105 dark:bg-white/10 sm:px-7"
         >
           Download CV
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
         </a>
         <a
           href="https://www.linkedin.com/in/roman-farooq"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full outline-none focus-visible:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition border border-black/10 dark:bg-white/10 dark:text-white/60"
+          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition  hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
@@ -103,7 +103,7 @@ export default function Intro() {
           href="https://github.com/romanfarooq"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full outline-none focus-visible:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition border border-black/10 dark:bg-white/10 dark:text-white/60"
+          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition  hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>

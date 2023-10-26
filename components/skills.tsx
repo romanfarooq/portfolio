@@ -31,11 +31,11 @@ export default function Skills() {
       transition={{ delay: 0.125 }}
     >
       <SectionHeading>My skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-xs sm:text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center gap-2 text-xs text-gray-800 sm:text-lg">
         {skillsData.map((skill, index) => (
           <motion.li
             key={index}
-            className="bg-white border border-black/[0.1] rounded-xl px-3 py-2 sm:px-5 sm:py-3 dark:bg-white/10 dark:text-white/80"
+            className="rounded-xl border border-black/[0.1] bg-white px-3 py-2 dark:bg-white/10 dark:text-white/80 sm:px-5 sm:py-3"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
