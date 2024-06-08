@@ -30,13 +30,14 @@ export async function sendEmail(formData: FormData) {
       }),
     });
 
-    if (response.id) {
+
+    if (response.data?.id) {
       return {
         message: "Email sent successfully",
       };
     } else {
       return {
-        error: getErrorMessage(response),
+        error: getErrorMessage(response.error),
       };
     }
   } catch (error: unknown) {

@@ -3,8 +3,9 @@ import newsappImg from "@/public/newsapp.png";
 import todoappImg from "@/public/todoapp.png";
 import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaLaptopCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { MdVolunteerActivism } from 'react-icons/md';
 
 export const links = [
   {
@@ -51,6 +52,22 @@ export const experiencesData = [
     date: "August 2023",
   },
   {
+    title: "Fundraising Volunteer",
+    location: "Indus Hospital and Health Network (IHHN), Lahore, Pakistan",
+    description:
+      "I spearheaded community engagement efforts by distributing informational flyers in various locations, including upscale areas, malls, markets, and mosques. I collaborated with a diverse team of volunteers to ensure maximum outreach and impact, increasing community awareness about the significance of Zakat during Ramzan.",
+    icon: createElement(MdVolunteerActivism),
+    date: "March 2024 - April 2024",
+  },
+  {
+    title: "Trainee Front-End Developer",
+    location: "Programmers Force, Lahore, Pakistan",
+    description:
+      "I completed hands-on training in HTML, CSS, and JavaScript, building a strong foundation in web development. I gained a thorough understanding of frontend frameworks and libraries, including React, Angular, and Vue. I designed responsive and cross-browser compatible websites, implementing best practices in UI/UX principles. I collaborated in a team-based learning environment, enhancing teamwork and communication skills, and received guidance from expert instructors with industry experience.",
+    icon: createElement(FaLaptopCode),
+    date: "April 2024 - May 2024",
+  },
+  {
     title: "Full-Stack Developer",
     location: "Lahore, Pakistan",
     description:
@@ -59,6 +76,7 @@ export const experiencesData = [
     date: "2023 - Present",
   },
 ] as const;
+
 
 export const projectsData = [
   {
