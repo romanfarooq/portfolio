@@ -1,3 +1,4 @@
+import carcareproImg from "@/public/carcarepro.png";
 import littlelemonImg from "@/public/littlelemon.png";
 import newsappImg from "@/public/newsapp.png";
 import todoappImg from "@/public/todoapp.png";
@@ -5,7 +6,8 @@ import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaLaptopCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import { MdVolunteerActivism } from 'react-icons/md';
+import { MdVolunteerActivism } from "react-icons/md";
+import { TbBrandPepsi } from "react-icons/tb";
 
 export const links = [
   {
@@ -39,17 +41,17 @@ export const experiencesData = [
     title: "Bachelor's Degree in Computer Science",
     location: "University of Central Punjab, Lahore, Pakistan",
     description:
-      "I am currently pursuing a Bachelor's degree in Computer Science, in my 4th year with a CGPA of 3.5. My academic journey has equipped me with a strong foundation in computer science, enabling me to excel in various technical domains.",
+      "I have completed a Bachelor's degree in Computer Science with a CGPA of 3.48. My academic journey has equipped me with a strong foundation in computer science, enabling me to excel in various technical domains.",
     icon: createElement(LuGraduationCap),
     date: "2020 - 2024",
   },
   {
-    title: "Web Developer Intern (Remote)",
+    title: "Web Developer Intern",
     location: "DevLinx Technologies, Lahore, Pakistan",
     description:
-      "I served as a remote web developer intern at DevLinx Technologies. I contributed to the 'FreeLancer Website' project by developing the backend using Node.js, Express, and MongoDB. I assisted the team in integrating the backend with the frontend, offering guidance on React since I was the sole React expert in the team.",
+      "I served as a remote web developer intern at DevLinx Technologies. I led a team of interns to create a CRUD website using the MERN stack. I set up user authentication with JWT-based security, developed RESTful APIs with Express.js and MongoDB schemas, and achieved responsive design with CSS flexbox and media queries. I also used React Router for dynamic navigation and Redux for state management.",
     icon: createElement(CgWorkAlt),
-    date: "August 2023",
+    date: "August 2023 - September 2023",
   },
   {
     title: "Fundraising Volunteer",
@@ -68,15 +70,22 @@ export const experiencesData = [
     date: "April 2024 - May 2024",
   },
   {
+    title: "Supply Chain Intern",
+    location: "PepsiCo Pakistan, Lahore, Pakistan",
+    description:
+      "I am currently working on the project 'Spares Mapping & Criticality Analysis'. This involves categorizing the spares and operating supplies based on HFM, ABC & XYZ Analysis, developing the inventory projection for three years, and deep diving into the inventory to identify unbadging, localization, and vendor import potential.",
+    icon: createElement(TbBrandPepsi),
+    date: "July 2024 - Present",
+  },
+  {
     title: "Full-Stack Developer",
     location: "Lahore, Pakistan",
     description:
-      "I am currently working as a freelance full-stack developer with expertise in React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB. I am open to exploring full-time job opportunities.",
+      "I recently embarked on my freelancing journey on Upwork as a full-stack developer, specializing in React, Next.js, MERN Stack, Flutter for mobile development, and Data Analysis with Python. I am eager to explore full-time, part-time, and freelance opportunities to further hone my skills and contribute to innovative projects.",
     icon: createElement(FaReact),
-    date: "2023 - Present",
+    date: "2024 - Present",
   },
 ] as const;
-
 
 export const projectsData = [
   {
@@ -100,26 +109,43 @@ export const projectsData = [
     tags: ["React", "Bootstrap", "News API", "React Infinite Scroll"],
     imageUrl: newsappImg,
   },
+  {
+    title: "CarCare Pro",
+    description:
+      "CarCare Pro is a mobile app for managing car maintenance. It helps users track service history, choose workshops, and set reminders for upcoming services. The app also allows profile creation for cars, access control, and ratings for users and workshops.",
+    tags: ["Flutter", "Firebase", "Figma", "Google Maps API"],
+    imageUrl: carcareproImg,
+  },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "JSX",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
+  "Next",
+  "Node",
+  "Express",
   "Git",
+  "GitHub",
   "Tailwind",
+  "Bootstrap",
+  "Chakra UI",
+  "Material UI",
   "Prisma",
+  "Drizzle",
+  "SQL",
   "MongoDB",
   "Redux",
   "Flutter",
   "Firebase",
-  "Express",
   "SQL",
+  "PostgreSQL",
   "Python",
   "Pandas",
+  "NumPy",
+  "Matplotlib",
   "Framer Motion",
 ] as const;

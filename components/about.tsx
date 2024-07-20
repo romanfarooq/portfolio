@@ -10,24 +10,22 @@ export default function About() {
     <motion.section
       id="about"
       ref={ref}
-      className="mb-28 max-w-3xl scroll-mt-28 text-center leading-8"
+      className="mb-28 max-w-3xl scroll-mt-28 text-justify leading-8"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a student pursuing a{" "}
+        I am a graduate with a{" "}
         <span className="font-medium">
           Bachelor of Science degree in Computer Science
         </span>{" "}
         at
         <span className="font-medium">
           {" "}
-          University of Central Punjab, Lahore
-        </span>
-        , currently in my <span className="italic">Fourth year</span> dedicated
-        to my <span className="font-medium">Final Year Project (FYP)</span>.
+          University of Central Punjab, Lahore.
+        </span>{" "}
         Additionally, I hold a{" "}
         <a
           className="font-medium underline transition-colors duration-200 hover:text-blue-700"
@@ -35,8 +33,8 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Meta Front-End Developer professional certification{" "}
-        </a>
+          Meta Front-End Developer professional certification
+        </a>{" "}
         from <span className="font-medium">Coursera</span>, which has expanded
         my knowledge in{" "}
         <span className="font-medium">full-stack web development</span>. What
@@ -49,18 +47,15 @@ export default function About() {
       <p className="mb-3">
         My core technology stack encompasses{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, Express.js and MongoDB.{" "}
+          React, Next, Node, Express, Tailwind CSS, SQL, and MongoDB.{" "}
         </span>
         Additionally, I am well-versed in{" "}
         <span className="font-medium">TypeScript</span> and proficient in using{" "}
-        <span className="font-medium">Prisma ORM</span>. Beyond this, I have
-        hands-on experience with{" "}
+        <span className="font-medium">Prisma and Drizzle ORM</span>. Beyond
+        this, I have hands-on experience with{" "}
         <span className="font-medium">
-          Flutter, Dart, Firebase, and Tailwind CSS.{" "}
+          Flutter, Firebase, and data analysis with Python.
         </span>
-        I am currently seeking a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer to further apply and expand my skills.
       </p>
 
       <p>
@@ -70,11 +65,7 @@ export default function About() {
         <span className="italic"> unquenchable thirst for knowledge</span> and
         fuels my curiosity, driving me to perpetually seek new opportunities for
         growth and learning. I take pride in my ability to quickly adapt and
-        learn <span className="font-medium">new technologies</span>, and I am
-        currently exploring{" "}
-        <span className="font-medium">Mobile App Development</span> and{" "}
-        <span className="font-medium">Machine Learning</span> as my latest
-        endeavors.
+        learn <span className="font-medium">new technologies</span>.
       </p>
     </motion.section>
   );
