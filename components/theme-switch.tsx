@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
+import toast from "react-hot-toast";
 
 export default function ThemeSwitch() {
   const [mounted, setMounted] = useState(false);
@@ -19,6 +20,9 @@ export default function ThemeSwitch() {
 
   function toggleTheme() {
     setTheme(resolvedTheme === "light" ? "dark" : "light");
+    toast.success(
+      `Switched to ${resolvedTheme === "light" ? "Dark 🌙" : "Light ☀️"} mode`,
+    );
   }
 
   return (

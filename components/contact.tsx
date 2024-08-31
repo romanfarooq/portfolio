@@ -9,7 +9,7 @@ import { sendEmail } from "@/actions/sendEmail";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact", 0.75);
+  const { ref } = useSectionInView("Contact", 0.6);
   const formRef = useRef<HTMLFormElement>(null);
   return (
     <motion.section

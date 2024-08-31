@@ -42,13 +42,30 @@ export default function Intro() {
           </motion.div>
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0, rotate: -15 }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              x: ["0%", "20%", "-20%", "20%", "-20%", "0%"], // Increased X movement
+              y: ["0%", "-4%", "4%", "-4%", "4%", "0%"], // Decreased Y movement
+              rotate: [0, -10, 10, -10, 10, 0], // Slight tilt
+            }}
             transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
+              opacity: { duration: 1.5, ease: "easeInOut" }, // Fade-in duration
+              scale: { duration: 1.5, ease: "easeInOut" }, // Scaling duration
+              x: { duration: 1.5, ease: "easeInOut", repeat: 1 }, // Waving movement
+              y: { duration: 1.5, ease: "easeInOut", repeat: 1 }, // Waving movement
+              rotate: { duration: 1.5, ease: "easeInOut", repeat: 1 }, // Waving tilt
+            }}
+            whileHover={{
+              x: ["0%", "20%", "-20%", "20%", "-20%", "0%"], // Increased X movement on hover
+              y: ["0%", "-4%", "4%", "-4%", "4%", "0%"], // Decreased Y movement on hover
+              rotate: [0, -10, 10, -10, 10, 0], // Slight tilt on hover
+              transition: {
+                duration: 1.5, // Speed of animation on hover
+                ease: "easeInOut",
+                repeat: 1,
+              },
             }}
           >
             👋
@@ -95,7 +112,7 @@ export default function Intro() {
           href="https://www.linkedin.com/in/roman-farooq"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition  hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
@@ -103,7 +120,7 @@ export default function Intro() {
           href="https://github.com/romanfarooq"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition  hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>

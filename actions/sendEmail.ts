@@ -23,7 +23,7 @@ export async function sendEmail(formData: FormData) {
       from: "Portfolio Contact Form <onboarding@resend.dev>",
       to: "theromanfarooq@gmail.com",
       subject: "Message from Contact Form",
-      reply_to: data.email,
+      replyTo: data.email,
       react: createElement(ContactFormEmail, {
         message: data.message,
         senderEmail: data.email,

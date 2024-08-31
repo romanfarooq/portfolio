@@ -43,7 +43,7 @@ export const experiencesData = [
     description:
       "I have completed a Bachelor's degree in Computer Science with a CGPA of 3.48. My academic journey has equipped me with a strong foundation in computer science, enabling me to excel in various technical domains.",
     icon: createElement(LuGraduationCap),
-    date: "2020 - 2024",
+    date: "October 2020 - July 2024",
   },
   {
     title: "Web Developer Intern",
@@ -73,17 +73,17 @@ export const experiencesData = [
     title: "Supply Chain Intern",
     location: "PepsiCo Pakistan, Lahore, Pakistan",
     description:
-      "I am currently working on the project 'Spares Mapping & Criticality Analysis'. This involves categorizing the spares and operating supplies based on HFM, ABC & XYZ Analysis, developing the inventory projection for three years, and deep diving into the inventory to identify unbadging, localization, and vendor import potential.",
+      "Worked on the project 'Spares Mapping & Criticality Analysis', which involved categorizing the spares and operating supplies based on HFM, ABC & XYZ Analysis, developing the inventory projection for three years, and deep diving into the inventory to identify unbadging, localization, and vendor import potential.",
     icon: createElement(TbBrandPepsi),
-    date: "July 2024 - Present",
+    date: "July 2024 - August 2024",
   },
   {
     title: "Full-Stack Developer",
     location: "Lahore, Pakistan",
     description:
-      "I recently embarked on my freelancing journey on Upwork as a full-stack developer, specializing in React, Next.js, MERN Stack, Flutter for mobile development, and Data Analysis with Python. I am eager to explore full-time, part-time, and freelance opportunities to further hone my skills and contribute to innovative projects.",
+      "With expertise in React.js, Next.js, and MERN Stack for web development, and Flutter and React Native for mobile development, I am actively seeking full-time opportunities to further hone my skills and contribute to innovative projects.",
     icon: createElement(FaReact),
-    date: "2024 - Present",
+    date: "Augest 2024 - Present",
   },
 ] as const;
 
@@ -124,13 +124,14 @@ export const skillsData = [
   "JSX",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next",
-  "Node",
-  "Express",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "React Native",
   "Git",
   "GitHub",
-  "Tailwind",
+  "Tailwind CSS",
   "Bootstrap",
   "Chakra UI",
   "Material UI",
