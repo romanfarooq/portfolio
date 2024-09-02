@@ -41,7 +41,7 @@ export const experiencesData = [
     title: "Bachelor's Degree in Computer Science",
     location: "University of Central Punjab, Lahore, Pakistan",
     description:
-      "I have completed a Bachelor's degree in Computer Science with a CGPA of 3.48. My academic journey has equipped me with a strong foundation in computer science, enabling me to excel in various technical domains.",
+      "I have completed a Bachelor's degree in Computer Science with a CGPA of 3.42. My academic journey has equipped me with a strong foundation in computer science, enabling me to excel in various technical domains.",
     icon: createElement(LuGraduationCap),
     date: "October 2020 - July 2024",
   },
