@@ -10,7 +10,7 @@ export default function Footer() {
       animate={{ opacity: 1, y: 0 }}
     >
       <small className="mb-2 block text-xs">
-        &copy; 2023 Roman. All rights reserved.
+        &copy; 2024 Roman. All rights reserved.
       </small>
       <p className="text-xs">
         <span className="font-semibold">About this website:</span> built with
