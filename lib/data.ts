@@ -4,7 +4,7 @@ import newsappImg from "@/public/newsapp.png";
 import todoappImg from "@/public/todoapp.png";
 import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaLaptopCode, FaReact } from "react-icons/fa";
+import { FaLaptopCode, FaHtml5 } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdVolunteerActivism } from "react-icons/md";
 import { TbBrandPepsi } from "react-icons/tb";
@@ -66,7 +66,7 @@ export const experiencesData = [
     location: "Programmers Force, Lahore, Pakistan",
     description:
       "I completed hands-on training in HTML, CSS, and JavaScript, building a strong foundation in web development. I gained a thorough understanding of frontend frameworks and libraries, including React, Angular, and Vue. I designed responsive and cross-browser compatible websites, implementing best practices in UI/UX principles. I collaborated in a team-based learning environment, enhancing teamwork and communication skills, and received guidance from expert instructors with industry experience.",
-    icon: createElement(FaLaptopCode),
+    icon: createElement(FaHtml5),
     date: "April 2024 - May 2024",
   },
   {
@@ -78,12 +78,12 @@ export const experiencesData = [
     date: "July 2024 - August 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Lahore, Pakistan",
+    title: "Associate Software Engineer",
+    location: "Dexterz Sol., Lahore, Pakistan",
     description:
-      "With expertise in React.js, Next.js, and MERN Stack for web development, and Flutter and React Native for mobile development, I am actively seeking full-time opportunities to further hone my skills and contribute to innovative projects.",
-    icon: createElement(FaReact),
-    date: "Augest 2024 - Present",
+      "Collaborating on cross-functional teams with multiple tech stacks. Working on backend systems using Node.js and Express.js, alongside frontend frameworks like React.js and Next.js. Assisting in optimizing and refactoring existing code to improve performance and maintainability.",
+    icon: createElement(FaLaptopCode),
+    date: "September 2024 - Present",
   },
 ] as const;
 
