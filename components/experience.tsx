@@ -50,10 +50,10 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize">{experience.title}</h3>
-              <p className="!mt-0 !text-sm !font-normal">
+              <p className="mt-0! text-sm! font-normal!">
                 {experience.location}
               </p>
-              <p className="!mt-1 text-justify !text-xs !font-normal text-gray-700 dark:text-white/75">
+              <p className="mt-1! text-xs! font-normal! text-justify text-gray-700 dark:text-white/75">
                 {experience.description}
               </p>
             </VerticalTimelineElement>

@@ -22,7 +22,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
       }}
       className="group mb-3 last:mb-0 sm:mb-8"
     >
-      <section className="relative max-w-2xl overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition hover:bg-gray-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:h-80 sm:pr-8 sm:group-even:pl-8 sm:group-even:pr-0">
+      <section className="relative max-w-2xl overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition hover:bg-gray-200 sm:h-80 sm:pr-8 sm:group-even:pl-8 sm:group-even:pr-0 dark:bg-white/10 dark:text-white dark:hover:bg-white/20">
         <div className="flex h-full flex-col px-5 pb-7 pt-4 sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 sm:group-even:ml-72">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 text-justify text-sm leading-relaxed text-gray-700 dark:text-white/70">
@@ -44,7 +44,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
           alt={title}
           quality={95}
           priority={true}
-          className="group-hover:scale=[1.04] absolute -right-40 top-8 hidden w-[28.25rem] rounded-t-lg transition group-even:-left-40 group-even:right-[initial] group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 sm:block"
+          className="group-hover:scale=[1.04] absolute -right-40 top-8 hidden w-[28.25rem] rounded-t-lg transition group-even:-left-40 group-even:right-[initial] group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:-rotate-2 group-hover:group-even:translate-x-3 group-hover:group-even:translate-y-3 group-hover:group-even:rotate-2 sm:block"
         />
       </section>
     </motion.div>
