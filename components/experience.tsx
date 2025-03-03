@@ -3,7 +3,7 @@
 import SectionHeading from "./section-heading";
 import { Fragment } from "react";
 import { motion } from "framer-motion";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/context/theme-context";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";

@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, use, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import type { SectionName } from "@/lib/types";
 
 type ActiveSectionContextType = {
@@ -35,11 +35,11 @@ export default function ActiveSectionContextProvider({
 }
 
 export function useActiveSectionContext() {
-  const context = use(ActiveSectionContext);
+  const context = useContext(ActiveSectionContext);
 
   if (context === null) {
     throw new Error(
-      "useActiveSectionContext must be used within an ActiveSectionContextProvider"
+      "useActiveSectionContext must be used within an ActiveSectionContextProvider",
     );
   }
 

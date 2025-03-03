@@ -2,7 +2,7 @@
 
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/context/theme-context";
 import { useState, useEffect } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 
