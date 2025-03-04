@@ -50,7 +50,7 @@ export default function Contact() {
           minLength={5}
           maxLength={100}
           placeholder="Your email"
-          className="h-14 rounded-lg border border-black/10 px-4"
+          className="h-14 rounded-lg border border-black/10 bg-white px-4 dark:bg-gray-800"
         />
         <textarea
           name="message"
@@ -59,7 +59,7 @@ export default function Contact() {
           minLength={10}
           maxLength={1000}
           placeholder="Your message"
-          className="my-3 h-52 rounded-lg border border-black/10 p-4"
+          className="my-3 h-52 rounded-lg border border-black/10 bg-white p-4 dark:bg-gray-800"
         />
         <SubmitBtn />
       </form>
