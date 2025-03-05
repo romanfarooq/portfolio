@@ -1,10 +1,10 @@
 "use server";
 
-import ContactFormEmail from "@/email/contact-form-email";
-import { getErrorMessage } from "@/lib/utils";
-import { createElement } from "react";
-import { Resend } from "resend";
 import { z } from "zod";
+import { Resend } from "resend";
+import { createElement } from "react";
+import { getErrorMessage } from "@/lib/utils";
+import { ContactFormEmail } from "@/email/contact-form-email";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -29,7 +29,6 @@ export async function sendEmail(formData: FormData) {
         senderEmail: data.email,
       }),
     });
-
 
     if (response.data?.id) {
       return {

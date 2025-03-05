@@ -41,7 +41,7 @@ export default function Intro() {
             />
           </motion.div>
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute right-0 bottom-0 text-4xl"
             initial={{ opacity: 0, scale: 0, rotate: -15 }}
             animate={{
               opacity: 1,
@@ -73,7 +73,7 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="leading-[1.5]! mb-10 mt-4 px-4 text-xl font-medium sm:text-3xl 2xl:text-4xl"
+        className="mt-4 mb-10 px-4 text-xl leading-[1.5]! font-medium sm:text-3xl 2xl:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -94,7 +94,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="outline-hidden group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white transition hover:scale-110 hover:bg-gray-950 focus-visible:scale-110 active:scale-105"
+          className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-hidden transition hover:scale-110 hover:bg-gray-950 focus-visible:scale-110 active:scale-105"
           onClick={handleContactClick}
         >
           Contact me here
@@ -103,7 +103,7 @@ export default function Intro() {
         <a
           href="/Roman-Farooq-CV.pdf"
           download
-          className="outline-hidden group flex items-center gap-2 rounded-full border border-black/10 bg-white px-[2.4rem] py-3 transition hover:scale-110 focus-visible:scale-110 active:scale-105 sm:px-7 dark:bg-white/10"
+          className="group flex items-center gap-2 rounded-full border border-black/10 bg-white px-[2.4rem] py-3 outline-hidden transition hover:scale-110 focus-visible:scale-110 active:scale-105 sm:px-7 dark:bg-white/10"
         >
           Download CV
           <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
@@ -112,7 +112,7 @@ export default function Intro() {
           href="https://www.linkedin.com/in/roman-farooq"
           target="_blank"
           rel="noopener noreferrer"
-          className="outline-hidden flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-hidden transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
@@ -120,7 +120,7 @@ export default function Intro() {
           href="https://github.com/romanfarooq"
           target="_blank"
           rel="noopener noreferrer"
-          className="outline-hidden flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-hidden transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>

@@ -1,16 +1,16 @@
+import autohub360Img from "@/public/auto-hub360.png";
+import blackpearlsImg from "@/public/black-pearls.png";
 import carcareproImg from "@/public/carcarepro.png";
 import littlelemonImg from "@/public/littlelemon.png";
-import newsappImg from "@/public/newsapp.png";
-import trendtaleImg from "@/public/trend-tale.png";
-import sweepstakesImg from "@/public/sweep-stakes.png";
-import sweepstakesAdminImg from "@/public/sweep-stakes-admin.png";
-import blackpearlsImg from "@/public/black-pearls.png";
-import saafImg from "@/public/saaf.png";
-import autohub360Img from "@/public/auto-hub360.png";
 import mailerImg from "@/public/mailer.png";
+import newsappImg from "@/public/newsapp.png";
+import saafImg from "@/public/saaf.png";
+import sweepstakesAdminImg from "@/public/sweep-stakes-admin.png";
+import sweepstakesImg from "@/public/sweep-stakes.png";
+import trendtaleImg from "@/public/trend-tale.png";
 import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaLaptopCode, FaHtml5 } from "react-icons/fa";
+import { FaHtml5, FaLaptopCode } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdVolunteerActivism } from "react-icons/md";
 import { TbBrandPepsi } from "react-icons/tb";
@@ -89,7 +89,7 @@ export const experiencesData = [
     description:
       "Collaborating on cross-functional teams with multiple tech stacks. Working on backend systems using Node.js and Express.js, alongside frontend frameworks like React.js and Next.js. Assisting in optimizing and refactoring existing code to improve performance and maintainability.",
     icon: createElement(FaLaptopCode),
-    date: "September 2024 - Present",
+    date: "September 2024 - December 2024",
   },
 ] as const;
 
