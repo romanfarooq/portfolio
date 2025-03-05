@@ -47,7 +47,7 @@ export default function About() {
       <p className="mb-3">
         My core technology stack encompasses{" "}
         <span className="font-medium">
-          React, Next, Node, Express, Tailwind CSS, SQL, and MongoDB.{" "}
+          React, Next, Node, Express, Tailwind CSS, SQL, PostgreSQL, and MongoDB.{" "}
         </span>
         Additionally, I am well-versed in{" "}
         <span className="font-medium">TypeScript</span> and proficient in using{" "}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
 import { projectsData } from "@/lib/data";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -22,8 +22,8 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
       }}
       className="group mb-3 last:mb-0 sm:mb-8"
     >
-      <section className="relative max-w-2xl overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition hover:bg-gray-200 sm:h-80 sm:pr-8 sm:group-even:pl-8 sm:group-even:pr-0 dark:bg-white/10 dark:text-white dark:hover:bg-white/20">
-        <div className="flex h-full flex-col px-5 pb-7 pt-4 sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 sm:group-even:ml-72">
+      <section className="relative mx-auto h-72 max-w-5xl overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition hover:bg-gray-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/20">
+        <div className="flex h-full max-w-[45%] flex-col justify-center group-odd:pl-8 group-even:ml-[55%] group-even:pr-8">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 text-justify text-sm leading-relaxed text-gray-700 dark:text-white/70">
             {description}
@@ -32,7 +32,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
             {tags.map((tag, index) => (
               <li
                 key={index}
-                className="rounded-full bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white dark:text-white/70"
+                className="rounded-full bg-black/[0.7] px-3 py-1 text-[0.7rem] tracking-wider text-white uppercase dark:text-white/70"
               >
                 {tag}
               </li>
@@ -44,7 +44,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
           alt={title}
           quality={95}
           priority={true}
-          className="group-hover:scale=[1.04] absolute -right-40 top-8 hidden w-[28.25rem] rounded-t-lg transition group-even:-left-40 group-even:right-[initial] group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:-rotate-2 group-hover:group-even:translate-x-3 group-hover:group-even:translate-y-3 group-hover:group-even:rotate-2 sm:block"
+          className="absolute top-1/2 hidden h-auto w-[50%] -translate-y-1/2 rounded-lg object-contain transition group-odd:right-5 group-even:left-5 group-hover:scale-105 group-hover:-rotate-2 group-hover:group-even:rotate-2 sm:block"
         />
       </section>
     </motion.div>

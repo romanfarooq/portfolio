@@ -1,7 +1,13 @@
 import carcareproImg from "@/public/carcarepro.png";
 import littlelemonImg from "@/public/littlelemon.png";
 import newsappImg from "@/public/newsapp.png";
-import todoappImg from "@/public/todoapp.png";
+import trendtaleImg from "@/public/trend-tale.png";
+import sweepstakesImg from "@/public/sweep-stakes.png";
+import sweepstakesAdminImg from "@/public/sweep-stakes-admin.png";
+import blackpearlsImg from "@/public/black-pearls.png";
+import saafImg from "@/public/saaf.png";
+import autohub360Img from "@/public/auto-hub360.png";
+import mailerImg from "@/public/mailer.png";
 import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaLaptopCode, FaHtml5 } from "react-icons/fa";
@@ -89,18 +95,129 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Little Lemon",
+    title: "TrendTale",
     description:
-      "Little Lemon is a restaurant reservation app that allows users to book tables. It serves as the capstone project for Meta's Front-End Developer Certificate on Coursera.",
-    tags: ["React", "React Icons", "Hooks", "Context API"],
+      "A web and mobile application that scrapes trending topics from Google Trends for YouTube content generation. Uses OpenAI's GPT-4 API to create titles, descriptions, content, video, and thumbnails. Features email notifications and content editing capabilities.",
+    tags: [
+      "FastAPI",
+      "React",
+      "React Native",
+      "Tailwind CSS",
+      "Framer Motion",
+      "OpenAI API",
+      "BeautifulSoup",
+    ],
+    imageUrl: trendtaleImg,
+  },
+  {
+    title: "Ease-GPT Chrome Extension",
+    description:
+      "A Chrome extension enhancing ChatGPT with smart search, tabbed chats, custom variables, and premium features. Includes Google Analytics integration, advanced search capabilities, and context persistence across sessions.",
+    tags: ["Chrome Extension", "JavaScript", "Google Analytics", "Google Pay"],
     imageUrl: littlelemonImg,
   },
   {
-    title: "Todo App",
+    title: "Sweepstakes Betting Website",
     description:
-      "Todo App is a task management application that enables users to create accounts, log in, and perform CRUD operations on their tasks. It leverages Redux for state management and MongoDB as the database.",
-    tags: ["React", "Redux", "Express", "MongoDB"],
-    imageUrl: todoappImg,
+      "A college basketball prediction platform with points-based betting, featuring Stripe and Coinbase payment integrations. Built with Django backend and React frontend, offering comprehensive betting options in a sweepstakes format.",
+    tags: [
+      "Django",
+      "React",
+      "SQL",
+      "Tanstack Query",
+      "Chart.js",
+      "Firebase",
+      "Stripe",
+      "Coinbase",
+      "Tailwind CSS",
+    ],
+    imageUrl: sweepstakesImg,
+  },
+  {
+    title: "Sweepstakes Admin Panel",
+    description:
+      "A comprehensive admin dashboard for the Sweepstakes betting platform. Features user management, bet tracking, payment processing, and analytics. Built with React and Material UI for the frontend, with secure admin authentication and role-based access control.",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "ShadCn",
+      "Redux",
+      "Chart.js",
+      "Django Admin",
+      "JWT Auth",
+    ],
+    imageUrl: sweepstakesAdminImg,
+  },
+  {
+    title: "Black Pearl Website Redesign",
+    description:
+      "Transformed a MEP contracting firm's website from WordPress to React, implementing bilingual support (English/Arabic) with i18next. Enhanced performance and user experience through modern UI practices and animations.",
+    tags: ["React", "Tailwind CSS", "i18next", "React Icons"],
+    imageUrl: blackpearlsImg,
+  },
+  {
+    title: "Scottish Ashna Ashri Foundation",
+    description:
+      "Developed an admin panel with Express.js backend and MongoDB database, featuring e-library, E-Quran, and Islamic calendar. Integrated multiple payment methods and prayer time calculations based on user location.",
+    tags: [
+      "React",
+      "Express.js",
+      "MongoDB",
+      "GridFS",
+      "Stripe",
+      "Session Auth",
+    ],
+    imageUrl: saafImg,
+  },
+  {
+    title: "AutoHub360",
+    description:
+      "A Next.js application for car accessories search and auctions. Features real-time updates with Socket.io, web scraping with Cheerio and Puppeteer, and comprehensive auction management system. Deployed on Digital Ocean with Nginx.",
+    tags: [
+      "Next.js",
+      "Socket.io",
+      "Cheerio",
+      "Puppeteer",
+      "Mongoose",
+      "Digital Ocean",
+      "Nginx",
+    ],
+    imageUrl: autohub360Img,
+  },
+  {
+    title: "Sirius.Net.Co Mailer",
+    description:
+      "An email campaign manager built with Next.js and PostgreSQL, featuring two-factor authentication and admin approval system. Includes React Quill for email editing and supports Excel-based recipient list management.",
+    tags: [
+      "Next.js",
+      "NextAuth",
+      "Prisma",
+      "PostgreSQL",
+      "React Quill",
+      "Nodemailer",
+    ],
+    imageUrl: mailerImg,
+  },
+  {
+    title: "CarCare Pro",
+    description:
+      "CarCare Pro is a mobile app for managing car maintenance. It helps users track service history, choose workshops, and set reminders for upcoming services. The app also allows profile creation for cars, access control, and ratings for users and workshops.",
+    tags: ["Flutter", "Firebase", "Provider", "Figma", "Google Maps API"],
+    imageUrl: carcareproImg,
+  },
+  {
+    title: "Little Lemon",
+    description:
+      "Little Lemon is a restaurant reservation app that allows users to book tables. It serves as the capstone project for Meta's Front-End Developer Certificate on Coursera.",
+    tags: [
+      "React",
+      "Chakra UI",
+      "Formik",
+      "React Icons",
+      "Hooks",
+      "Context API",
+    ],
+    imageUrl: littlelemonImg,
   },
   {
     title: "News App",
@@ -108,13 +225,6 @@ export const projectsData = [
       "News App is a news aggregator application that provides users with the latest news from various categories. It utilizes the News API to fetch data and incorporates infinite scroll for seamless news browsing.",
     tags: ["React", "Bootstrap", "News API", "React Infinite Scroll"],
     imageUrl: newsappImg,
-  },
-  {
-    title: "CarCare Pro",
-    description:
-      "CarCare Pro is a mobile app for managing car maintenance. It helps users track service history, choose workshops, and set reminders for upcoming services. The app also allows profile creation for cars, access control, and ratings for users and workshops.",
-    tags: ["Flutter", "Firebase", "Figma", "Google Maps API"],
-    imageUrl: carcareproImg,
   },
 ] as const;
 
@@ -128,25 +238,29 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Express.js",
+  "Socket.IO",
+  "Cheerio",
+  "Puppeteer",
   "React Native",
+  "Flutter",
+  "Redux",
   "Git",
   "GitHub",
-  "Tailwind CSS",
   "Bootstrap",
   "Chakra UI",
   "Material UI",
+  "Shadcn UI",
+  "Tailwind CSS",
+  "Framer Motion",
   "Prisma",
   "Drizzle",
   "SQL",
-  "MongoDB",
-  "Redux",
-  "Flutter",
-  "Firebase",
-  "SQL",
   "PostgreSQL",
+  "MongoDB",
+  "Firebase",
+  "FastAPI",
   "Python",
   "Pandas",
   "NumPy",
   "Matplotlib",
-  "Framer Motion",
 ] as const;
