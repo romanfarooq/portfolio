@@ -1,6 +1,7 @@
 import autohub360Img from "@/public/auto-hub360.png";
 import blackpearlsImg from "@/public/black-pearls.png";
 import carcareproImg from "@/public/carcarepro.png";
+import easegptImg from "@/public/ease-gpt.png";
 import littlelemonImg from "@/public/littlelemon.png";
 import mailerImg from "@/public/mailer.png";
 import newsappImg from "@/public/newsapp.png";
@@ -114,7 +115,7 @@ export const projectsData = [
     description:
       "A Chrome extension enhancing ChatGPT with smart search, tabbed chats, custom variables, and premium features. Includes Google Analytics integration, advanced search capabilities, and context persistence across sessions.",
     tags: ["Chrome Extension", "JavaScript", "Google Analytics", "Google Pay"],
-    imageUrl: littlelemonImg,
+    imageUrl: easegptImg,
   },
   {
     title: "Sweepstakes Betting Website",
