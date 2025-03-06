@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useState } from "react";
+import { useState, useContext, createContext } from "react";
 import type { SectionName } from "@/lib/types";
 
 type ActiveSectionContextType = {
@@ -10,7 +10,9 @@ type ActiveSectionContextType = {
   setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
 };
 
-const ActiveSectionContext = createContext<ActiveSectionContextType | null>(null);
+const ActiveSectionContext = createContext<ActiveSectionContextType | null>(
+  null,
+);
 
 export default function ActiveSectionContextProvider({
   children,
@@ -36,12 +38,10 @@ export default function ActiveSectionContextProvider({
 
 export function useActiveSectionContext() {
   const context = useContext(ActiveSectionContext);
-
-  if (context === null) {
+  if (!context) {
     throw new Error(
       "useActiveSectionContext must be used within an ActiveSectionContextProvider",
     );
   }
-
   return context;
 }

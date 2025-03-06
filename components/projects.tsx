@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 import { Fragment } from "react";
 import { motion } from "framer-motion";
 import { projectsData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/hooks/use-section-in-view";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.3);

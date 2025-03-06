@@ -3,9 +3,9 @@
 import SectionHeading from "./section-heading";
 import { Fragment } from "react";
 import { motion } from "framer-motion";
-import { useTheme } from "@/context/theme-context";
+import { useTheme } from "@/contexts/theme-context";
 import { experiencesData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/hooks/use-section-in-view";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 

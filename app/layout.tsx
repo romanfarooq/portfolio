@@ -1,12 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Toaster } from "react-hot-toast";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
-import ThemeProvider from "@/context/theme-context";
-import ActiveSectionContextProvider from "@/context/active-section-context";
+import ThemeProvider from "@/contexts/theme-context";
+import ResponsiveToaster from "@/components/responsive-toaster";
+import ActiveSectionContextProvider from "@/contexts/active-section-context";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -91,7 +91,7 @@ export default function RootLayout({
             <Footer />
           </ActiveSectionContextProvider>
           <ThemeSwitch />
-          <Toaster position="top-right" reverseOrder={false} />
+          <ResponsiveToaster />
         </ThemeProvider>
       </body>
     </html>

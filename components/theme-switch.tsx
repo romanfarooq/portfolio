@@ -2,9 +2,9 @@
 
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
-import { useTheme } from "@/context/theme-context";
 import { useState, useEffect } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
+import { useTheme } from "@/contexts/theme-context";
 
 export default function ThemeSwitch() {
   const [mounted, setMounted] = useState(false);

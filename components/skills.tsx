@@ -3,7 +3,7 @@
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { skillsData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/hooks/use-section-in-view";
 
 const fadeInAnimationVariants = {
   initial: {
