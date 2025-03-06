@@ -22,15 +22,15 @@ export default function ActiveSectionContextProvider({
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
   const [timeOfLastClick, setTimeOfLastClick] = useState(0);
 
+  const value = {
+    activeSection,
+    timeOfLastClick,
+    setActiveSection,
+    setTimeOfLastClick,
+  };
+
   return (
-    <ActiveSectionContext.Provider
-      value={{
-        activeSection,
-        timeOfLastClick,
-        setActiveSection,
-        setTimeOfLastClick,
-      }}
-    >
+    <ActiveSectionContext.Provider value={value}>
       {children}
     </ActiveSectionContext.Provider>
   );

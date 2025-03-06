@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useContext, createContext } from "react";
+import { useMediaQuery } from "@/hooks/use-media-query";
 
 type Theme = "light" | "dark" | "system";
 
@@ -22,16 +23,14 @@ export default function ThemeProvider({
   children,
   storageKey = "theme",
   defaultTheme = "system",
-  ...props
 }: ThemeContextProviderProps) {
   const [theme, setTheme] = useState<Theme>(defaultTheme);
   const [resolvedTheme, setResolvedTheme] = useState<"light" | "dark">("light");
+  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
 
   useEffect(() => {
     const storedTheme = localStorage.getItem(storageKey) as Theme | null;
-    if (storedTheme) {
-      setTheme(storedTheme);
-    }
+    if (storedTheme) setTheme(storedTheme);
   }, [storageKey]);
 
   useEffect(() => {
@@ -39,29 +38,16 @@ export default function ThemeProvider({
   }, [theme, storageKey]);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-
-    const handleChange = () => {
-      if (theme === "system") {
-        setResolvedTheme(mediaQuery.matches ? "dark" : "light");
-      }
-    };
-
     if (theme === "system") {
-      setResolvedTheme(mediaQuery.matches ? "dark" : "light");
+      setResolvedTheme(prefersDarkMode ? "dark" : "light");
     } else {
       setResolvedTheme(theme);
     }
-
-    mediaQuery.addEventListener("change", handleChange);
-    return () => mediaQuery.removeEventListener("change", handleChange);
-  }, [theme]);
+  }, [theme, prefersDarkMode]);
 
   useEffect(() => {
     const root = document.documentElement;
-
     root.classList.remove("light", "dark");
-
     if (resolvedTheme === "dark") {
       root.classList.add("dark");
     } else {
@@ -81,9 +67,7 @@ export default function ThemeProvider({
   };
 
   return (
-    <ThemeContext.Provider value={value} {...props}>
-      {children}
-    </ThemeContext.Provider>
+    <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
   );
 }
 
