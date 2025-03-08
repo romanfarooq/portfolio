@@ -92,38 +92,42 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
       >
-        <Link
-          href="#contact"
-          className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-hidden transition hover:scale-110 hover:bg-gray-950 focus-visible:scale-110 active:scale-105"
-          onClick={handleContactClick}
-        >
-          Contact me here
-          <BsArrowRight className="mt-1 opacity-75 transition group-hover:translate-x-1" />
-        </Link>
-        <a
-          href="/Roman-Farooq-CV.pdf"
-          download
-          className="group flex items-center gap-2 rounded-full border border-black/10 bg-white px-[2.4rem] py-3 outline-hidden transition hover:scale-110 focus-visible:scale-110 active:scale-105 sm:px-7 dark:bg-white/10"
-        >
-          Download CV
-          <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/roman-farooq"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-hidden transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-        >
-          <BsLinkedin />
-        </a>
-        <a
-          href="https://github.com/romanfarooq"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-hidden transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-        >
-          <FaGithubSquare />
-        </a>
+        <div className="flex flex-col gap-y-4 sm:flex-row sm:gap-x-4 sm:gap-y-0">
+          <Link
+            href="#contact"
+            className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-hidden transition hover:scale-110 hover:bg-gray-950 focus-visible:scale-110 active:scale-105"
+            onClick={handleContactClick}
+          >
+            Contact me here
+            <BsArrowRight className="mt-1 opacity-75 transition group-hover:translate-x-1" />
+          </Link>
+          <a
+            href="/Roman-Farooq-CV.pdf"
+            download
+            className="group flex items-center gap-2 rounded-full border border-black/10 bg-white px-[2.4rem] py-3 outline-hidden transition hover:scale-110 focus-visible:scale-110 active:scale-105 sm:px-7 dark:bg-white/10"
+          >
+            Download CV
+            <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
+          </a>
+        </div>
+        <div className="mt-4 flex gap-x-4 sm:mt-0">
+          <a
+            href="https://www.linkedin.com/in/roman-farooq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-hidden transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            href="https://github.com/romanfarooq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-hidden transition hover:scale-[1.15] hover:text-gray-950 focus-visible:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   );
