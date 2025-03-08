@@ -7,7 +7,7 @@ export function getErrorMessage(error: unknown): string {
     const zodErrors = error.issues.map((issue) => {
       return issue.message;
     });
-    message = zodErrors.join(", ");
+    message = zodErrors.length > 1 ? zodErrors.join(", ") : zodErrors[0];
   } else if (error instanceof Error) {
     message = error.message;
   } else if (error && typeof error === "object" && "message" in error) {
