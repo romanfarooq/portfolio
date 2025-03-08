@@ -8,7 +8,7 @@ import { projectsData } from "@/lib/data";
 import { useSectionInView } from "@/hooks/use-section-in-view";
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projects", 0.3);
+  const { ref } = useSectionInView("Projects", 0.1);
   return (
     <motion.section
       id="projects"
