@@ -88,9 +88,9 @@ export const experiencesData = [
     title: "Associate Software Engineer",
     location: "Dexterz Sol., Lahore, Pakistan",
     description:
-      "Collaborating on cross-functional teams with multiple tech stacks. Working on backend systems using Node.js and Express.js, alongside frontend frameworks like React.js and Next.js. Assisting in optimizing and refactoring existing code to improve performance and maintainability.",
+      "At Dexterz Sol., I played a key role in building and optimizing backend systems using Node.js and Express.js while integrating these solutions with frontend frameworks like React.js and Next.js to deliver robust user experiences. I collaborated with cross-functional teams to design and implement new features that enhanced both functionality and performance. Additionally, I developed and maintained RESTful APIs, conducted regular code reviews, and optimized code for improved performance and security. This role allowed me to leverage multiple tech stacks and contribute significantly to continuous process improvements.",
     icon: createElement(FaLaptopCode),
-    date: "September 2024 - December 2024",
+    date: "September 2024 - February 2025",
   },
 ] as const;
 
@@ -253,6 +253,9 @@ export const skillsData = [
   "Shadcn UI",
   "Tailwind CSS",
   "Framer Motion",
+  "Three.js",
+  "Three React Fiber",
+  "Three React Drei",
   "Prisma",
   "Drizzle",
   "SQL",
