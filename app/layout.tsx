@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Roman Farooq's Portfolio",
     images: [
       {
-        url: "/my-image.png",
+        url: "/my-image.webp",
         width: 1200,
         height: 630,
         alt: "Roman Farooq",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "Roman Farooq's Portfolio",
     description:
       "Roman Farooq is a full-stack web developer with a passion for building beautiful and functional websites.",
-    images: ["/my-image.png"],
+    images: ["/my-image.webp"],
     creator: "@TheRomanFarooq",
   },
   robots: {
