@@ -33,6 +33,14 @@
   }
 }
 
+:root {
+  --highlight-color: #2563eb;
+}
+
+.dark {
+  --highlight-color: #60a5fa;
+}
+
 html {
   --line-color: #e5e7eb;
 }
