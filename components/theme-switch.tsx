@@ -1,6 +1,7 @@
 "use client";
 
 import toast from "react-hot-toast";
+import { clsx } from "clsx";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
@@ -23,7 +24,10 @@ export default function ThemeSwitch() {
     setTheme(newTheme);
     toast.custom((t) => (
       <div
-        className={`${t.visible ? "animate-enter" : "animate-leave"} flex items-center gap-4 rounded-full border border-gray-300/50 bg-white/95 px-6 py-3.5 shadow-xl hover:shadow-2xl dark:border-gray-700/50 dark:bg-gray-900/95`}
+        className={clsx(
+          t.visible ? "animate-enter" : "animate-leave",
+          "flex items-center gap-4 rounded-full border border-gray-300/50 bg-white/95 px-6 py-3.5 shadow-xl hover:shadow-2xl dark:border-gray-700/50 dark:bg-gray-900/95",
+        )}
       >
         <span className="text-sm font-medium text-gray-800 dark:text-gray-200">
           Switched to {newTheme === "dark" ? "Dark" : "Light"} mode
