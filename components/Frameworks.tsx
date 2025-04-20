@@ -22,7 +22,7 @@ const skills = [
 
 const Icon = ({ src }: { src: string }) => (
   <Image
-    src={`/${src}`}
+    src={src}
     className="rounded-sm duration-200 hover:scale-110"
     alt="skill icon"
     width={40}
@@ -35,7 +35,7 @@ export function Frameworks() {
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
       <OrbitingCircles iconSize={40}>
         {skills.map((skill, index) => (
-          <Icon key={index} src={`assets/logos/${skill}.svg`} />
+          <Icon key={index} src={`/assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
       <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>
@@ -43,7 +43,7 @@ export function Frameworks() {
           .slice()
           .reverse()
           .map((skill, index) => (
-            <Icon key={index} src={`assets/logos/${skill}.svg`} />
+            <Icon key={index} src={`/assets/logos/${skill}.svg`} />
           ))}
       </OrbitingCircles>
     </div>
