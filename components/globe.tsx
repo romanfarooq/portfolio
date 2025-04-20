@@ -1,35 +1,13 @@
 "use client";
 
-import createGlobe from "cobe";
 import { cn } from "../lib/utils";
 import { useEffect, useRef } from "react";
 import { useMotionValue, useSpring } from "motion/react";
+import createGlobe, { type COBEOptions } from "cobe";
 
 const MOVEMENT_DAMPING = 1400;
 
-interface Marker {
-  location: [number, number];
-  size: number;
-}
-
-interface GlobeConfig {
-  width: number;
-  height: number;
-  onRender: () => void;
-  devicePixelRatio: number;
-  phi: number;
-  theta: number;
-  dark: number;
-  diffuse: number;
-  mapSamples: number;
-  mapBrightness: number;
-  baseColor: [number, number, number];
-  markerColor: [number, number, number];
-  glowColor: [number, number, number];
-  markers: Marker[];
-}
-
-const GLOBE_CONFIG: GlobeConfig = {
+const GLOBE_CONFIG: COBEOptions = {
   width: 800,
   height: 800,
   onRender: () => {},
@@ -59,7 +37,7 @@ const GLOBE_CONFIG: GlobeConfig = {
 
 interface GlobeProps {
   className?: string;
-  config?: GlobeConfig;
+  config?: COBEOptions;
 }
 
 export function Globe({ className, config = GLOBE_CONFIG }: GlobeProps) {
