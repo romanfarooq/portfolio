@@ -63,11 +63,11 @@ interface GlobeProps {
 }
 
 export function Globe({ className, config = GLOBE_CONFIG }: GlobeProps) {
-  let phi = 0;
-  let width = 0;
+  const phi = useRef(0);
+  const width = useRef(0);
+  const pointerInteractionMovement = useRef(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const pointerInteracting = useRef<number | null>(null);
-  const pointerInteractionMovement = useRef<number>(0);
 
   const r = useMotionValue(0);
   const rs = useSpring(r, {
@@ -94,7 +94,7 @@ export function Globe({ className, config = GLOBE_CONFIG }: GlobeProps) {
   useEffect(() => {
     const onResize = () => {
       if (canvasRef.current) {
-        width = canvasRef.current.offsetWidth;
+        width.current = canvasRef.current.offsetWidth;
       }
     };
 
@@ -103,13 +103,13 @@ export function Globe({ className, config = GLOBE_CONFIG }: GlobeProps) {
 
     const globe = createGlobe(canvasRef.current!, {
       ...config,
-      width: width * 2,
-      height: width * 2,
-      onRender: (state: any) => {
-        if (!pointerInteracting.current) phi += 0.005;
-        state.phi = phi + rs.get();
-        state.width = width * 2;
-        state.height = width * 2;
+      width: width.current * 2,
+      height: width.current * 2,
+      onRender: (state) => {
+        if (!pointerInteracting.current) phi.current += 0.005;
+        state.phi = phi.current + rs.get();
+        state.width = width.current * 2;
+        state.height = width.current * 2;
       },
     });
 
@@ -128,9 +128,7 @@ export function Globe({ className, config = GLOBE_CONFIG }: GlobeProps) {
   return (
     <div className={cn("mx-auto aspect-[1/1] w-full max-w-[600px]", className)}>
       <canvas
-        className={cn(
-          "size-[30rem] opacity-0 transition-opacity duration-500 [contain:layout_paint_size]",
-        )}
+        className="size-[30rem] opacity-0 transition-opacity duration-500 [contain:layout_paint_size]"
         ref={canvasRef}
         onPointerDown={(e) => {
           pointerInteracting.current = e.clientX;
