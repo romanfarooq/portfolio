@@ -20,9 +20,9 @@ export default function Projects() {
 
   return (
     <section
-      onMouseMove={handleMouseMove}
-      className="c-space section-spacing relative"
       id="work"
+      onMouseMove={handleMouseMove}
+      className="c-space section-spacing relative scroll-mt-12"
     >
       <h2 className="text-heading">My Selected Projects</h2>
       <div className="mt-12 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
