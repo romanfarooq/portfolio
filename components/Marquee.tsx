@@ -2,7 +2,7 @@ import { cn } from "../lib/utils";
 import { ReactNode } from "react";
 
 interface MarqueeProps {
-  [key: string]: any;
+  [key: string]: unknown;
   className?: string;
   reverse?: boolean;
   pauseOnHover?: boolean;
