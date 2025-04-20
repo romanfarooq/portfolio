@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Marquee } from "../components/Marquee";
 import { reviews, Review } from "../constants";
 
@@ -10,10 +11,10 @@ const ReviewCard = ({ img, name, body, username }: Review) => {
   return (
     <figure className="bg-indigo to-storm hover-animation hover:bg-royal relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border border-gray-50/[.1] bg-gradient-to-r p-4">
       <div className="flex flex-row items-center gap-2">
-        <img
+        <Image
           className="rounded-full bg-white/10"
-          width="32"
-          height="32"
+          width={32}
+          height={32}
           alt={`${name}'s profile`}
           src={img}
         />

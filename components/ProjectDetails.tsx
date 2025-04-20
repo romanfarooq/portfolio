@@ -1,5 +1,6 @@
-import { motion } from "motion/react";
+import Image from "next/image";
 import { Tag } from "../constants";
+import { motion } from "motion/react";
 
 interface ProjectDetailsProps {
   title: string;
@@ -31,9 +32,21 @@ export function ProjectDetails({
           onClick={closeModal}
           className="bg-midnight absolute top-5 right-5 rounded-sm p-2 hover:bg-gray-500"
         >
-          <img src="assets/close.svg" className="h-6 w-6" alt="close" />
+          <Image
+            src="/assets/close.svg"
+            className="h-6 w-6"
+            width={24}
+            height={24}
+            alt="close"
+          />
         </button>
-        <img src={image} alt={title} className="w-full rounded-t-2xl" />
+        <Image
+          src={image}
+          alt={title}
+          className="w-full rounded-t-2xl"
+          width={640}
+          height={360}
+        />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
@@ -45,11 +58,13 @@ export function ProjectDetails({
           <div className="mt-4 flex items-center justify-between">
             <div className="flex gap-3">
               {tags.map((tag) => (
-                <img
+                <Image
                   key={tag.id}
                   src={tag.path}
                   alt={tag.name}
                   className="hover-animation size-10 rounded-lg"
+                  width={40}
+                  height={40}
                 />
               ))}
             </div>
@@ -58,9 +73,11 @@ export function ProjectDetails({
               href={href}
             >
               View Project{" "}
-              <img
-                src="assets/arrow-up.svg"
+              <Image
+                src="/assets/arrow-up.svg"
                 className="size-4"
+                width={16}
+                height={16}
                 alt="arrow up"
               />
             </a>

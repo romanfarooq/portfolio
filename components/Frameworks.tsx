@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { OrbitingCircles } from "./OrbitingCircles";
 
 const skills = [
@@ -20,10 +21,12 @@ const skills = [
 ];
 
 const Icon = ({ src }: { src: string }) => (
-  <img
-    src={src}
+  <Image
+    src={`/${src}`}
     className="rounded-sm duration-200 hover:scale-110"
     alt="skill icon"
+    width={40}
+    height={40}
   />
 );
 

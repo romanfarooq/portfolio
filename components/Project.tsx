@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 import { ProjectDetails } from "./ProjectDetails";
 import { Project as ProjectType } from "../constants";
@@ -36,7 +37,13 @@ export function Project({
           className="hover-animation flex cursor-pointer items-center gap-1"
         >
           Read More
-          <img src="assets/arrow-right.svg" className="w-5" alt="right arrow" />
+          <Image
+            src="/assets/arrow-right.svg"
+            className="w-5"
+            width={20}
+            height={20}
+            alt="right arrow"
+          />
         </button>
       </div>
       <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
