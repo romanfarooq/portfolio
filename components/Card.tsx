@@ -5,7 +5,7 @@ interface CardProps {
   style?: CSSProperties;
   text?: string;
   image?: string;
-  containerRef: RefObject<HTMLDivElement> | null;
+  containerRef: RefObject<HTMLDivElement>;
 }
 
 export function Card({ style, text, image, containerRef }: CardProps) {
@@ -17,7 +17,7 @@ export function Card({ style, text, image, containerRef }: CardProps) {
       whileHover={{ scale: 1.05 }}
       drag
       dragElastic={1}
-      dragConstraints={containerRef || undefined}
+      dragConstraints={containerRef}
     />
   ) : (
     <motion.div
@@ -26,7 +26,7 @@ export function Card({ style, text, image, containerRef }: CardProps) {
       whileHover={{ scale: 1.05 }}
       drag
       dragElastic={1}
-      dragConstraints={containerRef || undefined}
+      dragConstraints={containerRef}
     >
       {text}
     </motion.div>
