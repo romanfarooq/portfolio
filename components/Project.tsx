@@ -38,7 +38,7 @@ export function Project({
         >
           Read More
           <Image
-            src="/assets/arrow-right.svg"
+            src="/assets/icons/arrow-right.svg"
             className="w-5"
             width={20}
             height={20}

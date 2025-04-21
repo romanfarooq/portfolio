@@ -24,16 +24,16 @@ export function ProjectDetails({
   return (
     <div className="fixed inset-0 z-50 flex h-full w-full items-center justify-center overflow-hidden backdrop-blur-sm">
       <motion.div
-        className="from-midnight to-navy relative max-w-2xl rounded-2xl border border-white/10 bg-gradient-to-l shadow-sm"
+        className="from-midnight to-navy relative max-h-[90%] max-w-2xl overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l shadow-sm"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
       >
         <button
           onClick={closeModal}
-          className="bg-midnight absolute top-5 right-5 rounded-sm p-2 hover:bg-gray-500"
+          className="bg-midnight absolute top-5 right-5 cursor-pointer rounded-sm p-2 hover:bg-gray-500"
         >
           <Image
-            src="/assets/close.svg"
+            src="/assets/icons/close.svg"
             className="h-6 w-6"
             width={24}
             height={24}
@@ -74,7 +74,7 @@ export function ProjectDetails({
             >
               View Project{" "}
               <Image
-                src="/assets/arrow-up.svg"
+                src="/assets/icons/arrow-up.svg"
                 className="size-4"
                 width={16}
                 height={16}
