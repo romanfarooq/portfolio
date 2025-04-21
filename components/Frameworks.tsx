@@ -2,23 +2,44 @@ import Image from "next/image";
 import { OrbitingCircles } from "./OrbitingCircles";
 
 const skills = [
-  "auth0",
-  "blazor",
-  "cplusplus",
-  "csharp",
-  "css3",
-  "dotnet",
-  "dotnetcore",
-  "git",
   "html5",
+  "css3",
+  "cplusplus",
+  "git",
+  "github",
+  "stripe",
   "javascript",
-  "microsoft",
+  "typescript",
   "react",
-  "sqlite",
-  "tailwindcss",
+  "redux",
+  "expo",
   "vitejs",
-  "wordpress",
+  "nextjs",
+  "nodejs",
+  "expressjs",
+  "socketio",
+  "cheerio",
+  "puppeteer",
+  "flutter",
+  "tailwindcss",
+  "bootstrap",
+  "material-ui",
+  "motion",
+  "threejs",
+  "prisma",
+  "sql",
+  "sqlite",
+  "postgresql",
+  "mongodb",
+  "firebase",
+  "flask",
+  "python",
+  "docker",
 ];
+
+const halfLength = Math.ceil(skills.length / 2);
+const firstHalf = skills.slice(0, halfLength);
+const secondHalf = skills.slice(halfLength);
 
 const Icon = ({ src }: { src: string }) => (
   <Image
@@ -34,17 +55,14 @@ export function Frameworks() {
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
       <OrbitingCircles iconSize={40}>
-        {skills.map((skill, index) => (
+        {firstHalf.map((skill, index) => (
           <Icon key={index} src={`/assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
       <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>
-        {skills
-          .slice()
-          .reverse()
-          .map((skill, index) => (
-            <Icon key={index} src={`/assets/logos/${skill}.svg`} />
-          ))}
+        {secondHalf.map((skill, index) => (
+          <Icon key={index} src={`/assets/logos/${skill}.svg`} />
+        ))}
       </OrbitingCircles>
     </div>
   );
