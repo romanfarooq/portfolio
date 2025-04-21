@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cn } from "../lib/utils";
 import { Tag } from "../constants";
 import { motion } from "motion/react";
 
@@ -34,7 +35,6 @@ export function ProjectDetails({
         >
           <Image
             src="/assets/icons/close.svg"
-            className="h-6 w-6"
             width={24}
             height={24}
             alt="close"
@@ -57,9 +57,9 @@ export function ProjectDetails({
           ))}
           <div className="mt-4 flex items-center justify-between">
             <div className="flex gap-3">
-              {tags.map((tag) => (
+              {tags.map((tag, index) => (
                 <Image
-                  key={tag.id}
+                  key={index}
                   src={tag.path}
                   alt={tag.name}
                   className="hover-animation size-10 rounded-lg"
@@ -69,15 +69,19 @@ export function ProjectDetails({
               ))}
             </div>
             <a
-              className="hover-animation inline-flex cursor-pointer items-center gap-1 font-medium"
-              href={href}
+              className={cn(
+                "hover-animation inline-flex cursor-pointer items-center gap-1 font-medium",
+                !href && "pointer-events-none opacity-50",
+              )}
+              href={href || "#"}
+              target={href ? "_blank" : undefined}
+              rel={href ? "noopener noreferrer" : undefined}
             >
               View Project{" "}
               <Image
                 src="/assets/icons/arrow-up.svg"
-                className="size-4"
-                width={16}
-                height={16}
+                width={24}
+                height={24}
                 alt="arrow up"
               />
             </a>

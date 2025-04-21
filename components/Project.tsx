@@ -27,8 +27,8 @@ export function Project({
         <div>
           <p className="text-2xl">{title}</p>
           <div className="text-sand mt-2 flex gap-5">
-            {tags.map((tag) => (
-              <span key={tag.id}>{tag.name}</span>
+            {tags.map((tag, index) => (
+              <span key={index}>{tag.name}</span>
             ))}
           </div>
         </div>
@@ -39,9 +39,8 @@ export function Project({
           Read More
           <Image
             src="/assets/icons/arrow-right.svg"
-            className="w-5"
-            width={20}
-            height={20}
+            width={24}
+            height={24}
             alt="right arrow"
           />
         </button>
