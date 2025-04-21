@@ -62,6 +62,9 @@ importers:
       three:
         specifier: ^0.175.0
         version: 0.175.0
+      vanilla-tilt:
+        specifier: ^1.8.1
+        version: 1.8.1
       zod:
         specifier: ^3.24.3
         version: 3.24.3
@@ -2319,6 +2322,9 @@ packages:
   utility-types@3.11.0:
     resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
     engines: {node: '>= 4'}
+
+  vanilla-tilt@1.8.1:
+    resolution: {integrity: sha512-hPB1XUsnh+SIeVSW2beb5RnuFxz4ZNgxjGD78o52F49gS4xaoLeEMh9qrQnJrnEn/vjjBI7IlxrrXmz4tGV0Kw==}
 
   webgl-constants@1.1.1:
     resolution: {integrity: sha512-LkBXKjU5r9vAW7Gcu3T5u+5cvSvh5WwINdr0C+9jpzVB41cjQAP5ePArDtk/WHYdVj0GefCgM73BA7FlIiNtdg==}
@@ -4733,6 +4739,8 @@ snapshots:
       react: 19.1.0
 
   utility-types@3.11.0: {}
+
+  vanilla-tilt@1.8.1: {}
 
   webgl-constants@1.1.1: {}
 
