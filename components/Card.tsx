@@ -21,7 +21,7 @@ export function Card({ style, text, image, containerRef }: CardProps) {
     />
   ) : (
     <motion.div
-      className="bg-storm absolute w-[12rem] cursor-grab rounded-full px-1 py-4 text-center text-xl font-extralight ring ring-gray-700"
+      className="bg-storm absolute w-24 cursor-grab rounded-full px-1 py-4 text-center text-xl font-extralight ring ring-gray-700"
       style={style}
       whileHover={{ scale: 1.05 }}
       drag
