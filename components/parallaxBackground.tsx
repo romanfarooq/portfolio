@@ -17,7 +17,7 @@ export function ParallaxBackground() {
         <div
           className="absolute inset-0 -z-50 h-screen w-full"
           style={{
-            backgroundImage: "url(/assets/sky.webp)",
+            backgroundImage: "url(/assets/images/sky.webp)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -26,7 +26,7 @@ export function ParallaxBackground() {
         <motion.div
           className="absolute inset-0 -z-40"
           style={{
-            backgroundImage: "url(/assets/mountain-3.webp)",
+            backgroundImage: "url(/assets/images/mountain-3.webp)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain3Y,
@@ -36,7 +36,7 @@ export function ParallaxBackground() {
         <motion.div
           className="absolute inset-0 -z-30"
           style={{
-            backgroundImage: "url(/assets/planets.webp)",
+            backgroundImage: "url(/assets/images/planets.webp)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: planetsX,
@@ -46,7 +46,7 @@ export function ParallaxBackground() {
         <motion.div
           className="absolute inset-0 -z-20"
           style={{
-            backgroundImage: "url(/assets/mountain-2.webp)",
+            backgroundImage: "url(/assets/images/mountain-2.webp)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,
@@ -56,7 +56,7 @@ export function ParallaxBackground() {
         <motion.div
           className="absolute inset-0 -z-10"
           style={{
-            backgroundImage: "url(/assets/mountain-1.webp)",
+            backgroundImage: "url(/assets/images/mountain-1.webp)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain1Y,
