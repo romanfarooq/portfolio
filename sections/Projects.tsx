@@ -26,8 +26,8 @@ export default function Projects() {
     >
       <h2 className="text-heading">My Selected Projects</h2>
       <div className="mt-12 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
-      {myProjects.map((project) => (
-        <Project key={project.id} {...project} setPreview={setPreview} />
+      {myProjects.map((project, index) => (
+        <Project key={index} {...project} setPreview={setPreview} />
       ))}
       {preview && (
         <motion.img
