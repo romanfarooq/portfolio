@@ -13,6 +13,7 @@ const skills = [
   "typescript",
   "react",
   "redux",
+  "tanstackquery",
   "expo",
   "vitejs",
   "nextjs",
@@ -24,6 +25,7 @@ const skills = [
   "threejs",
   "material-ui",
   "motion",
+  "chartjs",
   "prisma",
   "sql",
   "sqlite",
@@ -31,6 +33,8 @@ const skills = [
   "mongodb",
   "firebase",
   "flask",
+  "fastapi",
+  "django",
   "python",
   "docker",
 ];
@@ -40,13 +44,14 @@ const firstHalf = skills.slice(0, halfLength);
 const secondHalf = skills.slice(halfLength);
 
 const Icon = ({ src }: { src: string }) => (
-  <Image
-    src={src}
-    className="rounded-sm duration-200 hover:scale-110"
-    alt="skill icon"
-    width={40}
-    height={40}
-  />
+  <div className="relative h-10 w-10">
+    <Image
+      src={src}
+      className="rounded-sm object-contain duration-200 hover:scale-110"
+      alt="skill icon"
+      fill
+    />
+  </div>
 );
 
 export function Frameworks() {

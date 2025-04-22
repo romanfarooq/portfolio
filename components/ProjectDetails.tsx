@@ -35,26 +35,31 @@ export function ProjectDetails({
         >
           <Image
             src="/assets/icons/close.svg"
+            alt="close icon"
             width={24}
             height={24}
-            alt="close"
           />
         </button>
         <Image
           src={image}
           alt={title}
-          className="w-full rounded-t-2xl"
           width={640}
           height={360}
+          className="w-full rounded-t-2xl"
         />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
-          {subDescription.map((subDesc, index) => (
-            <p key={index} className="mb-3 font-normal text-neutral-400">
-              {subDesc}
-            </p>
-          ))}
+          <ul className="mb-3 space-y-2 pl-4">
+            {subDescription.map((subDesc, index) => (
+              <li
+                key={index}
+                className="list-disc font-normal text-neutral-400"
+              >
+                {subDesc}
+              </li>
+            ))}
+          </ul>
           <div className="mt-4 flex items-center justify-between">
             <div className="flex gap-3">
               {tags.map((tag, index) => (
@@ -62,15 +67,15 @@ export function ProjectDetails({
                   key={index}
                   src={tag.path}
                   alt={tag.name}
-                  className="hover-animation size-10 rounded-lg"
                   width={40}
                   height={40}
+                  className="size-10 rounded-lg duration-200 hover:-translate-y-1"
                 />
               ))}
             </div>
             <a
               className={cn(
-                "hover-animation inline-flex cursor-pointer items-center gap-1 font-medium",
+                "inline-flex cursor-pointer items-center gap-1 font-medium duration-200 hover:-translate-y-1",
                 !href && "pointer-events-none opacity-50",
               )}
               href={href || "#"}
@@ -80,9 +85,9 @@ export function ProjectDetails({
               View Project{" "}
               <Image
                 src="/assets/icons/arrow-up.svg"
+                alt="arrow up icon"
                 width={24}
                 height={24}
-                alt="arrow up"
               />
             </a>
           </div>
