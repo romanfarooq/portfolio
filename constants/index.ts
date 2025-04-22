@@ -247,9 +247,11 @@ export const experiences: Experience[] = [
     job: "PepsiCo Pakistan",
     date: "Jul 2024 - Aug 2024",
     contents: [
-      'Contributed to "Spares Mapping & Criticality Analysis" for optimized inventory classification.',
       "Performed HFM, ABC, & XYZ analysis to enhance inventory decision-making.",
+      "Assisted in data analysis and reporting for key supply chain metrics.",
+      "Participated in cross-departmental meetings to understand operational workflows.",
       "Collaborated in building a three-year inventory projection model to assist strategic planning.",
+      'Contributed to "Spares Mapping & Criticality Analysis" for optimized inventory classification.',
     ],
   },
   {
@@ -261,6 +263,7 @@ export const experiences: Experience[] = [
       "Explored modern frameworks including React, Angular, and Vue.",
       "Built cross-browser compatible websites adhering to web standards.",
       "Contributed to team-based projects, improving collaboration and communication skills.",
+      "Gained hands-on experience with version control systems like Git.",
     ],
   },
 ];
