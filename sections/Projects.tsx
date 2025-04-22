@@ -1,21 +1,38 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef } from "react";
 import { Project } from "../components/Project";
 import { myProjects } from "../constants";
-import { motion, useMotionValue, useSpring } from "motion/react";
+import { useDebounce } from "use-debounce";
+import {
+  motion,
+  useSpring,
+  AnimatePresence,
+  useMotionValue,
+} from "motion/react";
 
 export default function Projects() {
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const springX = useSpring(x, { damping: 10, stiffness: 50 });
-  const springY = useSpring(y, { damping: 10, stiffness: 50 });
+  const previewX = useMotionValue(0);
+  const previewY = useMotionValue(0);
 
-  const [preview, setPreview] = useState<string | null>(null);
+  const springX = useSpring(previewX, { damping: 25, stiffness: 150 });
+  const springY = useSpring(previewY, { damping: 25, stiffness: 150 });
+
+  const [preview, setPreview] = useDebounce<string | null>(null, 100);
+  const [cursorPosition, setCursorPosition] = useDebounce<{
+    x: number;
+    y: number;
+  } | null>(null, 50);
+
+  useEffect(() => {
+    if (cursorPosition) {
+      previewX.set(cursorPosition.x + 32);
+      previewY.set(cursorPosition.y + 24);
+    }
+  }, [cursorPosition, previewX, previewY]);
 
   const handleMouseMove = (e: React.MouseEvent) => {
-    x.set(e.clientX + 20);
-    y.set(e.clientY + 20);
+    setCursorPosition({ x: e.clientX, y: e.clientY });
   };
 
   return (
@@ -29,14 +46,21 @@ export default function Projects() {
       {myProjects.map((project, index) => (
         <Project key={index} {...project} setPreview={setPreview} />
       ))}
-      {preview && (
-        <motion.img
-          className="pointer-events-none fixed top-0 left-0 z-50 h-56 w-80 rounded-lg object-cover shadow-lg"
-          src={preview}
-          style={{ x: springX, y: springY }}
-          alt="Project preview"
-        />
-      )}
+      <AnimatePresence>
+        {preview && (
+          <motion.img
+            key={preview}
+            className="pointer-events-none fixed top-0 left-0 z-50 h-56 w-80 rounded-lg object-cover shadow-lg"
+            src={preview}
+            alt="Project preview"
+            style={{ x: springX, y: springY }}
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            transition={{ duration: 0.18, ease: "easeOut" }}
+          />
+        )}
+      </AnimatePresence>
     </section>
   );
 }
