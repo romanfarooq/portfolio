@@ -28,7 +28,7 @@ export function Project({
           <p className="text-2xl">{title}</p>
           <div className="text-sand mt-2 flex gap-5">
             {tags.map((tag, index) => (
-              <span key={index}>{tag.name}</span>
+              <span key={index} className="text-xs md:text-base">{tag.name}</span>
             ))}
           </div>
         </div>
