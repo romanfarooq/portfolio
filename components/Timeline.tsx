@@ -23,8 +23,11 @@ export function Timeline({ data }: { data: Experience[] }) {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="c-space section-spacing" ref={containerRef}>
-      <h2 className="text-heading">My Work Experience</h2>
+    <div
+      className="mt-20 min-h-screen px-5 sm:px-10 md:mt-30 lg:px-15"
+      ref={containerRef}
+    >
+      <h2 className="text-3xl font-bold md:text-4xl">My Work Experience</h2>
       <div ref={ref} className="relative pb-20">
         {data.map((item, index) => (
           <div
@@ -35,23 +38,35 @@ export function Timeline({ data }: { data: Experience[] }) {
               <div className="bg-midnight absolute -left-[15px] flex h-10 w-10 items-center justify-center rounded-full">
                 <div className="h-4 w-4 rounded-full border border-neutral-700 bg-neutral-800 p-2" />
               </div>
-              <div className="hidden flex-col gap-2 text-xl font-bold text-neutral-300 md:flex md:pl-20 md:text-4xl">
+              <div className="hidden flex-col gap-2 text-xl font-bold text-neutral-300 md:flex md:pl-20 md:text-3xl">
                 <h3>{item.date}</h3>
-                <h3 className="text-3xl text-neutral-400">{item.title}</h3>
-                <h3 className="text-3xl text-neutral-500">{item.job}</h3>
+                <h3 className="text-xl text-neutral-400">{item.title}</h3>
+                <h3 className="text-lg text-neutral-500">{item.job}</h3>
               </div>
             </div>
 
             <div className="relative w-full pr-4 pl-20 md:pl-4">
-              <div className="mb-4 block text-left text-2xl font-bold text-neutral-300 md:hidden">
-                <h3>{item.date}</h3>
-                <h3>{item.job}</h3>
+              <div className="mb-4 block text-left md:hidden">
+                <h3 className="text-xl font-bold text-neutral-300">
+                  {item.date}
+                </h3>
+                <h3 className="text-lg font-bold text-neutral-400">
+                  {item.title}
+                </h3>
+                <h3 className="text-base font-bold text-neutral-500">
+                  {item.job}
+                </h3>
               </div>
-              {item.contents.map((content, index) => (
-                <p className="mb-3 font-normal text-neutral-400" key={index}>
-                  {content}
-                </p>
-              ))}
+              <ul className="space-y-2">
+                {item.contents.map((content, index) => (
+                  <li
+                    key={index}
+                    className="font-normal text-neutral-400 md:list-disc"
+                  >
+                    {content}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}

@@ -34,14 +34,14 @@ export function Project({
         </div>
         <button
           onClick={() => setIsHidden(true)}
-          className="hover-animation flex cursor-pointer items-center gap-1"
+          className="flex cursor-pointer items-center gap-1 duration-200 hover:-translate-y-1"
         >
           Read More
           <Image
             src="/assets/icons/arrow-right.svg"
+            alt="right arrow icon"
             width={24}
             height={24}
-            alt="right arrow"
           />
         </button>
       </div>

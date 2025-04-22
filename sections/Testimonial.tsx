@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { Marquee } from "../components/Marquee";
 import { reviews, Review } from "../constants";
@@ -9,14 +7,14 @@ const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({ img, name, body, username }: Review) => {
   return (
-    <figure className="bg-indigo to-storm hover-animation hover:bg-royal relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border border-gray-50/[.1] bg-gradient-to-r p-4">
+    <figure className="bg-indigo to-storm hover:bg-royal relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border border-gray-50/[.1] bg-gradient-to-r p-4 duration-200 hover:-translate-y-1">
       <div className="flex flex-row items-center gap-2">
         <Image
-          className="rounded-full bg-white/10"
+          src={img}
+          alt={`${name}'s profile`}
           width={32}
           height={32}
-          alt={`${name}'s profile`}
-          src={img}
+          className="rounded-full bg-white/10"
         />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium text-white">
@@ -32,8 +30,8 @@ const ReviewCard = ({ img, name, body, username }: Review) => {
 
 export default function Testimonial() {
   return (
-    <div className="c-space mt-25 items-start md:mt-35">
-      <h2 className="text-heading">Hear From My Clients</h2>
+    <div className="mt-25 items-start px-5 sm:px-10 md:mt-35 lg:px-15">
+      <h2 className="text-3xl font-bold md:text-4xl">Hear From My Clients</h2>
       <div className="relative mt-12 flex w-full flex-col items-center justify-center overflow-hidden">
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
