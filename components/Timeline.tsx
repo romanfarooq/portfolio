@@ -15,8 +15,8 @@ export function Timeline({ data }: { data: Experience[] }) {
 
   return (
     <div
-      className="mt-20 min-h-screen px-5 sm:px-10 md:mt-30 lg:px-15"
       ref={containerRef}
+      className="mt-20 min-h-screen px-5 sm:px-10 md:mt-30 lg:px-15"
     >
       <h2 className="text-3xl font-bold md:text-4xl">My Work Experience</h2>
       <div className="relative pb-20">
