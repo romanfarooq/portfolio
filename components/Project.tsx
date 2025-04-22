@@ -17,18 +17,22 @@ export function Project({
   setPreview,
 }: ProjectProps) {
   const [isHidden, setIsHidden] = useState(false);
+  const handleMouseEnter = () => setPreview(image);
+  const handleMouseLeave = () => setPreview(null);
   return (
     <>
       <div
         className="flex-wrap items-center justify-between space-y-14 py-10 sm:flex sm:space-y-0"
-        onMouseEnter={() => setPreview(image)}
-        onMouseLeave={() => setPreview(null)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         <div>
           <p className="text-2xl">{title}</p>
           <div className="text-sand mt-2 flex gap-5">
             {tags.map((tag, index) => (
-              <span key={index} className="text-xs md:text-base">{tag.name}</span>
+              <span key={index} className="text-xs md:text-base">
+                {tag.name}
+              </span>
             ))}
           </div>
         </div>
