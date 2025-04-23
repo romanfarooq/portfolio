@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import { Project } from "../components/Project";
-import { myProjects } from "../constants";
+import { useEffect } from "react";
+import { Project } from "@/components/Project";
+import { myProjects } from "@/constants/data";
 import { useDebounce } from "use-debounce";
 import {
   motion,

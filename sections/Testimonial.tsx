@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Marquee } from "../components/Marquee";
-import { reviews, Review } from "../constants";
+import { Marquee } from "@/components/Marquee";
+import { reviews, type Review } from "@/constants/data";
 
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
