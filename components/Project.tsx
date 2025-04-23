@@ -22,7 +22,7 @@ export function Project({
   return (
     <>
       <div
-        className="flex-wrap items-center justify-between space-y-14 py-10 sm:flex sm:space-y-0"
+        className="flex-wrap items-center justify-between space-y-10 py-10 sm:flex sm:space-y-0"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >

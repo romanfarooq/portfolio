@@ -7,8 +7,8 @@ import { useDebounce } from "use-debounce";
 import {
   motion,
   useSpring,
-  AnimatePresence,
   useMotionValue,
+  AnimatePresence,
 } from "motion/react";
 
 export default function Projects() {
@@ -31,14 +31,14 @@ export default function Projects() {
     }
   }, [cursorPosition, previewX, previewY]);
 
-  const handleMouseMove = (e: React.MouseEvent) => {
+  const handlePointerMove = (e: React.PointerEvent) => {
     setCursorPosition({ x: e.clientX, y: e.clientY });
   };
 
   return (
     <section
       id="work"
-      onMouseMove={handleMouseMove}
+      onPointerMove={handlePointerMove}
       className="relative mt-20 min-h-screen scroll-mt-12 px-5 sm:px-10 md:mt-30 lg:px-15"
     >
       <h2 className="text-3xl font-bold md:text-4xl">My Selected Projects</h2>
@@ -50,7 +50,7 @@ export default function Projects() {
         {preview && (
           <motion.img
             key={preview}
-            className="pointer-events-none fixed top-0 left-0 z-50 h-56 w-80 rounded-lg object-cover shadow-lg"
+            className="preview-img pointer-events-none fixed top-0 left-0 z-50 h-56 w-80 rounded-lg object-cover shadow-lg"
             src={preview}
             alt="Project preview"
             style={{ x: springX, y: springY }}
