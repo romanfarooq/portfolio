@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Project } from "@/components/Project";
 import { myProjects } from "@/constants/data";
-import { useDebounce } from "use-debounce";
+import { useDebouncedCallback, useThrottledCallback } from "use-debounce";
 import {
   motion,
   useSpring,
@@ -18,21 +18,37 @@ export default function Projects() {
   const springX = useSpring(previewX, { damping: 25, stiffness: 150 });
   const springY = useSpring(previewY, { damping: 25, stiffness: 150 });
 
-  const [preview, setPreview] = useDebounce<string | null>(null, 100);
-  const [cursorPosition, setCursorPosition] = useDebounce<{
+  const [preview, setPreview] = useState<string | null>(null);
+  const [cursorPosition, setCursorPosition] = useState<{
     x: number;
     y: number;
-  } | null>(null, 50);
+  } | null>(null);
 
   useEffect(() => {
     if (cursorPosition) {
       previewX.set(cursorPosition.x + 32);
       previewY.set(cursorPosition.y + 24);
+    } else if (typeof window !== "undefined") {
+      const centerX = window.innerWidth / 2 - 160;
+      const centerY = window.innerHeight / 2 - 112;
+      previewX.set(centerX);
+      previewY.set(centerY);
     }
-  }, [cursorPosition, previewX, previewY]);
+  }, [cursorPosition]);
+
+  const debouncedSetPreview = useDebouncedCallback(
+    (value: string | null) => setPreview(value),
+    100,
+  );
+
+  const throttledSetCursorPosition = useThrottledCallback(
+    (x: number, y: number) => setCursorPosition({ x, y }),
+    100,
+    { leading: true, trailing: false },
+  );
 
   const handlePointerMove = (e: React.PointerEvent) => {
-    setCursorPosition({ x: e.clientX, y: e.clientY });
+    throttledSetCursorPosition(e.clientX, e.clientY);
   };
 
   return (
@@ -44,7 +60,7 @@ export default function Projects() {
       <h2 className="text-3xl font-bold md:text-4xl">My Selected Projects</h2>
       <div className="mt-12 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
       {myProjects.map((project, index) => (
-        <Project key={index} {...project} setPreview={setPreview} />
+        <Project key={index} {...project} setPreview={debouncedSetPreview} />
       ))}
       <AnimatePresence>
         {preview && (
