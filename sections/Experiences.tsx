@@ -1,7 +1,7 @@
 "use client";
 
-import { Timeline } from "../components/Timeline";
-import { experiences } from "../constants";
+import { Timeline } from "@/components/Timeline";
+import { experiences } from "@/constants/data";
 
 export default function Experiences() {
   return (
