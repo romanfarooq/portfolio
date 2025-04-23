@@ -60,7 +60,7 @@ export function ProjectDetails({
               </li>
             ))}
           </ul>
-          <div className="mt-4 flex items-center justify-between">
+          <div className="mt-4 flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex gap-3">
               {tags.map((tag, index) => (
                 <Image
