@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { type Experience } from "@/constants/data";
-import { useScroll, useTransform, motion } from "motion/react";
+import { motion, useScroll, useTransform } from "motion/react";
 
 export function Timeline({ data }: { data: Experience[] }) {
   const containerRef = useRef<HTMLDivElement>(null);

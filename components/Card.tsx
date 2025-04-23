@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { CSSProperties, RefObject } from "react";
+import { RefObject, CSSProperties } from "react";
 
 interface CardProps {
   style?: CSSProperties;
@@ -13,6 +13,7 @@ export function Card({ style, text, image, containerRef }: CardProps) {
     <motion.img
       className="absolute w-15 cursor-grab"
       src={image}
+      alt="skill icon"
       style={style}
       whileHover={{ scale: 1.05 }}
       drag
