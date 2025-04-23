@@ -43,8 +43,8 @@ export function ProjectDetails({
         <Image
           src={image}
           alt={title}
-          width={640}
-          height={360}
+          width={1920}
+          height={1008}
           className="w-full rounded-t-2xl"
         />
         <div className="p-5">
