@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { OrbitingCircles } from "./OrbitingCircles";
+import { OrbitingCircles } from "@/components/OrbitingCircles";
 
 const skills = [
   "html5",

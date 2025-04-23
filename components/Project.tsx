@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
-import { ProjectDetails } from "./ProjectDetails";
-import { Project as ProjectType } from "../constants";
+import { ProjectDetails } from "@/components/ProjectDetails";
+import { Project as ProjectType } from "@/constants/data";
 
 interface ProjectProps extends ProjectType {
   setPreview: (image: string | null) => void;

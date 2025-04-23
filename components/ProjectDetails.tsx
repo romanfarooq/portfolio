@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { cn } from "../lib/utils";
-import { Tag } from "../constants";
+import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
+import type { Tag } from "@/constants/data";
 
 interface ProjectDetailsProps {
   title: string;
