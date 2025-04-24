@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
-interface MarqueeProps {
+interface MarqueeProps extends React.HTMLAttributes<HTMLDivElement> {
   [key: string]: unknown;
   className?: string;
   reverse?: boolean;
