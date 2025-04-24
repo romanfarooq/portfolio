@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Project } from "@/components/Project";
 import { myProjects } from "@/constants/data";
-import { useDebouncedCallback, useThrottledCallback } from "use-debounce";
+import { useThrottledCallback } from "use-debounce";
 import {
   motion,
   useSpring,
@@ -36,11 +36,6 @@ export default function Projects() {
     }
   }, [cursorPosition]);
 
-  const debouncedSetPreview = useDebouncedCallback(
-    (value: string | null) => setPreview(value),
-    100,
-  );
-
   const throttledSetCursorPosition = useThrottledCallback(
     (x: number, y: number) => setCursorPosition({ x, y }),
     100,
@@ -60,7 +55,7 @@ export default function Projects() {
       <h2 className="text-3xl font-bold md:text-4xl">My Selected Projects</h2>
       <div className="mt-12 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
       {myProjects.map((project, index) => (
-        <Project key={index} {...project} setPreview={debouncedSetPreview} />
+        <Project key={index} {...project} setPreview={setPreview} />
       ))}
       <AnimatePresence>
         {preview && (

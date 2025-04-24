@@ -38,7 +38,7 @@ export function Project({
         </div>
         <button
           onClick={() => setIsHidden(true)}
-          className="flex cursor-pointer items-center gap-1 duration-200 hover:-translate-y-1"
+          className="flex cursor-pointer items-center gap-1 border-b-2 border-transparent pb-0.5 duration-200 hover:-translate-y-1 hover:border-current"
         >
           Read More
           <Image
