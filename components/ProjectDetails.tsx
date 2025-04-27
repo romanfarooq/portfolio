@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { type Project } from "@/constants/data";
 
@@ -16,6 +17,13 @@ export function ProjectDetails({
   href,
   closeModal,
 }: ProjectDetailsProps) {
+  useEffect(() => {
+    const handleEscapeKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeModal();
+    };
+    document.addEventListener("keydown", handleEscapeKey);
+    return () => document.removeEventListener("keydown", handleEscapeKey);
+  }, []);
   return (
     <AnimatePresence>
       <motion.div
