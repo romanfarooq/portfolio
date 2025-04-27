@@ -1,12 +1,11 @@
 import { cn } from "@/lib/utils";
-import { ReactNode } from "react";
+import { ComponentPropsWithoutRef } from "react";
 
-interface MarqueeProps extends React.HTMLAttributes<HTMLDivElement> {
-  [key: string]: unknown;
+interface MarqueeProps extends ComponentPropsWithoutRef<"div"> {
   className?: string;
   reverse?: boolean;
   pauseOnHover?: boolean;
-  children: ReactNode;
+  children: React.ReactNode;
   vertical?: boolean;
   repeat?: number;
 }
@@ -25,7 +24,10 @@ export function Marquee({
       {...props}
       className={cn(
         "group flex [gap:var(--gap)] overflow-hidden p-2 [--duration:40s] [--gap:1rem]",
-        vertical ? "flex-col" : "flex-row",
+        {
+          "flex-row": !vertical,
+          "flex-col": vertical,
+        },
         className,
       )}
     >
@@ -34,14 +36,12 @@ export function Marquee({
         .map((_, i) => (
           <div
             key={i}
-            className={cn(
-              "flex shrink-0 justify-around [gap:var(--gap)]",
-              reverse && "[animation-direction:reverse]",
-              pauseOnHover && "group-hover:[animation-play-state:paused]",
-              vertical
-                ? "animate-marquee-vertical flex-col"
-                : "animate-marquee flex-row",
-            )}
+            className={cn("flex shrink-0 justify-around [gap:var(--gap)]", {
+              "animate-marquee flex-row": !vertical,
+              "animate-marquee-vertical flex-col": vertical,
+              "group-hover:[animation-play-state:paused]": pauseOnHover,
+              "[animation-direction:reverse]": reverse,
+            })}
           >
             {children}
           </div>

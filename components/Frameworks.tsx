@@ -1,70 +1,34 @@
 import Image from "next/image";
+import { skills } from "@/constants/data";
 import { OrbitingCircles } from "@/components/OrbitingCircles";
-
-const skills = [
-  "html5",
-  "css3",
-  "cplusplus",
-  "git",
-  "github",
-  "stripe",
-  "expressjs",
-  "javascript",
-  "typescript",
-  "react",
-  "redux",
-  "tanstackquery",
-  "expo",
-  "vitejs",
-  "nextjs",
-  "nodejs",
-  "socketio",
-  "flutter",
-  "tailwindcss",
-  "bootstrap",
-  "threejs",
-  "material-ui",
-  "motion",
-  "chartjs",
-  "prisma",
-  "sql",
-  "sqlite",
-  "postgresql",
-  "mongodb",
-  "firebase",
-  "flask",
-  "fastapi",
-  "django",
-  "python",
-  "docker",
-];
 
 const halfLength = Math.ceil(skills.length / 2);
 const firstHalf = skills.slice(0, halfLength);
 const secondHalf = skills.slice(halfLength);
 
-const Icon = ({ src }: { src: string }) => (
-  <div className="relative h-10 w-10">
-    <Image
-      src={src}
-      className="rounded-sm object-contain duration-200 hover:scale-110"
-      alt="skill icon"
-      fill
-    />
-  </div>
-);
-
 export function Frameworks() {
   return (
-    <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
+    <div className="relative flex h-60 w-full flex-col items-center justify-center">
       <OrbitingCircles iconSize={40}>
         {firstHalf.map((skill, index) => (
-          <Icon key={index} src={`/assets/logos/${skill}.svg`} />
+          <Image
+            key={index}
+            src={`/assets/logos/${skill}.svg`}
+            alt="skill icon"
+            fill
+            className="rounded-sm object-contain duration-200 hover:scale-110"
+          />
         ))}
       </OrbitingCircles>
-      <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>
+      <OrbitingCircles iconSize={25} radius={100} speed={2} reverse>
         {secondHalf.map((skill, index) => (
-          <Icon key={index} src={`/assets/logos/${skill}.svg`} />
+          <Image
+            key={index}
+            src={`/assets/logos/${skill}.svg`}
+            alt="skill icon"
+            fill
+            className="rounded-sm object-contain duration-200 hover:scale-110"
+          />
         ))}
       </OrbitingCircles>
     </div>
