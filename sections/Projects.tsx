@@ -1,49 +1,56 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { projects } from "@/constants/data";
 import { Project } from "@/components/Project";
-import { myProjects } from "@/constants/data";
-import { useThrottledCallback } from "use-debounce";
 import {
   motion,
   useSpring,
   useMotionValue,
   AnimatePresence,
+  useMotionValueEvent,
 } from "motion/react";
 
 export default function Projects() {
+  const cursorX = useMotionValue(0);
+  const cursorY = useMotionValue(0);
   const previewX = useMotionValue(0);
   const previewY = useMotionValue(0);
 
-  const springX = useSpring(previewX, { damping: 25, stiffness: 150 });
-  const springY = useSpring(previewY, { damping: 25, stiffness: 150 });
+  const springX = useSpring(previewX, { damping: 30, stiffness: 120 });
+  const springY = useSpring(previewY, { damping: 30, stiffness: 120 });
 
   const [preview, setPreview] = useState<string | null>(null);
-  const [cursorPosition, setCursorPosition] = useState<{
-    x: number;
-    y: number;
-  } | null>(null);
 
   useEffect(() => {
-    if (cursorPosition) {
-      previewX.set(cursorPosition.x + 32);
-      previewY.set(cursorPosition.y + 24);
-    } else if (typeof window !== "undefined") {
-      const centerX = window.innerWidth / 2 - 160;
-      const centerY = window.innerHeight / 2 - 112;
-      previewX.set(centerX);
-      previewY.set(centerY);
-    }
-  }, [cursorPosition]);
+    if (typeof window === "undefined") return;
+    const centerX = window.innerWidth / 2 - 160;
+    const centerY = window.innerHeight / 2 - 112;
+    previewX.set(centerX);
+    previewY.set(centerY);
+    const handleResize = () => {
+      const newCenterX = window.innerWidth / 2 - 160;
+      const newCenterY = window.innerHeight / 2 - 112;
+      previewX.set(newCenterX);
+      previewY.set(newCenterY);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  const throttledSetCursorPosition = useThrottledCallback(
-    (x: number, y: number) => setCursorPosition({ x, y }),
-    100,
-    { leading: true, trailing: false },
-  );
+  useMotionValueEvent(cursorX, "change", (latest) => {
+    if (preview) previewX.set(latest + 32);
+  });
+
+  useMotionValueEvent(cursorY, "change", (latest) => {
+    if (preview) previewY.set(latest + 24);
+  });
 
   const handlePointerMove = (e: React.PointerEvent) => {
-    throttledSetCursorPosition(e.clientX, e.clientY);
+    requestAnimationFrame(() => {
+      cursorX.set(e.clientX);
+      cursorY.set(e.clientY);
+    });
   };
 
   return (
@@ -54,9 +61,10 @@ export default function Projects() {
     >
       <h2 className="text-3xl font-bold md:text-4xl">My Selected Projects</h2>
       <div className="mt-12 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
-      {myProjects.map((project, index) => (
+      {projects.map((project, index) => (
         <Project key={index} {...project} setPreview={setPreview} />
       ))}
+
       <AnimatePresence>
         {preview && (
           <motion.img

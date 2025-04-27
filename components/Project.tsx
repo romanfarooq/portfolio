@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { type Project } from "@/constants/data";
 import { ProjectDetails } from "@/components/ProjectDetails";
 
@@ -17,8 +17,18 @@ export function Project({
   setPreview,
 }: ProjectProps) {
   const [isHidden, setIsHidden] = useState(false);
+
+  useEffect(() => {
+    const handleEscapeKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setIsHidden(false);
+    };
+    document.addEventListener("keydown", handleEscapeKey);
+    return () => document.removeEventListener("keydown", handleEscapeKey);
+  }, []);
+
   const handleMouseEnter = () => setPreview(image);
   const handleMouseLeave = () => setPreview(null);
+
   return (
     <>
       <div

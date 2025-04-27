@@ -32,7 +32,7 @@ export interface Review {
   img: string;
 }
 
-export const myProjects: Project[] = [
+export const projects = [
   {
     title: "TrendTale",
     description:
@@ -201,7 +201,7 @@ export const myProjects: Project[] = [
   },
 ];
 
-export const mySocials: Social[] = [
+export const socials = [
   {
     name: "GitHub",
     href: "https://github.com/romanfarooq",
@@ -258,7 +258,7 @@ export const experiences: Experience[] = [
   },
 ];
 
-export const reviews: Review[] = [
+export const reviews = [
   {
     name: "Adeel Ahmed",
     username: "@adeel_ahmed23",
@@ -307,4 +307,42 @@ export const reviews: Review[] = [
     body: "Portfolio built with Next.js and Tailwind is sleek, responsive, and easy to maintain.",
     img: "https://robohash.org/kaianderson",
   },
+];
+
+export const skills = [
+  "html5",
+  "css3",
+  "cplusplus",
+  "git",
+  "github",
+  "stripe",
+  "expressjs",
+  "javascript",
+  "typescript",
+  "react",
+  "redux",
+  "tanstackquery",
+  "expo",
+  "vitejs",
+  "nextjs",
+  "nodejs",
+  "socketio",
+  "flutter",
+  "tailwindcss",
+  "bootstrap",
+  "threejs",
+  "material-ui",
+  "motion",
+  "chartjs",
+  "prisma",
+  "sql",
+  "sqlite",
+  "postgresql",
+  "mongodb",
+  "firebase",
+  "flask",
+  "fastapi",
+  "django",
+  "python",
+  "docker",
 ];
