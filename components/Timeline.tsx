@@ -30,31 +30,31 @@ export function Timeline({ data }: { data: Experience[] }) {
                 <div className="h-4 w-4 rounded-full border border-neutral-700 bg-neutral-800 p-2" />
               </div>
               <div className="hidden flex-col gap-2 md:flex md:pl-20">
-                <h3 className="text-2xl font-bold text-neutral-300">
+                <h3 className="text-2xl font-bold text-neutral-200">
                   {item.title}
                 </h3>
-                <h3 className="text-lg font-semibold text-neutral-400">
+                <h3 className="text-lg font-semibold text-neutral-300">
                   {item.job}
                 </h3>
-                <h3 className="text-base text-neutral-500">{item.date}</h3>
+                <h3 className="text-base text-neutral-300">{item.date}</h3>
               </div>
             </div>
 
             <div className="relative w-full pl-5 sm:pl-10 md:pl-0">
               <div className="mb-4 block text-left md:hidden">
-                <h3 className="text-2xl font-bold text-neutral-300">
+                <h3 className="text-2xl font-bold text-neutral-200">
                   {item.title}
                 </h3>
-                <h3 className="text-lg font-semibold text-neutral-400">
+                <h3 className="text-lg font-semibold text-neutral-300">
                   {item.job}
                 </h3>
-                <h3 className="text-base text-neutral-500">{item.date}</h3>
+                <h3 className="text-base text-neutral-300">{item.date}</h3>
               </div>
               <ul className="space-y-2">
                 {item.contents.map((content, index) => (
                   <li
                     key={index}
-                    className="list-disc font-normal text-neutral-400"
+                    className="list-disc font-normal text-neutral-300"
                   >
                     {content}
                   </li>
