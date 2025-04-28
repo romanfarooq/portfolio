@@ -8,12 +8,9 @@ import {
   useSpring,
   useMotionValue,
   AnimatePresence,
-  useMotionValueEvent,
 } from "motion/react";
 
 export default function Projects() {
-  const cursorX = useMotionValue(0);
-  const cursorY = useMotionValue(0);
   const previewX = useMotionValue(0);
   const previewY = useMotionValue(0);
 
@@ -24,32 +21,22 @@ export default function Projects() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const centerX = window.innerWidth / 2 - 160;
-    const centerY = window.innerHeight / 2 - 112;
-    previewX.set(centerX);
-    previewY.set(centerY);
-    const handleResize = () => {
-      const newCenterX = window.innerWidth / 2 - 160;
-      const newCenterY = window.innerHeight / 2 - 112;
-      previewX.set(newCenterX);
-      previewY.set(newCenterY);
+    const setCenter = () => {
+      const centerX = window.innerWidth / 2 - 160;
+      const centerY = window.innerHeight / 2 - 112;
+      previewX.set(centerX);
+      previewY.set(centerY);
     };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    setCenter();
+    window.addEventListener("resize", setCenter);
+    return () => window.removeEventListener("resize", setCenter);
   }, []);
 
-  useMotionValueEvent(cursorX, "change", (latest) => {
-    if (preview) previewX.set(latest + 32);
-  });
-
-  useMotionValueEvent(cursorY, "change", (latest) => {
-    if (preview) previewY.set(latest + 24);
-  });
-
   const handlePointerMove = (e: React.PointerEvent) => {
+    if (!preview) return;
     requestAnimationFrame(() => {
-      cursorX.set(e.clientX);
-      cursorY.set(e.clientY);
+      previewX.set(e.clientX + 32);
+      previewY.set(e.clientY + 24);
     });
   };
 
