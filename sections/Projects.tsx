@@ -64,7 +64,6 @@ export default function Projects() {
       {projects.map((project, index) => (
         <Project key={index} {...project} setPreview={setPreview} />
       ))}
-
       <AnimatePresence>
         {preview && (
           <motion.img
