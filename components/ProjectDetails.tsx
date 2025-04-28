@@ -23,7 +23,7 @@ export function ProjectDetails({
     };
     document.addEventListener("keydown", handleEscapeKey);
     return () => document.removeEventListener("keydown", handleEscapeKey);
-  }, []);
+  }, [closeModal]);
   return (
     <AnimatePresence>
       <motion.div
@@ -63,12 +63,12 @@ export function ProjectDetails({
           />
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
-            <p className="mb-3 font-normal text-neutral-400">{description}</p>
+            <p className="mb-3 font-normal text-neutral-300">{description}</p>
             <ul className="mb-3 space-y-2 pl-4">
               {subDescription.map((subDesc, index) => (
                 <li
                   key={index}
-                  className="list-disc font-normal text-neutral-400"
+                  className="list-disc font-normal text-neutral-300"
                 >
                   {subDesc}
                 </li>
