@@ -47,7 +47,7 @@ export default function Projects() {
       className="relative mt-20 min-h-screen scroll-mt-12 px-5 sm:px-10 md:mt-30 lg:px-15"
     >
       <h2 className="text-3xl font-bold md:text-4xl">My Selected Projects</h2>
-      <div className="mt-12 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
+      <div className="mt-12 h-0.5 w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
       {projects.map((project, index) => (
         <Project key={index} {...project} setPreview={setPreview} />
       ))}

@@ -26,7 +26,7 @@ export function Timeline({ data }: { data: Experience[] }) {
             className="flex justify-start pt-10 md:gap-10 md:pt-40"
           >
             <div className="flex max-w-xs flex-col items-center self-start md:sticky md:top-40 md:z-40 md:w-full md:flex-row lg:max-w-md">
-              <div className="bg-midnight relative z-20 flex h-10 w-10 items-center justify-center rounded-full md:absolute md:-left-[15px]">
+              <div className="bg-midnight relative z-20 flex h-10 w-10 items-center justify-center rounded-full md:absolute md:-left-4">
                 <div className="h-4 w-4 rounded-full border border-neutral-700 bg-neutral-800 p-2" />
               </div>
               <div className="hidden flex-col gap-2 md:flex md:pl-20">
@@ -63,9 +63,9 @@ export function Timeline({ data }: { data: Experience[] }) {
             </div>
           </div>
         ))}
-        <div className="absolute top-0 left-5 z-10 h-full w-[2px] overflow-hidden bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-700 to-transparent to-[99%] [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] md:left-1">
+        <div className="absolute top-0 left-5 z-10 h-full w-0.5 overflow-hidden bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-0% via-neutral-700 to-transparent to-100% [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] md:left-1">
           <motion.div
-            className="via-lavender/50 absolute inset-x-0 top-0 w-[2px] rounded-full bg-gradient-to-t from-purple-500 from-[0%] via-[10%] to-transparent"
+            className="via-lavender/50 absolute inset-x-0 top-0 w-0.5 rounded-full bg-gradient-to-t from-purple-500 from-0% via-10% to-transparent"
             style={{
               scaleY: scaleY,
               opacity: opacityTransform,

@@ -36,7 +36,7 @@ export function ProjectDetails({
         }}
       >
         <motion.div
-          className="from-midnight to-navy relative max-h-[90%] max-w-2xl overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l shadow-sm"
+          className="from-midnight to-navy relative max-h-11/12 max-w-2xl overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l shadow-sm"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.5 }}
