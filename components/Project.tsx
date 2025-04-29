@@ -51,7 +51,7 @@ export function Project({
           />
         </button>
       </div>
-      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
+      <div className="h-0.5 w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
       {isHidden && (
         <ProjectDetails
           title={title}

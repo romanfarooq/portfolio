@@ -44,6 +44,9 @@ importers:
       react-hook-form:
         specifier: ^7.56.1
         version: 7.56.1(react@19.1.0)
+      react-parallax-tilt:
+        specifier: ^1.7.293
+        version: 1.7.293(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-responsive:
         specifier: ^10.0.1
         version: 10.0.1(react@19.1.0)
@@ -56,9 +59,6 @@ importers:
       three:
         specifier: ^0.176.0
         version: 0.176.0
-      vanilla-tilt:
-        specifier: ^1.8.1
-        version: 1.8.1
       zod:
         specifier: ^3.24.3
         version: 3.24.3
@@ -1991,6 +1991,12 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
+  react-parallax-tilt@1.7.293:
+    resolution: {integrity: sha512-Ss56E6T8GNwxUEymWPE4rfYXjBcvqpnSnqXDZRv2YITo4dLYkqeuUkhn6fAPlkvoAT6qaTx6p8m3oM8NJX31Ng==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
   react-promise-suspense@0.3.4:
     resolution: {integrity: sha512-I42jl7L3Ze6kZaq+7zXWSunBa3b1on5yfvUW6Eo/3fFOj6dZ5Bqmcd264nJbTK/gn1HjjILAjSwnZbV4RpSaNQ==}
 
@@ -2319,9 +2325,6 @@ packages:
   utility-types@3.11.0:
     resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
     engines: {node: '>= 4'}
-
-  vanilla-tilt@1.8.1:
-    resolution: {integrity: sha512-hPB1XUsnh+SIeVSW2beb5RnuFxz4ZNgxjGD78o52F49gS4xaoLeEMh9qrQnJrnEn/vjjBI7IlxrrXmz4tGV0Kw==}
 
   webgl-constants@1.1.1:
     resolution: {integrity: sha512-LkBXKjU5r9vAW7Gcu3T5u+5cvSvh5WwINdr0C+9jpzVB41cjQAP5ePArDtk/WHYdVj0GefCgM73BA7FlIiNtdg==}
@@ -4312,6 +4315,11 @@ snapshots:
 
   react-is@16.13.1: {}
 
+  react-parallax-tilt@1.7.293(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+
   react-promise-suspense@0.3.4:
     dependencies:
       fast-deep-equal: 2.0.1
@@ -4739,8 +4747,6 @@ snapshots:
       react: 19.1.0
 
   utility-types@3.11.0: {}
-
-  vanilla-tilt@1.8.1: {}
 
   webgl-constants@1.1.1: {}
 
