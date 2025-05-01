@@ -239,7 +239,7 @@ export const socials = [
   },
 ];
 
-export const experiences: Experience[] = [
+export const experiences = [
   {
     title: "Associate Software Engineer",
     job: "Dexterz Sol.",
