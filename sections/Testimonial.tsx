@@ -33,12 +33,12 @@ export default function Testimonial() {
     <div className="mt-25 items-start px-5 sm:px-10 md:mt-35 lg:px-15">
       <h2 className="text-3xl font-bold md:text-4xl">Hear From My Clients</h2>
       <div className="relative mt-12 flex w-full flex-col items-center justify-center overflow-hidden">
-        <Marquee pauseOnHover className="[--duration:20s]">
+        <Marquee className="[--duration:20s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s]">
+        <Marquee reverse className="[--duration:20s]">
           {secondRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
