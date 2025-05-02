@@ -7,7 +7,7 @@ const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({ img, name, body, username }: Review) => {
   return (
-    <figure className="bg-indigo to-storm hover:bg-royal relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border border-gray-50/[.1] bg-gradient-to-r p-4 duration-200 hover:-translate-y-1">
+    <figure className="bg-indigo to-storm hover:bg-royal relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border border-gray-50/10 bg-gradient-to-r p-4 duration-200 hover:-translate-y-1">
       <div className="flex flex-row items-center gap-2">
         <Image
           src={img}
