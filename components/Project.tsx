@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
+import { AnimatePresence } from "motion/react";
 import { type Project } from "@/constants/data";
 import { ProjectDetails } from "@/components/ProjectDetails";
 
@@ -52,17 +53,20 @@ export function Project({
         </button>
       </div>
       <div className="h-0.5 w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
-      {isHidden && (
-        <ProjectDetails
-          title={title}
-          description={description}
-          subDescription={subDescription}
-          image={image}
-          tags={tags}
-          href={href}
-          closeModal={() => setIsHidden(false)}
-        />
-      )}
+      <AnimatePresence>
+        {isHidden && (
+          <ProjectDetails
+            key={title}
+            title={title}
+            description={description}
+            subDescription={subDescription}
+            image={image}
+            tags={tags}
+            href={href}
+            closeModal={() => setIsHidden(false)}
+          />
+        )}
+      </AnimatePresence>
     </>
   );
 }
