@@ -8,6 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogContent,
+  DialogDescription,
 } from "@/components/Dialog";
 
 interface ProjectDetailsProps extends Project {
@@ -44,7 +45,6 @@ export function ProjectDetails({
         </button>
       </DialogTrigger>
       <DialogContent className="from-midnight to-navy max-h-11/12 overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l p-0 shadow-sm md:max-w-2xl">
-        <DialogTitle className="sr-only">{title}</DialogTitle>
         <Image
           src={image}
           alt={title}
@@ -55,18 +55,19 @@ export function ProjectDetails({
           className="w-full rounded-t-2xl"
         />
         <div className="px-5 pb-5">
-          <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
-          <p className="mb-3 font-normal text-neutral-300">{description}</p>
-          <ul className="mb-3 space-y-2 pl-4">
-            {subDescription.map((subDesc, index) => (
-              <li
-                key={index}
-                className="list-disc font-normal text-neutral-300"
-              >
-                {subDesc}
-              </li>
-            ))}
-          </ul>
+          <DialogTitle className="mb-2 text-2xl font-bold text-white">
+            {title}
+          </DialogTitle>
+          <DialogDescription className="text-base text-neutral-300">
+            <p className="mb-3 font-normal">{description}</p>
+            <ul className="mb-3 space-y-2 pl-4">
+              {subDescription.map((subDesc, index) => (
+                <li key={index} className="list-disc font-normal">
+                  {subDesc}
+                </li>
+              ))}
+            </ul>
+          </DialogDescription>
           <div className="mt-4 flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex gap-3">
               {tags.map((tag, index) => (
