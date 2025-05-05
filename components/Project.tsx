@@ -1,6 +1,3 @@
-import Image from "next/image";
-import { useState } from "react";
-import { AnimatePresence } from "motion/react";
 import { type Project } from "@/constants/data";
 import { ProjectDetails } from "@/components/ProjectDetails";
 
@@ -8,16 +5,8 @@ interface ProjectProps extends Project {
   setPreview: (image: string | null) => void;
 }
 
-export function Project({
-  title,
-  description,
-  subDescription,
-  href,
-  image,
-  tags,
-  setPreview,
-}: ProjectProps) {
-  const [isHidden, setIsHidden] = useState(false);
+export function Project(props: ProjectProps) {
+  const { title, image, tags, setPreview } = props;
 
   const handleMouseEnter = () => setPreview(image);
   const handleMouseLeave = () => setPreview(null);
@@ -39,34 +28,9 @@ export function Project({
             ))}
           </div>
         </div>
-        <button
-          onClick={() => setIsHidden(true)}
-          className="flex cursor-pointer items-center gap-1 border-b-2 border-transparent pb-0.5 duration-200 hover:-translate-y-1 hover:border-current"
-        >
-          Read More
-          <Image
-            src="/assets/icons/arrow-right.svg"
-            alt="right arrow icon"
-            width={24}
-            height={24}
-          />
-        </button>
+        <ProjectDetails {...props} />
       </div>
       <div className="h-0.5 w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
-      <AnimatePresence>
-        {isHidden && (
-          <ProjectDetails
-            key={title}
-            title={title}
-            description={description}
-            subDescription={subDescription}
-            image={image}
-            tags={tags}
-            href={href}
-            closeModal={() => setIsHidden(false)}
-          />
-        )}
-      </AnimatePresence>
     </>
   );
 }

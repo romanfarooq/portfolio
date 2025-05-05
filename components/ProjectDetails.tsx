@@ -1,66 +1,60 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { useEffect } from "react";
+import { useState } from "react";
 import { motion } from "motion/react";
 import { type Project } from "@/constants/data";
+import {
+  Dialog,
+  DialogTitle,
+  DialogTrigger,
+  DialogContent,
+} from "@/components/Dialog";
 
 interface ProjectDetailsProps extends Project {
-  closeModal: () => void;
+  setPreview: (image: string | null) => void;
 }
 
 export function ProjectDetails({
   title,
+  image,
   description,
   subDescription,
-  image,
   tags,
   href,
-  closeModal,
+  setPreview,
 }: ProjectDetailsProps) {
-  useEffect(() => {
-    const handleEscapeKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") closeModal();
-    };
-    document.addEventListener("keydown", handleEscapeKey);
-    return () => document.removeEventListener("keydown", handleEscapeKey);
-  }, [closeModal]);
+  const [open, setOpen] = useState(false);
+
+  const onOpenChange = (isOpen: boolean) => {
+    setOpen(isOpen);
+    if (isOpen) setPreview(null);
+  };
+
   return (
-    <motion.div
-      className="fixed inset-0 z-50 flex h-full w-full items-center justify-center overflow-hidden backdrop-blur-sm"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      onClick={(e) => {
-        if (e.target === e.currentTarget) closeModal();
-      }}
-    >
-      <motion.div
-        className="from-midnight to-navy relative max-h-11/12 max-w-2xl overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l shadow-sm"
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.5 }}
-      >
-        <button
-          onClick={closeModal}
-          className="bg-midnight absolute top-5 right-5 cursor-pointer rounded-sm p-2 hover:bg-gray-500"
-        >
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogTrigger asChild>
+        <button className="flex cursor-pointer items-center gap-1 border-b-2 border-transparent pb-0.5 duration-200 hover:-translate-y-1 hover:border-current">
+          Read More
           <Image
-            src="/assets/icons/close.svg"
-            alt="close icon"
+            src="/assets/icons/arrow-right.svg"
+            alt="right arrow icon"
             width={24}
             height={24}
           />
         </button>
+      </DialogTrigger>
+      <DialogContent className="from-midnight to-navy max-h-11/12 overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l p-0 shadow-sm md:max-w-2xl">
+        <DialogTitle className="sr-only">{title}</DialogTitle>
         <Image
           src={image}
           alt={title}
           width={1920}
           height={1008}
-          className="w-full rounded-t-2xl"
-          loading="eager"
           priority
+          loading="eager"
+          className="w-full rounded-t-2xl"
         />
-        <div className="p-5">
+        <div className="px-5 pb-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-300">{description}</p>
           <ul className="mb-3 space-y-2 pl-4">
@@ -76,19 +70,24 @@ export function ProjectDetails({
           <div className="mt-4 flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex gap-3">
               {tags.map((tag, index) => (
-                <Image
+                <motion.div
                   key={index}
-                  src={tag.path}
-                  alt={tag.name}
-                  width={40}
-                  height={40}
-                  className="size-10 rounded-lg duration-200 hover:-translate-y-1"
-                />
+                  whileHover={{ y: -5, scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <Image
+                    src={tag.path}
+                    alt={tag.name}
+                    width={40}
+                    height={40}
+                    className="size-10 rounded-lg"
+                  />
+                </motion.div>
               ))}
             </div>
             <a
               className={cn(
-                "inline-flex cursor-pointer items-center gap-1 font-medium duration-200 hover:-translate-y-1",
+                "inline-flex cursor-pointer items-center gap-1 font-medium hover:scale-105",
                 { "pointer-events-none opacity-50": !href },
               )}
               href={href || "#"}
@@ -105,7 +104,7 @@ export function ProjectDetails({
             </a>
           </div>
         </div>
-      </motion.div>
-    </motion.div>
+      </DialogContent>
+    </Dialog>
   );
 }
