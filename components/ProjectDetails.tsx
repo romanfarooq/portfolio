@@ -58,16 +58,16 @@ export function ProjectDetails({
           <DialogTitle className="mb-2 text-2xl font-bold text-white">
             {title}
           </DialogTitle>
-          <DialogDescription className="text-base text-neutral-300">
-            <p className="mb-3 font-normal">{description}</p>
-            <ul className="mb-3 space-y-2 pl-4">
-              {subDescription.map((subDesc, index) => (
-                <li key={index} className="list-disc font-normal">
-                  {subDesc}
-                </li>
-              ))}
-            </ul>
+          <DialogDescription className="mb-3 text-base font-normal text-neutral-300">
+            {description}
           </DialogDescription>
+          <ul className="mb-3 space-y-2 pl-4 text-base text-neutral-300">
+            {subDescription.map((subDesc, index) => (
+              <li key={index} className="list-disc font-normal">
+                {subDesc}
+              </li>
+            ))}
+          </ul>
           <div className="mt-4 flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex gap-3">
               {tags.map((tag, index) => (
