@@ -2,8 +2,9 @@ import Image from "next/image";
 import { Marquee } from "@/components/Marquee";
 import { reviews, type Review } from "@/constants/data";
 
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
+const halfLength = Math.ceil(reviews.length / 2);
+const firstRow = reviews.slice(0, halfLength);
+const secondRow = reviews.slice(halfLength);
 
 const ReviewCard = ({ img, name, body, username }: Review) => {
   return (
