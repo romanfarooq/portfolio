@@ -3,14 +3,14 @@ import { skills } from "@/constants/data";
 import { OrbitingCircles } from "@/components/OrbitingCircles";
 
 const halfLength = Math.ceil(skills.length / 2);
-const firstHalf = skills.slice(0, halfLength);
-const secondHalf = skills.slice(halfLength);
+const firstCircle = skills.slice(0, halfLength);
+const secondCircle = skills.slice(halfLength);
 
 export function Frameworks() {
   return (
     <div className="relative flex h-60 w-full flex-col items-center justify-center">
       <OrbitingCircles iconSize={40}>
-        {firstHalf.map((skill, index) => (
+        {firstCircle.map((skill, index) => (
           <Image
             key={index}
             src={`/assets/logos/${skill}.svg`}
@@ -21,7 +21,7 @@ export function Frameworks() {
         ))}
       </OrbitingCircles>
       <OrbitingCircles iconSize={25} radius={100} speed={2} reverse>
-        {secondHalf.map((skill, index) => (
+        {secondCircle.map((skill, index) => (
           <Image
             key={index}
             src={`/assets/logos/${skill}.svg`}
