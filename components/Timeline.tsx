@@ -26,7 +26,7 @@ export function Timeline({ data }: { data: Experience[] }) {
             className="flex justify-start pt-10 md:gap-10 md:pt-40"
           >
             <div className="flex max-w-xs flex-col items-center self-start md:sticky md:top-40 md:z-40 md:w-full md:flex-row lg:max-w-md">
-              <div className="bg-midnight relative z-20 flex h-10 w-10 items-center justify-center rounded-full md:absolute md:-left-4">
+              <div className="bg-midnight z-20 flex h-10 w-10 items-center justify-center rounded-full md:absolute md:-left-4">
                 <div className="h-4 w-4 rounded-full border border-neutral-700 bg-neutral-800 p-2" />
               </div>
               <div className="hidden flex-col gap-2 md:flex md:pl-20">
@@ -40,7 +40,7 @@ export function Timeline({ data }: { data: Experience[] }) {
               </div>
             </div>
 
-            <div className="relative w-full pl-5 sm:pl-10 md:pl-0">
+            <div className="w-full pl-5 sm:pl-10 md:pl-0">
               <div className="mb-4 block text-left md:hidden">
                 <h3 className="text-2xl font-bold text-neutral-200">
                   {item.title}
