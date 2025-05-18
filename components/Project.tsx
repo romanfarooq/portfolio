@@ -7,16 +7,12 @@ interface ProjectProps extends Project {
 
 export function Project(props: ProjectProps) {
   const { title, image, tags, setPreview } = props;
-
-  const handleMouseEnter = () => setPreview(image);
-  const handleMouseLeave = () => setPreview(null);
-
   return (
     <>
       <div
         className="flex-wrap items-center justify-between space-y-10 py-10 sm:flex sm:space-y-0"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
+        onMouseEnter={() => setPreview(image)}
+        onMouseLeave={() => setPreview(null)}
       >
         <div>
           <p className="text-2xl">{title}</p>
