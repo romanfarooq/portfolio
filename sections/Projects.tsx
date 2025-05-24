@@ -10,7 +10,7 @@ import {
   AnimatePresence,
 } from "motion/react";
 
-export default function Projects() {
+export function Projects() {
   const previewX = useMotionValue(0);
   const previewY = useMotionValue(0);
 
