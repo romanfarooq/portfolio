@@ -29,9 +29,9 @@ const ReviewCard = ({ img, name, body, username }: Review) => {
   );
 };
 
-export default function Testimonial() {
+export function Testimonial() {
   return (
-    <div className="mt-25 items-start px-5 sm:px-10 md:mt-35 lg:px-15">
+    <section className="mt-25 items-start px-5 sm:px-10 md:mt-35 lg:px-15">
       <h2 className="text-3xl font-bold md:text-4xl">Hear From My Clients</h2>
       <div className="relative mt-12 flex w-full flex-col items-center justify-center overflow-hidden">
         <Marquee className="[--duration:20s]">
@@ -47,6 +47,6 @@ export default function Testimonial() {
         <div className="from-primary pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r" />
         <div className="from-primary pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l" />
       </div>
-    </div>
+    </section>
   );
 }
