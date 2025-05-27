@@ -14,7 +14,7 @@ export function Frameworks() {
           <Image
             key={index}
             src={`/assets/logos/${skill}.svg`}
-            alt="skill icon"
+            alt={`${skill} icon`}
             fill
             className="rounded-sm object-contain duration-200 hover:scale-110"
           />
@@ -25,7 +25,7 @@ export function Frameworks() {
           <Image
             key={index}
             src={`/assets/logos/${skill}.svg`}
-            alt="skill icon"
+            alt={`${skill} icon`}
             fill
             className="rounded-sm object-contain duration-200 hover:scale-110"
           />
