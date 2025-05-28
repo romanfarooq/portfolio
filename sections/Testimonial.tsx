@@ -1,31 +1,10 @@
-import Image from "next/image";
+import { reviews } from "@/constants/data";
 import { Marquee } from "@/components/Marquee";
-import { reviews, type Review } from "@/constants/data";
+import { ReviewCard } from "@/components/ReviewCard";
 
 const halfLength = Math.ceil(reviews.length / 2);
 const firstRow = reviews.slice(0, halfLength);
 const secondRow = reviews.slice(halfLength);
-
-const ReviewCard = ({ img, name, body, username }: Review) => {
-  return (
-    <article className="bg-indigo to-storm hover:bg-royal h-full w-64 cursor-pointer overflow-hidden rounded-xl border border-gray-50/10 bg-gradient-to-r p-4 duration-200 hover:-translate-y-1">
-      <header className="flex flex-row items-center gap-2">
-        <Image
-          src={img}
-          alt={`${name}'s profile`}
-          width={32}
-          height={32}
-          className="rounded-full bg-white/10"
-        />
-        <div className="flex flex-col">
-          <h3 className="text-sm font-medium text-white">{name}</h3>
-          <p className="text-xs font-medium text-white/40">{username}</p>
-        </div>
-      </header>
-      <blockquote className="mt-2 text-sm">{body}</blockquote>
-    </article>
-  );
-};
 
 export function Testimonial() {
   return (
