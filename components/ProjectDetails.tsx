@@ -2,6 +2,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { motion } from "motion/react";
+import { ArrowUp, ArrowRight } from "./icons";
 import { type Project } from "@/constants/data";
 import {
   Dialog,
@@ -16,13 +17,13 @@ interface ProjectDetailsProps extends Project {
 }
 
 export function ProjectDetails({
+  href,
+  tags,
   title,
   image,
+  setPreview,
   description,
   subDescription,
-  tags,
-  href,
-  setPreview,
 }: ProjectDetailsProps) {
   const [open, setOpen] = useState(false);
 
@@ -36,12 +37,7 @@ export function ProjectDetails({
       <DialogTrigger asChild>
         <button className="flex cursor-pointer items-center gap-1 border-b-2 border-transparent pb-0.5 duration-200 hover:-translate-y-1 hover:border-current">
           Read More
-          <Image
-            src="/assets/icons/arrow-right.svg"
-            alt="right arrow icon"
-            width={24}
-            height={24}
-          />
+          <ArrowRight width={24} height={24} />
         </button>
       </DialogTrigger>
       <DialogContent className="from-midnight to-navy max-h-11/12 overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l p-0 shadow-sm md:max-w-2xl">
@@ -70,21 +66,18 @@ export function ProjectDetails({
           </ul>
           <div className="mt-4 flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex gap-3">
-              {tags.map((tag, index) => (
-                <motion.div
-                  key={index}
-                  whileHover={{ y: -5, scale: 1.1 }}
-                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >
-                  <Image
-                    src={tag.path}
-                    alt={tag.name}
-                    width={40}
-                    height={40}
-                    className="size-10 rounded-lg"
-                  />
-                </motion.div>
-              ))}
+              {tags.map((tag, index) => {
+                const Icon = tag.icon;
+                return (
+                  <motion.div
+                    key={index}
+                    whileHover={{ y: -5, scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <Icon width={40} height={40} />
+                  </motion.div>
+                );
+              })}
             </div>
             <a
               className={cn(
@@ -95,13 +88,7 @@ export function ProjectDetails({
               target={href ? "_blank" : undefined}
               rel={href ? "noopener noreferrer" : undefined}
             >
-              View Project{" "}
-              <Image
-                src="/assets/icons/arrow-up.svg"
-                alt="arrow up icon"
-                width={24}
-                height={24}
-              />
+              View Project <ArrowUp width={24} height={24} />
             </a>
           </div>
         </div>
