@@ -1,7 +1,7 @@
-import Image from "next/image";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 
 import { cn } from "@/lib/utils";
+import { Close } from "./icons";
 
 function Dialog({
   ...props
@@ -61,12 +61,7 @@ function DialogContent({
       >
         {children}
         <DialogPrimitive.Close className="data-[state=open]:bg-midnight bg-midnight absolute top-5 right-5 cursor-pointer rounded-sm p-2 transition hover:scale-110">
-          <Image
-            src="/assets/icons/close.svg"
-            alt="Close icon"
-            width={20}
-            height={20}
-          />
+          <Close width={20} height={20} />
           <span className="sr-only">Close</span>
         </DialogPrimitive.Close>
       </DialogPrimitive.Content>
