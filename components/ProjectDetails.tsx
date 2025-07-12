@@ -65,7 +65,7 @@ export function ProjectDetails({
             ))}
           </ul>
           <div className="mt-4 flex flex-col items-center justify-between gap-4 md:flex-row">
-            <div className="flex gap-3">
+            <div className="flex flex-wrap justify-center gap-3 md:justify-start">
               {tags.map((tag, index) => {
                 const Icon = tag.icon;
                 return (

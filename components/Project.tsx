@@ -17,7 +17,7 @@ export function Project(props: ProjectProps) {
       >
         <header>
           <h3 className="text-2xl">{title}</h3>
-          <div className="text-sand mt-2 flex gap-5">
+          <div className="text-sand mt-2 flex flex-wrap gap-5">
             {tags.map((tag, index) => (
               <span key={index} className="text-xs md:text-base">
                 {tag.name}
