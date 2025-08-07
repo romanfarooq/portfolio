@@ -274,7 +274,7 @@ export const experiences = [
   {
     title: "Software Engineer",
     job: "ML Bench",
-    date: "Mar 2025 - Present",
+    date: "Mar 2025 - Aug 2025",
     contents: [
       "Spearheading the end-to-end development of high-performance, scalable web and mobile applications using the MERN stack, ensuring robust architecture and maintainability.",
       "Leveraging Next.js to build SEO-optimized, dynamic web interfaces with hybrid static & server rendering, resulting in improved user engagement and search visibility.",
