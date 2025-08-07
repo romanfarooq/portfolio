@@ -9,7 +9,7 @@ export const contactFormSchema = z.object({
     .max(50, {
       message: "Name must be less than 50 characters",
     }),
-  email: z.string().email({
+  email: z.email({
     message: "Please enter a valid email address",
   }),
   message: z

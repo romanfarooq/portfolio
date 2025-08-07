@@ -1,8 +1,7 @@
 import Image from "next/image";
-import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { motion } from "motion/react";
-import { ArrowUp, ArrowRight } from "./icons";
+import { ArrowRight } from "./icons";
 import { type Project } from "@/constants/data";
 import {
   Dialog,
@@ -64,32 +63,19 @@ export function ProjectDetails({
               </li>
             ))}
           </ul>
-          <div className="mt-4 flex flex-col items-center justify-between gap-4 md:flex-row">
-            <div className="flex flex-wrap justify-center gap-3 md:justify-start">
-              {tags.map((tag, index) => {
-                const Icon = tag.icon;
-                return (
-                  <motion.div
-                    key={index}
-                    whileHover={{ y: -5, scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    <Icon width={40} height={40} />
-                  </motion.div>
-                );
-              })}
-            </div>
-            <a
-              className={cn(
-                "inline-flex cursor-pointer items-center gap-1 font-medium hover:scale-105",
-                { "pointer-events-none opacity-50": !href },
-              )}
-              href={href || "#"}
-              target={href ? "_blank" : undefined}
-              rel={href ? "noopener noreferrer" : undefined}
-            >
-              View Project <ArrowUp width={24} height={24} />
-            </a>
+          <div className="mt-4 flex flex-wrap justify-center gap-3 md:justify-start">
+            {tags.map((tag, index) => {
+              const Icon = tag.icon;
+              return (
+                <motion.div
+                  key={index}
+                  whileHover={{ y: -5, scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <Icon width={40} height={40} />
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </DialogContent>
