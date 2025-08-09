@@ -2,9 +2,11 @@
 
 import { useRef } from "react";
 import { experiences } from "@/constants/data";
+import { useTranslations } from "next-intl";
 import { motion, useScroll, useTransform } from "motion/react";
 
 export function Experiences() {
+  const t = useTranslations("experiences");
   const containerRef = useRef<HTMLElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -18,7 +20,7 @@ export function Experiences() {
   return (
     <section ref={containerRef} id="experience" className="w-full scroll-mt-12">
       <div className="mt-20 min-h-screen px-5 sm:px-10 md:mt-30 lg:px-15">
-        <h2 className="text-3xl font-bold md:text-4xl">My Work Experience</h2>
+        <h2 className="text-3xl font-bold md:text-4xl">{t("title")}</h2>
         <div className="relative pb-20">
           {experiences.map((experience, index) => (
             <article
@@ -31,13 +33,13 @@ export function Experiences() {
                 </div>
                 <header className="hidden flex-col gap-2 md:flex md:pl-20">
                   <h3 className="text-2xl font-bold text-neutral-200">
-                    {experience.title}
+                    {t(`${experience}.title`)}
                   </h3>
                   <h4 className="text-lg font-semibold text-neutral-300">
-                    {experience.job}
+                    {t(`${experience}.job`)}
                   </h4>
                   <time className="text-base text-neutral-300">
-                    {experience.date}
+                    {t(`${experience}.date`)}
                   </time>
                 </header>
               </aside>
@@ -45,24 +47,26 @@ export function Experiences() {
               <div className="w-full pl-5 sm:pl-10 md:pl-0">
                 <header className="mb-4 block text-left md:hidden">
                   <h3 className="text-2xl font-bold text-neutral-200">
-                    {experience.title}
+                    {t(`${experience}.title`)}
                   </h3>
                   <h4 className="text-lg font-semibold text-neutral-300">
-                    {experience.job}
+                    {t(`${experience}.job`)}
                   </h4>
                   <time className="text-base text-neutral-300">
-                    {experience.date}
+                    {t(`${experience}.date`)}
                   </time>
                 </header>
                 <ul className="space-y-2">
-                  {experience.contents.map((content, index) => (
-                    <li
-                      key={index}
-                      className="list-disc font-normal text-neutral-300"
-                    >
-                      {content}
-                    </li>
-                  ))}
+                  {t
+                    .raw(`${experience}.contents`)
+                    .map((content: string, index: number) => (
+                      <li
+                        key={index}
+                        className="list-disc font-normal text-neutral-300"
+                      >
+                        {content}
+                      </li>
+                    ))}
                 </ul>
               </div>
             </article>

@@ -1,0 +1,281 @@
+{
+  "navbar": {
+    "home": "首页",
+    "about": "关于",
+    "work": "作品",
+    "experience": "经验",
+    "contact": "联系"
+  },
+  "hero": {
+    "greeting": "你好，我是 Roman",
+    "developerText": "人工智能与软件工程师",
+    "dedicatedText": "专注打造",
+    "buildingText": "构建",
+    "webSolutions": "智能化解决方案",
+    "downloadCV": "下载简历",
+    "flipWords": ["数据驱动", "可扩展", "创新"]
+  },
+  "about": {
+    "title": "关于我",
+    "greeting": "你好，我是 Roman Farooq",
+    "description": "一名专注于人工智能的全栈软件工程师，热衷于开发智能化的数据驱动应用。擅长创建直观的用户体验、设计可扩展的后端系统，并将机器学习模型集成到实际解决方案中。",
+    "metaCertTitle": "Meta 前端开发者",
+    "metaCertSubtitle": "专业证书",
+    "metaCertDescription": "通过Coursera平台的Meta认证课程获得，此证书验证了前端开发能力，包括React、JavaScript、UI设计原则、调试、Git版本控制及生产环境应用部署。",
+    "viewCertificate": "🎓 查看证书",
+    "locationTitle": "所在地",
+    "locationDescription": "我位于巴基斯坦拉合尔",
+    "academicCollaboration": "开放人工智能/机器学习研究和数据科学项目的学术合作。",
+    "techStackTitle": "技术栈",
+    "techStackDescription": "精通Python(Pandas、NumPy、Matplotlib、FastAPI)、JavaScript/TypeScript及React、Next.js、Node.js等框架；擅长数据库管理(MongoDB、PostgreSQL)、AI API集成与云部署；熟悉Tailwind CSS、Docker、Prisma、Redux、Flutter等技术，具备可扩展后端架构经验。"
+  },
+  "copyEmail": {
+    "copyButton": "复制邮箱地址",
+    "copiedMessage": "邮箱已复制"
+  },
+  "projects": {
+    "title": "我的精选项目",
+    "readMore": "阅读更多",
+    "dynamicMenu": {
+      "title": "动态菜单",
+      "description": "AI驱动的移动应用，利用GPT-4o解析用户饮食数据并进行营养分析，生成个性化食谱，具备可扩展架构。",
+      "subDescription": [
+        "基于React Native(Expo)+TypeScript跨平台开发",
+        "Supabase实现身份验证与后端服务",
+        "集成GPT-4o API进行饮食分析与食谱生成",
+        "采用免费增值模式与模块化架构",
+        "响应式UI设计，支持未来菜单/历史功能扩展"
+      ]
+    },
+    "threadoStudio": {
+      "title": "Threado Studio",
+      "description": "基于Web的3D服装定制平台，采用实时状态管理与渲染技术，展示交互式前端工程能力。",
+      "subDescription": [
+        "Next.js集成Three.js/react-three-fiber实现3D渲染",
+        "支持贴花拖拽、缩放、旋转等实时交互",
+        "Zustand状态管理实现响应式架构",
+        "Tailwind CSS构建现代化响应界面",
+        "内置调色板与文字格式化工具"
+      ]
+    },
+    "trendTale": {
+      "title": "TrendTale",
+      "description": "Web/移动平台，通过爬取Google趋势数据，利用GPT-4生成YouTube视频内容。",
+      "subDescription": [
+        "Web端：FastAPI+React，移动端：React Native",
+        "OpenAI GPT-4 API生成视频内容与元数据",
+        "集成高级过滤器与认证系统",
+        "Tailwind CSS+Axios+Framer Motion实现动态UI"
+      ]
+    },
+    "easeGPT": {
+      "title": "Ease-GPT Chrome扩展",
+      "description": "提升ChatGPT生产力的浏览器扩展，提供智能功能与数据持久化。",
+      "subDescription": [
+        "实现自定义变量与智能搜索功能",
+        "标签式聊天界面设计",
+        "集成Google Analytics数据分析",
+        "应用内购买解锁高级功能"
+      ]
+    },
+    "sweepstakesBetting": {
+      "title": "抽奖预测平台",
+      "description": "集成实时数据与安全支付的预测市场平台，展示全栈开发能力。",
+      "subDescription": [
+        "React+Tailwind+Shadcn UI响应式设计",
+        "TanStack Query+Chart.js+Firebase Auth",
+        "集成Stripe与Coinbase支付系统"
+      ]
+    },
+    "sweepstakesAdmin": {
+      "title": "抽奖平台管理面板",
+      "description": "数据驱动的管理后台，具备角色权限与运营分析功能。",
+      "subDescription": [
+        "Django Admin+SQL实现角色权限管理",
+        "Chart.js构建实时数据看板",
+        "Firebase Auth安全登录系统"
+      ]
+    },
+    "autoHub360": {
+      "title": "AutoHub360",
+      "description": "Next.js汽车配件数据平台，集成实时拍卖系统与数据分析。",
+      "subDescription": [
+        "Cheerio+Puppeteer数据爬取与缓存",
+        "Socket.io实时竞拍与通知",
+        "DigitalOcean部署+Nginx+SSL配置"
+      ]
+    },
+    "saaf": {
+      "title": "苏格兰阿什纳阿什里基金会",
+      "description": "非营利组织后台系统，支持支付集成与地理位置功能。",
+      "subDescription": [
+        "React+Express.js+MongoDB/GridFS媒体存储",
+        "集成Stripe/Google Pay/Apple Pay支付",
+        "基于位置的伊斯兰日历与祈祷时间计算"
+      ]
+    },
+    "blackPearls": {
+      "title": "Black Pearls 网站重构",
+      "description": "企业官网从WordPress迁移至现代React技术栈，提升性能。",
+      "subDescription": [
+        "React+Tailwind CSS性能优化",
+        "Framer Motion交互动画增强",
+        "i18next中英/阿双语支持",
+        "React Icons提升交互体验"
+      ]
+    },
+    "mailer": {
+      "title": "Sirius.Net.Co 邮件系统",
+      "description": "安全邮件营销平台，含模板编辑与收件人分析功能。",
+      "subDescription": [
+        "Next.js+Prisma+PostgreSQL+NextAuth架构",
+        "React Quill编辑器+React Email模板",
+        "双重认证+Excel收件人导入"
+      ]
+    },
+    "carCarePro": {
+      "title": "CarCare Pro",
+      "description": "车辆维护应用，集成ML预测与地理定位服务。",
+      "subDescription": [
+        "管理维保记录与车行推荐",
+        "Flutter+Firebase安卓开发",
+        "Google Maps定位+ML维护预测",
+        "可视化维保提醒仪表板"
+      ]
+    }
+  },
+  "experiences": {
+    "title": "工作经历",
+    "softwareEngineer": {
+      "title": "软件工程师",
+      "job": "ML Bench",
+      "date": "2025年3月 - 2025年8月",
+      "contents": [
+        "使用MERN技术栈主导高性能Web/移动应用开发",
+        "基于Next.js构建SEO优化的动态Web界面",
+        "React Native深度集成原生模块与性能优化",
+        "主导代码审查与架构决策",
+        "优化CI/CD流水线与云平台部署"
+      ]
+    },
+    "associateSoftwareEngineer": {
+      "title": "助理软件工程师",
+      "job": "Dexterz Sol.",
+      "date": "2024年9月 - 2025年2月",
+      "contents": [
+        "Node.js/Express.js后端系统开发与优化",
+        "参与敏捷开发与跨职能协作",
+        "开发维护RESTful API",
+        "重构遗留代码与性能提升",
+        "编写技术文档与初级开发指导"
+      ]
+    },
+    "supplyChainIntern": {
+      "title": "供应链实习生",
+      "job": "百事公司巴基斯坦",
+      "date": "2024年7月 - 2024年8月",
+      "contents": [
+        "执行HFM/ABC/XYZ库存分析",
+        "供应链指标数据分析与报告",
+        "参与跨部门运营协调",
+        "构建三年库存预测模型",
+        "备件关键性分析优化"
+      ]
+    },
+    "traineeFrontEndDeveloper": {
+      "title": "前端开发实习生",
+      "job": "Programmers Force",
+      "date": "2024年4月 - 2024年5月",
+      "contents": [
+        "HTML/CSS/JavaScript响应式开发实践",
+        "React/Angular/Vue框架探索",
+        "构建跨浏览器兼容网站",
+        "团队协作项目开发",
+        "Git版本控制系统实战"
+      ]
+    }
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "reviews": {
+      "adelAhmed": {
+        "name": "Adeel Ahmed",
+        "username": "@adeel_ahmed23",
+        "body": "维护提醒和谷歌地图集成运行完美"
+      },
+      "mariamKhan": {
+        "name": "Mariam Khan",
+        "username": "@mariam.khan88",
+        "body": "管理面板非常稳定，捐款管理简单高效"
+      },
+      "diegoRamirez": {
+        "name": "Diego Ramirez",
+        "username": "@d.ramirez_91",
+        "body": "GPT-4内容生成令人惊叹，前后端响应迅速"
+      },
+      "claraDupont": {
+        "name": "Clara Dupont",
+        "username": "@clara_dupontFR",
+        "body": "AutoHub360拍卖系统实时更新流畅"
+      },
+      "ahmedSiddiqui": {
+        "name": "Ahmed Siddiqui",
+        "username": "@ahmed_siddiqi_7",
+        "body": "邮件系统批量发送和模板功能运行完美"
+      },
+      "ariaThompson": {
+        "name": "Aria Thompson",
+        "username": "@ariathompsonX",
+        "body": "基于角色的管理面板与数据分析直观易用"
+      },
+      "meiChen": {
+        "name": "Mei Chen",
+        "username": "@mei.chen_1995",
+        "body": "Chrome扩展的智能搜索和标签功能运行流畅"
+      },
+      "kaiAnderson": {
+        "name": "Kai Anderson",
+        "username": "@kai_anderson_07",
+        "body": "Next.js作品集时尚响应且易于维护"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我",
+    "description": "无论您需要开发新网站、优化现有平台，还是实现独特项目，我将为您提供专业支持",
+    "form": {
+      "legend": "联系信息",
+      "name": {
+        "label": "姓名",
+        "placeholder": "张明"
+      },
+      "email": {
+        "label": "邮箱",
+        "placeholder": "您的邮箱@example.com"
+      },
+      "message": {
+        "label": "消息",
+        "placeholder": "请分享您的需求..."
+      },
+      "submit": "发送",
+      "submitting": "发送中...",
+      "validation": {
+        "nameRequired": "姓名为必填项",
+        "nameMaxLength": "姓名不能超过50个字符",
+        "emailInvalid": "请输入有效的邮箱地址",
+        "messageMinLength": "消息长度至少为10个字符",
+        "messageMaxLength": "消息不能超过1000个字符"
+      }
+    },
+    "alerts": {
+      "success": "消息发送成功！",
+      "error": "发送出错！",
+      "emailError": "邮件发送失败"
+    }
+  },
+  "footer": {
+    "termsConditions": "条款与条件",
+    "privacyPolicy": "隐私政策",
+    "copyright": "保留所有权利"
+  }
+}
