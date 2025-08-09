@@ -16,7 +16,6 @@ interface ProjectDetailsProps extends Project {
 }
 
 export function ProjectDetails({
-  href,
   tags,
   title,
   image,
