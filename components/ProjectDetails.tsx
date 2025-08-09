@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { motion } from "motion/react";
 import { ArrowRight } from "./icons";
+import { useTranslations } from "next-intl";
 import { type Project } from "@/constants/data";
 import {
   Dialog,
@@ -16,13 +17,14 @@ interface ProjectDetailsProps extends Project {
 }
 
 export function ProjectDetails({
+  id,
   tags,
-  title,
   image,
   setPreview,
-  description,
-  subDescription,
 }: ProjectDetailsProps) {
+  const t = useTranslations("projects");
+  const projectT = useTranslations(`projects.${id}`);
+
   const [open, setOpen] = useState(false);
 
   const onOpenChange = (isOpen: boolean) => {
@@ -34,14 +36,14 @@ export function ProjectDetails({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogTrigger asChild>
         <button className="flex cursor-pointer items-center gap-1 border-b-2 border-transparent pb-0.5 duration-200 hover:-translate-y-1 hover:border-current">
-          Read More
+          {t("readMore")}
           <ArrowRight width={24} height={24} />
         </button>
       </DialogTrigger>
       <DialogContent className="from-midnight to-navy max-h-11/12 overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l p-0 shadow-sm md:max-w-2xl">
         <Image
           src={image}
-          alt={title}
+          alt={projectT("title")}
           width={1920}
           height={1008}
           priority
@@ -50,17 +52,19 @@ export function ProjectDetails({
         />
         <div className="px-5 pb-5">
           <DialogTitle className="mb-2 text-2xl font-bold text-white">
-            {title}
+            {projectT("title")}
           </DialogTitle>
           <DialogDescription className="mb-3 text-base font-normal text-neutral-300">
-            {description}
+            {projectT("description")}
           </DialogDescription>
           <ul className="mb-3 space-y-2 pl-4 text-base text-neutral-300">
-            {subDescription.map((subDesc, index) => (
-              <li key={index} className="list-disc font-normal">
-                {subDesc}
-              </li>
-            ))}
+            {projectT
+              .raw("subDescription")
+              .map((subDesc: string, index: number) => (
+                <li key={index} className="list-disc font-normal">
+                  {subDesc}
+                </li>
+              ))}
           </ul>
           <div className="mt-4 flex flex-wrap justify-center gap-3 md:justify-start">
             {tags.map((tag, index) => {

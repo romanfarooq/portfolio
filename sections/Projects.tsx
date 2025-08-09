@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { projects } from "@/constants/data";
 import { Project } from "@/components/Project";
 import {
@@ -11,6 +12,8 @@ import {
 } from "motion/react";
 
 export function Projects() {
+  const t = useTranslations("projects");
+
   const previewX = useMotionValue(0);
   const previewY = useMotionValue(0);
 
@@ -46,7 +49,7 @@ export function Projects() {
       onPointerMove={handlePointerMove}
       className="mt-20 min-h-screen scroll-mt-12 px-5 sm:px-10 md:mt-30 lg:px-15"
     >
-      <h2 className="text-3xl font-bold md:text-4xl">My Selected Projects</h2>
+      <h2 className="text-3xl font-bold md:text-4xl">{t("title")}</h2>
       <div className="mt-12 h-0.5 w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
       {projects.map((project, index) => (
         <Project key={index} {...project} setPreview={setPreview} />
