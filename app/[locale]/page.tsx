@@ -5,8 +5,8 @@ import { Navbar } from "@/sections/Navbar";
 import { Footer } from "@/sections/Footer";
 import { Contact } from "@/sections/Contact";
 import { Projects } from "@/sections/Projects";
+import { Education } from "@/sections/Education";
 import { Experiences } from "@/sections/Experiences";
-import { Testimonial } from "@/sections/Testimonial";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <About />
         <Projects />
         <Experiences />
-        <Testimonial />
+        <Education />
         <Contact />
       </main>
       <Footer />

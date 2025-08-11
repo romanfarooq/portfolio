@@ -154,15 +154,10 @@ export const experiences = [
   "traineeFrontEndDeveloper",
 ];
 
-export const reviews = [
-  "adelAhmed",
-  "mariamKhan",
-  "diegoRamirez",
-  "claraDupont",
-  "ahmedSiddiqui",
-  "ariaThompson",
-  "meiChen",
-  "kaiAnderson",
+export const education = [
+  "bachelors",
+  "intermediate",
+  "matriculation",
 ];
 
 export const skills = [
