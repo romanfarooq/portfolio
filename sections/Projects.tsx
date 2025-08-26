@@ -33,7 +33,7 @@ export function Projects() {
     setCenter();
     window.addEventListener("resize", setCenter);
     return () => window.removeEventListener("resize", setCenter);
-  }, []);
+  }, [previewX, previewY]);
 
   const handlePointerMove = (e: React.PointerEvent) => {
     if (!preview) return;
