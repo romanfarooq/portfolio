@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { useTranslations } from "next-intl";
-import { ProjectDetails } from "@/components/ProjectDetails";
 import { type Project } from "@/constants/data";
+import { ProjectDetails } from "@/components/ProjectDetails";
 
 interface ProjectProps extends Project {
   setPreview: (image: string | null) => void;
