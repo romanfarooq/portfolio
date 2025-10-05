@@ -9,7 +9,7 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogContent,
-  DialogDescription,
+  DialogDescription
 } from "@/components/Dialog";
 
 interface ProjectDetailsProps extends Project {
@@ -20,7 +20,7 @@ export function ProjectDetails({
   id,
   tags,
   image,
-  setPreview,
+  setPreview
 }: ProjectDetailsProps) {
   const t = useTranslations("projects");
   const projectT = useTranslations(`projects.${id}`);

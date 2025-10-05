@@ -8,7 +8,7 @@ import {
   motion,
   useSpring,
   useMotionValue,
-  AnimatePresence,
+  AnimatePresence
 } from "motion/react";
 
 export function Projects() {
