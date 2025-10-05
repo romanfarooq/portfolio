@@ -45,8 +45,8 @@ export function ProjectDetails({
           src={image}
           alt={projectT("title")}
           width={1920}
-          height={1008}
-          priority
+          height={1080}
+          priority={true}
           loading="eager"
           className="w-full rounded-t-2xl"
         />
