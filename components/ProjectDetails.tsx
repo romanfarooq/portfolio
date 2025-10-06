@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { ArrowRight } from "./icons";
 import { useTranslations } from "next-intl";
-import { type Project } from "@/constants/data";
+import type { Project } from "@/constants/data";
 import {
   Dialog,
   DialogTitle,
