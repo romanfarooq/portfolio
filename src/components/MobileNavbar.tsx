@@ -66,7 +66,7 @@ export function MobileNavbar() {
             transition={{ duration: 0.3 }}
           >
             <ul className="flex flex-col items-center gap-4 py-4">
-              {["home", "about", "work", "experience", "contact"].map(
+              {["home", "about", "work", "experience", "education", "contact"].map(
                 (section) => (
                   <li key={section} className="py-2">
                     <a
