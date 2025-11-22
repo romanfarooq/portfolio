@@ -31,7 +31,7 @@ export function ProjectItem(props: ProjectItemProps) {
         </header>
         <ProjectDetails {...props} />
       </article>
-      <div className="h-0.5 w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
+      <div className="h-0.5 w-full bg-linear-to-r from-transparent via-neutral-700 to-transparent" />
     </>
   );
 }

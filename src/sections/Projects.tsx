@@ -49,7 +49,7 @@ export function Projects() {
       className="mt-20 min-h-screen scroll-mt-12 px-5 sm:px-10 md:mt-30 lg:px-15"
     >
       <h2 className="text-3xl font-bold md:text-4xl">{t("title")}</h2>
-      <div className="mt-12 h-0.5 w-full bg-gradient-to-r from-transparent via-neutral-700 to-transparent" />
+      <div className="mt-12 h-0.5 w-full bg-linear-to-r from-transparent via-neutral-700 to-transparent" />
       {projects.map((project) => (
         <ProjectItem key={project.name} {...project} setPreview={setPreview} />
       ))}

@@ -41,7 +41,7 @@ export function ProjectDetails({
           <ArrowRight width={24} height={24} />
         </button>
       </DialogTrigger>
-      <DialogContent className="from-midnight to-navy max-h-11/12 overflow-y-auto rounded-2xl border border-white/10 bg-gradient-to-l p-0 shadow-sm md:max-w-2xl">
+      <DialogContent className="from-midnight to-navy max-h-11/12 overflow-y-auto rounded-2xl border border-white/10 bg-linear-to-l p-0 shadow-sm md:max-w-2xl">
         <Image
           src={image}
           alt={projectT("title")}
