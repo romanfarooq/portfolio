@@ -235,18 +235,6 @@
         "构建三年库存预测模型",
         "备件关键性分析优化"
       ]
-    },
-    "traineeFrontEndDeveloper": {
-      "title": "前端开发实习生",
-      "job": "Programmers Force, Lahore",
-      "date": "2024年4月 - 2024年5月",
-      "contents": [
-        "HTML/CSS/JavaScript响应式开发实践",
-        "React/Angular/Vue框架探索",
-        "构建跨浏览器兼容网站",
-        "团队协作项目开发",
-        "Git版本控制系统实战"
-      ]
     }
   },
   "education": {
