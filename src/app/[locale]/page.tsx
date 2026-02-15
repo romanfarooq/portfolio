@@ -3,7 +3,6 @@ import { About } from "@/sections/About";
 import { Navbar } from "@/sections/Navbar";
 import { Footer } from "@/sections/Footer";
 import { Contact } from "@/sections/Contact";
-import { Projects } from "@/sections/Projects";
 import { Education } from "@/sections/Education";
 import { Experiences } from "@/sections/Experiences";
 
@@ -14,7 +13,6 @@ export default function Home() {
       <main className="container mx-auto max-w-7xl">
         <Hero />
         <About />
-        <Projects />
         <Experiences />
         <Education />
         <Contact />
