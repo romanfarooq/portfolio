@@ -1,12 +1,12 @@
 {
   "metadata": {
     "title": "Roman Farooq 的人工智能与软件工程作品集",
-    "description": "Roman Farooq 是一名专注于人工智能的软件工程师兼数据科学爱好者，致力于构建智能化、数据驱动、可扩展的解决方案。擅长 Python、React、Next.js 以及现代机器学习集成，将高级数据分析与以用户为中心的设计相结合，打造创新应用。",
+    "description": "Roman Farooq 是一名专注于人工智能的软件工程师兼数据科学爱好者，致力于构建智能化、数据驱动且可扩展的解决方案。专长于 Python、React、Next.js 和现代机器学习集成，将高级分析与以用户为中心的设计结合起来，交付创新应用。",
     "openGraphTitle": "Roman Farooq 的人工智能与软件工程作品集",
-    "openGraphDescription": "Roman Farooq 是一名专注于人工智能的软件工程师兼数据科学爱好者，致力于构建智能化、数据驱动、可扩展的解决方案。擅长 Python、React、Next.js 以及现代机器学习集成，将高级数据分析与以用户为中心的设计相结合，打造创新应用。",
+    "openGraphDescription": "Roman Farooq 是一名专注于人工智能的软件工程师兼数据科学爱好者，致力于构建智能化、数据驱动且可扩展的解决方案。专长于 Python、React、Next.js 和现代机器学习集成，将高级分析与以用户为中心的设计结合起来，交付创新应用。",
     "openGraphSiteName": "Roman Farooq 的人工智能与软件工程作品集",
     "twitterTitle": "Roman Farooq 的人工智能与软件工程作品集",
-    "twitterDescription": "Roman Farooq 是一名专注于人工智能的软件工程师兼数据科学爱好者，致力于构建智能化、数据驱动、可扩展的解决方案。擅长 Python、React、Next.js 以及现代机器学习集成，将高级数据分析与以用户为中心的设计相结合，打造创新应用。",
+    "twitterDescription": "Roman Farooq 是一名专注于人工智能的软件工程师兼数据科学爱好者，致力于构建智能化、数据驱动且可扩展的解决方案。专长于 Python、React、Next.js 和现代机器学习集成，将高级分析与以用户为中心的设计结合起来，交付创新应用。",
     "applicationName": "Roman Farooq 的人工智能与软件工程作品集",
     "category": "作品集",
     "classification": "作品集, 人工智能, 数据科学, 软件工程",
@@ -46,7 +46,7 @@
       "UI/UX",
       "OpenAI",
       "GPT",
-      "开源项目",
+      "开源",
       "远程工作",
       "巴基斯坦",
       "拉合尔",
@@ -73,139 +73,144 @@
   "about": {
     "title": "关于我",
     "greeting": "你好，我是 Roman Farooq",
-    "description": "一名专注于人工智能的全栈软件工程师，热衷于开发智能化的数据驱动应用。擅长创建直观的用户体验、设计可扩展的后端系统，并将机器学习模型集成到实际解决方案中。",
+    "description": "一名专注于人工智能的软件工程师，热衷于开发智能化、数据驱动的应用。我擅长打造直观的用户体验、设计可扩展的后端系统，并将机器学习模型集成到真实场景解决方案中。",
     "metaCertTitle": "Meta 前端开发者",
     "metaCertSubtitle": "专业证书",
-    "metaCertDescription": "通过Coursera平台的Meta认证课程获得，此证书验证了前端开发能力，包括React、JavaScript、UI设计原则、调试、Git版本控制及生产环境应用部署。",
+    "metaCertDescription": "通过 Coursera 上的 Meta 严格课程获得，此认证验证了前端开发能力，包括 React、JavaScript、UI 设计原则、调试、Git 版本控制以及生产环境应用部署。",
     "viewCertificate": "🎓 查看证书",
     "locationTitle": "所在地",
     "locationDescription": "我位于巴基斯坦拉合尔",
-    "academicCollaboration": "开放人工智能/机器学习研究和数据科学项目的学术合作。",
+    "academicCollaboration": "欢迎人工智能/机器学习研究和数据科学项目的学术合作。",
     "techStackTitle": "技术栈",
-    "techStackDescription": "精通Python(Pandas、NumPy、Matplotlib、FastAPI)、JavaScript/TypeScript及React、Next.js、Node.js等框架；擅长数据库管理(MongoDB、PostgreSQL)、AI API集成与云部署；熟悉Tailwind CSS、Docker、Prisma、Redux、Flutter等技术，具备可扩展后端架构经验。"
+    "techStackDescription": "精通 Python（Pandas、NumPy、Matplotlib、FastAPI）、JavaScript/TypeScript，以及 React、Next.js、Node.js 等框架。擅长数据库管理（MongoDB、PostgreSQL）、AI API 集成和云部署。熟悉 Tailwind CSS，并了解 Docker、Prisma、Redux、Flutter 和可扩展后端架构。"
   },
   "copyEmail": {
     "copyButton": "复制邮箱地址",
     "copiedMessage": "邮箱已复制"
   },
   "experiences": {
-    "title": "工作经历",
-    "seniorSoftwareEngineer": {
-      "title": "高级软件工程师",
-      "job": "Vixels.dev, Lahore",
-      "date": "2025年9月 - 至今",
+    "title": "我的工作经历",
+    "traineeEngineer": {
+      "title": "见习工程师官",
+      "job": "SUPARCO，拉合尔卫星控制设施",
+      "date": "2025年11月 - 2026年5月",
       "contents": [
-        "主导企业级Web与移动应用架构设计，采用先进MERN模式与微服务架构构建可扩展系统",
-        "基于Next.js构建高性能SEO优化平台，应用SSR、SSG、ISR、边缘函数与智能缓存策略",
-        "使用React Native构建生产环保跨平台应用，深度集成原生模块、后台服务与实时功能",
-        "设计安全的身份验证与授权系统，包括JWT、刷新令牌、RBAC、频率限制与API安全最佳实践",
-        "开发AI驱动的智能应用，使用Python、FastAPI、PyTorch、TensorFlow与LangChain实现LLM集成和RAG工作流",
-        "主导架构决策与技术规划，执行代码审查，指导团队工程师技术成长"
+        "在拉合尔卫星控制设施完成了为期六个月的见习，接触了卫星通信系统、射频操作、载波监控、地面站工作流程和空间通信基础设施。",
+        "接受了来自卫星控制中心（SCC）和载波运营与通信控制（COCC）团队的初始培训，以了解 SCF-L 的运行。",
+        "培训后加入 COCC 团队，执行轮班职责，包括载波监控、客户支持、报告、干扰观察和通信服务支持。",
+        "加深了对卫星通信概念的理解，包括上行/下行操作、射频链路、天线系统、频谱监测、调制技术、链路预算、C 波段、Ku 波段、Ka 波段、HTS 和 VSAT 通信。",
+        "参与了射频和天线相关工作，包括 0.98 米和 1.2 米 Ka 波段天线的组装/拆卸、峰值指向、7 米 Ku 波段电动天线的天线方向图测试、交叉极化调整、频谱分析以及 LNB/LNA/BUC 测试。",
+        "使用 Python 参与了多个内部软件项目用于硬件集成，并使用 JavaScript 开发 Web 界面，其中包括面向 Paksat 运行用户的实时射频仪表板。"
       ]
     },
     "softwareEngineer": {
       "title": "软件工程师",
-      "job": "ML Bench, Lahore",
+      "job": "ML Bench，拉合尔",
       "date": "2025年3月 - 2025年8月",
       "contents": [
-        "使用MERN技术栈主导了高性能Web/移动应用开发",
-        "基于Next.js构建了SEO优化的动态Web界面",
-        "通过React Native深度集成了原生模块并完成性能优化",
-        "主导了代码审查与架构决策",
-        "优化了CI/CD流水线与云平台部署"
+        "使用 MERN 技术栈、React Native、Next.js、Node.js、Express.js、MongoDB 和 PostgreSQL 开发高性能 Web 与移动应用。",
+        "构建了可扩展的前端和后端架构，重点关注性能、可维护性、可复用组件和清晰的系统设计。",
+        "使用 Next.js 设计响应式且 SEO 优化的 Web 界面，包括服务端渲染、静态生成和现代前端优化技术。",
+        "开发了跨平台移动应用，集成 API、可复用 UI 组件、状态管理和设备相关功能。",
+        "实现了安全的后端系统，包括 REST API、认证流程、基于角色的访问、数据库模型、校验和 API 安全实践。",
+        "使用基于 Python 的服务开发 AI 驱动的应用功能，并将智能工作流集成到 Web 平台中。"
       ]
     },
     "associateSoftwareEngineer": {
       "title": "助理软件工程师",
-      "job": "Dexterz Solutions, Lahore",
+      "job": "Dexterz Solutions，拉合尔",
       "date": "2024年9月 - 2025年2月",
       "contents": [
-        "完成了Node.js/Express.js后端系统开发与优化",
-        "参与了敏捷开发与跨职能协作",
-        "开发并维护了RESTful API",
-        "重构了遗留代码并提升性能",
-        "编写了技术文档并指导初级开发"
+        "使用 Node.js 和 Express.js 构建并优化后端系统，并与 React.js 和 Next.js 集成，交付可扩展的全栈解决方案。",
+        "开发、文档化并维护 RESTful API，确保前端界面与后端服务之间安全且顺畅的数据流。",
+        "参与冲刺规划、功能开发、调试、测试、代码审查和跨职能协作，以提升产品可用性。",
+        "重构遗留代码库并实施高级性能改进，以增强系统效率、可靠性和可维护性。",
+        "协助技术文档、API 测试、可复用组件开发、新成员入职以及对初级开发者的支持。",
+        "打下了扎实的软件工程基础，后来支撑了我在工程工具、射频监控仪表板以及硬件集成软件系统方面的工作。"
       ]
     },
     "supplyChainIntern": {
       "title": "供应链实习生",
-      "job": "百事公司巴基斯坦, 拉合尔",
+      "job": "百事公司巴基斯坦，拉合尔",
       "date": "2024年7月 - 2024年8月",
       "contents": [
-        "执行了HFM/ABC/XYZ库存分析",
-        "完成了供应链指标数据分析与报告",
-        "参与了跨部门运营协调",
-        "构建了三年库存预测模型",
-        "开展了备件关键性分析优化"
+        "参与了名为“备件映射与关键性分析”的项目，以提升库存可视化、备件分类和供应链决策能力。",
+        "使用 HFM、ABC 和 XYZ 分析对备件和运营物资进行分类，以识别关键性、使用模式和库存优先级。",
+        "开发了三年期库存预测模型，以支持规划、预测和长期库存管理。",
+        "分析库存数据，找出去标识化、本地化和供应商进口潜力的机会。",
+        "获得了供应链运营、库存规划、供应商分析、备件管理和工业采购流程方面的实践经验。"
       ]
     }
   },
   "education": {
-    "title": "教育背景",
+    "title": "我的教育背景",
     "bachelors": {
       "title": "计算机科学理学学士",
-      "institute": "旁遮普中央大学（拉合尔）",
+      "institute": "中央旁遮普大学，拉合尔",
       "date": "2020年10月 - 2024年7月",
       "contents": [
-        "毕业平均绩点(CGPA): 3.42",
-        "2020年10月至2024年7月获得50%的CGPA奖学金",
-        "核心课程: 编程、数据结构、算法、数据库系统、Web开发、人工智能与深度学习",
-        "毕业设计: 基于高级软件工程与人工智能概念的项目"
+        "毕业平均绩点为 3.42。",
+        "2020年10月至2024年7月期间获得 50% 的基于 CGPA 奖学金。",
+        "完成了编程、数据结构、算法、数据库系统、Web 开发、人工智能和深度学习等核心课程。",
+        "完成了一个涉及高级软件工程和 AI 概念的毕业设计项目。"
       ]
     },
     "intermediate": {
-      "title": "高中计算机科学（物理方向）",
-      "institute": "旁遮普学院（拉合尔）",
+      "title": "计算机科学预科（物理方向）",
+      "institute": "旁遮普学院，拉合尔",
       "date": "2018年9月 - 2020年6月",
-      "contents": ["毕业成绩: A等", "主修方向: 计算机科学与物理"]
+      "contents": [
+        "以 A 等成绩毕业。",
+        "主修计算机科学和物理。"
+      ]
     },
     "matriculation": {
-      "title": "初中毕业（理科）",
-      "institute": "旁遮普学校（拉合尔）",
+      "title": "中学毕业（理科）",
+      "institute": "The Punjab School，拉合尔",
       "date": "2016年3月 - 2018年5月",
       "contents": [
-        "毕业成绩: A等",
-        "八年级英语写作比赛（班级组）第一名",
-        "校际乒乓球团体赛冠军"
+        "以 A 等成绩毕业。",
+        "在八年级班级组英语写作比赛中获得第一名。",
+        "与团队一起赢得了校际乒乓球比赛。"
       ]
     }
   },
   "contact": {
-    "title": "联系我",
-    "description": "无论您需要开发新网站、优化现有平台，还是实现独特项目，我将为您提供专业支持",
+    "title": "让我们聊聊",
+    "description": "无论你是想打造一个新网站、改进现有平台，还是将独特项目落地，我都可以提供帮助",
     "form": {
       "legend": "联系信息",
       "name": {
-        "label": "姓名",
-        "placeholder": "张明"
+        "label": "全名",
+        "placeholder": "张三"
       },
       "email": {
         "label": "邮箱",
-        "placeholder": "您的邮箱@example.com"
+        "placeholder": "JohnDoe@email.com"
       },
       "message": {
         "label": "消息",
-        "placeholder": "请分享您的需求..."
+        "placeholder": "分享你的想法..."
       },
       "submit": "发送",
       "submitting": "发送中...",
       "validation": {
         "nameRequired": "姓名为必填项",
-        "nameMaxLength": "姓名不能超过50个字符",
+        "nameMaxLength": "姓名必须少于 50 个字符",
         "emailInvalid": "请输入有效的邮箱地址",
-        "messageMinLength": "消息长度至少为10个字符",
-        "messageMaxLength": "消息不能超过1000个字符"
+        "messageMinLength": "消息必须至少 10 个字符",
+        "messageMaxLength": "消息必须少于 1000 个字符"
       }
     },
     "alerts": {
-      "success": "消息发送成功！",
-      "error": "发送出错！",
-      "emailError": "邮件发送失败"
+      "success": "你的消息已发送！",
+      "error": "出了点问题！",
+      "emailError": "发送邮件失败"
     }
   },
   "footer": {
     "termsConditions": "条款与条件",
     "privacyPolicy": "隐私政策",
-    "copyright": "保留所有权利"
+    "copyright": "版权所有。"
   }
 }

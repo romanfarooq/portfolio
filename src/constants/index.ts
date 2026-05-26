@@ -15,7 +15,7 @@ export interface Project {
 export const educations = ["bachelors", "intermediate", "matriculation"];
 
 export const experiences = [
-  "seniorSoftwareEngineer",
+  "traineeEngineer",
   "softwareEngineer",
   "associateSoftwareEngineer",
   "supplyChainIntern"

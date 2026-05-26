@@ -90,17 +90,17 @@
   },
   "experiences": {
     "title": "My Work Experience",
-    "seniorSoftwareEngineer": {
-      "title": "Senior Software Engineer",
-      "job": "Vixels.dev, Lahore",
-      "date": "Sep 2025 - Present",
+    "traineeEngineer": {
+      "title": "Trainee Engineer Officer",
+      "job": "SUPARCO, Satellite Control Facility Lahore",
+      "date": "Nov 2025 - May 2026",
       "contents": [
-        "Architecting and leading scalable, enterprise-grade web and mobile applications leveraging advanced MERN patterns, microservices architecture, and cloud-native design principles.",
-        "Designing high-performance, SEO-optimized platforms with Next.js using SSR, SSG, ISR, edge functions, and strategic caching layers to maximize user engagement and search visibility.",
-        "Engineering production-ready cross-platform mobile applications with React Native, integrating native modules, background services, and real-time features with optimized state management.",
-        "Architecting secure backend systems with advanced authentication mechanisms including JWT, refresh tokens, RBAC, rate limiting, and comprehensive API security best practices.",
-        "Developing AI-powered features and intelligent applications using Python, FastAPI microservices, PyTorch, TensorFlow, and LangChain for LLM integration and RAG-based workflows.",
-        "Leading architectural decisions, defining technical roadmaps, conducting comprehensive code reviews, and mentoring senior engineers across the organization."
+        "Completed a six-month traineeship at Satellite Control Facility Lahore, gaining exposure to satellite communication systems, RF operations, carrier monitoring, ground station workflow, and space communication infrastructure.",
+        "Received initial training from the Satellite Control Center (SCC) and Carrier Operations & Communication Control (COCC) teams to understand SCF-L operations.",
+        "Joined the COCC team after training and performed shift-based duties involving carrier monitoring, customer support, reporting, interference observation, and communication service support.",
+        "Gained understanding of satellite communication concepts including uplink/downlink operations, RF chains, antenna systems, spectrum monitoring, modulation techniques, link budgeting, C-band, Ku-band, Ka-band, HTS, and VSAT communication.",
+        "Performed RF and antenna activities including 0.98 m and 1.2 m Ka-band antenna assembly/dismantling, peak pointing, antenna radiation pattern testing on a 7 m Ku-band motorized antenna, cross-polarization adjustment, spectrum analysis, and LNB/LNA/BUC testing.",
+        "Contributed to multiple internal software projects using Python for hardware integration and JavaScript for web interfaces, including a live RF dashboard for Paksat operational users."
       ]
     },
     "softwareEngineer": {
@@ -108,11 +108,12 @@
       "job": "ML Bench, Lahore",
       "date": "Mar 2025 - Aug 2025",
       "contents": [
-        "Spearheaded the end-to-end development of high-performance, scalable web and mobile applications using the MERN stack, ensuring robust architecture and maintainability.",
-        "Leveraged Next.js to build SEO-optimized, dynamic web interfaces with hybrid static & server rendering, resulting in improved user engagement and search visibility.",
-        "Designed, deployed, and optimized mobile-first experiences using React Native, with deep integration of native modules, device APIs, and performance monitoring tools.",
-        "Led comprehensive code reviews and actively contributed to architectural decisions to ensure scalability, maintainability, and adherence to best practices.",
-        "Collaborated closely with DevOps to streamline CI/CD pipelines, automate testing, and enhance deployment processes on leading cloud platforms."
+        "Developed high-performance web and mobile applications using the MERN stack, React Native, Next.js, Node.js, Express.js, MongoDB, and PostgreSQL.",
+        "Built scalable frontend and backend architectures with a focus on performance, maintainability, reusable components, and clean system design.",
+        "Designed responsive and SEO-optimized web interfaces using Next.js, including server-side rendering, static generation, and modern frontend optimization techniques.",
+        "Developed cross-platform mobile applications using React Native, integrating APIs, reusable UI components, state management, and device-related features.",
+        "Implemented secure backend systems including REST APIs, authentication flows, role-based access, database models, validation, and API security practices.",
+        "Worked on AI-powered application features using Python-based services and integrated intelligent workflows into web platforms."
       ]
     },
     "associateSoftwareEngineer": {
@@ -120,11 +121,12 @@
       "job": "Dexterz Solutions, Lahore",
       "date": "Sep 2024 - Feb 2025",
       "contents": [
-        "Built and optimized robust backend systems using Node.js and Express.js, seamlessly integrated with React.js and Next.js to deliver scalable full-stack solutions.",
-        "Participated in sprint planning, code reviews, and cross-functional collaboration to implement innovative new features and improve overall product usability.",
+        "Built and optimized backend systems using Node.js and Express.js, integrated with React.js and Next.js to deliver scalable full-stack solutions.",
         "Developed, documented, and maintained RESTful APIs, ensuring secure and seamless data flow between frontend interfaces and backend services.",
+        "Participated in sprint planning, feature development, debugging, testing, code reviews, and cross-functional collaboration to improve product usability.",
         "Refactored legacy codebases and applied advanced performance improvements to enhance system efficiency, reliability, and maintainability.",
-        "Assisted in technical documentation, onboarding, and provided ongoing support to junior developers through mentorship and code reviews."
+        "Assisted in technical documentation, API testing, reusable component development, onboarding, and support for junior developers.",
+        "Built a strong software engineering foundation that later supported my work on engineering-focused tools, RF monitoring dashboards, and hardware-integrated software systems."
       ]
     },
     "supplyChainIntern": {
@@ -132,11 +134,11 @@
       "job": "PepsiCo Pakistan, Lahore",
       "date": "Jul 2024 - Aug 2024",
       "contents": [
-        "Performed HFM, ABC, & XYZ analysis to enhance inventory decision-making.",
-        "Assisted in data analysis and reporting for key supply chain metrics.",
-        "Participated in cross-departmental meetings to understand operational workflows.",
-        "Collaborated in building a three-year inventory projection model to assist strategic planning.",
-        "Contributed to \"Spares Mapping & Criticality Analysis\" for optimized inventory classification."
+        "Worked on the project \"Spares Mapping & Criticality Analysis\" to improve inventory visibility, spare parts classification, and supply chain decision-making.",
+        "Categorized spares and operating supplies using HFM, ABC, and XYZ analysis to identify criticality, usage patterns, and inventory prioritization.",
+        "Developed a three-year inventory projection model to support planning, forecasting, and long-term inventory management.",
+        "Analyzed inventory data to identify opportunities for unbadging, localization, and vendor import potential.",
+        "Gained practical exposure to supply chain operations, inventory planning, vendor analysis, spare parts management, and industrial procurement workflows."
       ]
     }
   },

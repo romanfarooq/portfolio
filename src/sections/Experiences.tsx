@@ -63,7 +63,7 @@ export function Experiences() {
                     .map((content: string, index: number) => (
                       <li
                         key={index}
-                        className="list-disc font-normal text-neutral-300"
+                        className="list-disc text-justify font-normal text-neutral-300"
                       >
                         {content}
                       </li>
