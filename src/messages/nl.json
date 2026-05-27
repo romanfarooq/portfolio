@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "title": "Roman Farooq | AI- en software-engineer | RF, satellietcommunicatie en ruimtetechnologie",
+    "description": "Roman Farooq is een software- en AI-engineer die intelligente engineering-systemen bouwt voor software, kunstmatige intelligentie, RF-systemen, satellietcommunicatie, GIS, remote sensing en ruimtetechnologie. Zijn werk combineert full-stackontwikkeling, AI/ML, datagedreven applicaties, geospatiale technologieën, digitale signaalverwerking en engineering-software voor echte technische operaties.",
+    "openGraphTitle": "Roman Farooq | AI- en software-engineer | RF, satellietcommunicatie en ruimtetechnologie",
+    "openGraphDescription": "Roman Farooq is een software- en AI-engineer met groeiende focus op RF-systemen, satellietcommunicatie, GIS, remote sensing en ruimtetechnologie. Hij bouwt intelligente softwaresystemen die AI, data, engineering-workflows, geospatiale analyse en echte technische operaties verbinden.",
+    "openGraphSiteName": "Roman Farooqs portfolio voor AI, software en ruimtetechnologie",
+    "twitterTitle": "Roman Farooq | AI- en software-engineer | RF en ruimtetechnologie",
+    "twitterDescription": "Software- en AI-engineer gericht op RF-systemen, satellietcommunicatie, GIS, remote sensing, ruimtetechnologie en intelligente engineering-software.",
+    "applicationName": "Roman Farooqs portfolio voor AI, software en ruimtetechnologie",
+    "category": "Portfolio",
+    "classification": "Portfolio, software-engineering, kunstmatige intelligentie, RF-systemen, satellietcommunicatie, GIS, remote sensing, ruimtetechnologie, engineering-software",
+    "keywords": [
+      "Roman Farooq",
+      "AI Engineer",
+      "Software Engineer",
+      "Artificial Intelligence",
+      "Machine Learning Engineer",
+      "Deep Learning",
+      "Natural Language Processing",
+      "NLP",
+      "LLM Applications",
+      "RAG",
+      "LangChain",
+      "Engineering Software",
+      "RF Systems",
+      "RF Engineering",
+      "Satellite Communication",
+      "Satellite Communications",
+      "Space Technology",
+      "Ground Station Operations",
+      "Spectrum Monitoring",
+      "Carrier Monitoring",
+      "Antenna Systems",
+      "Link Budgeting",
+      "VSAT",
+      "C-band",
+      "Ku-band",
+      "Ka-band",
+      "HTS",
+      "GIS",
+      "Geographic Information Systems",
+      "Remote Sensing",
+      "Earth Observation",
+      "Geospatial Analysis",
+      "Hyperspectral Imaging",
+      "Digital Signal Processing",
+      "DSP",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "FastAPI",
+      "React",
+      "React Native",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "Flutter",
+      "MongoDB",
+      "SQL",
+      "PostgreSQL",
+      "Prisma",
+      "Docker",
+      "Tailwind CSS",
+      "QGIS",
+      "ESA SNAP",
+      "Google Earth Engine",
+      "GDAL",
+      "Rasterio",
+      "GeoPandas",
+      "Leaflet",
+      "Open Source",
+      "Remote Work",
+      "Pakistan",
+      "Lahore",
+      "Portfolio Website"
+    ]
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "Over mij",
+    "work": "Werk",
+    "experience": "Ervaring",
+    "education": "Opleiding",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hoi, ik ben Roman",
+    "developerText": "AI- en software-engineer",
+    "dedicatedText": "Toegewijd aan het maken van",
+    "buildingText": "Bouwen",
+    "webSolutions": "intelligente oplossingen",
+    "flipWords": [
+      "Datagedreven",
+      "Schaalbaar",
+      "Innovatief"
+    ]
+  },
+  "about": {
+    "title": "Over mij",
+    "greeting": "Hoi, ik ben Roman Farooq",
+    "description": "Ik ben software- en AI-engineer met groeiende focus op RF-systemen, satellietcommunicatie, GIS, remote sensing en ruimtetechnologie. Ik ben geïnteresseerd in het bouwen van intelligente engineering-systemen die software, AI, data en echte technische operaties verbinden.",
+    "metaCertTitle": "Meta front-end developer",
+    "metaCertSubtitle": "Professioneel certificaat",
+    "metaCertDescription": "Behaald via het grondige programma van Meta op Coursera; dit certificaat bevestigt vaardigheid in front-endontwikkeling, waaronder React, JavaScript, UI-ontwerpprincipes, debugging, versiebeheer met Git en het deployen van productieklare applicaties.",
+    "viewCertificate": "🎓 Certificaat bekijken",
+    "locationTitle": "Locatie",
+    "locationDescription": "Ik ben gevestigd in Lahore, Pakistan",
+    "academicCollaboration": "Open voor academische samenwerking, AI/ML-onderzoek, RF-systemen, satellietcommunicatie, GIS, remote sensing en engineering-softwareprojecten.",
+    "techStackTitle": "Techstack",
+    "techStackDescription": "Vaardig in Python (Pandas, NumPy, Matplotlib, FastAPI), JavaScript/TypeScript en frameworks zoals React, Next.js, Node.js en React Native. Ervaren in databasebeheer (MongoDB, PostgreSQL), AI-API-integraties, LLM-workflows en clouddeployment. Bekend met scikit-learn, PyTorch, TensorFlow, LangChain, Tailwind CSS, Docker, Prisma, Redux, Flutter, QGIS, ESA SNAP, Google Earth Engine, GDAL, Rasterio, GeoPandas, Leaflet en schaalbare backend-architectuur."
+  },
+  "copyEmail": {
+    "copyButton": "E-mailadres kopiëren",
+    "copiedMessage": "E-mail is gekopieerd"
+  },
+  "experiences": {
+    "title": "Mijn werkervaring",
+    "traineeEngineer": {
+      "title": "Trainee-engineer",
+      "job": "SUPARCO, Satellite Control Facility Lahore",
+      "date": "nov. 2025 - mei 2026",
+      "contents": [
+        "Een traineeship van zes maanden afgerond bij Satellite Control Facility Lahore, met ervaring in satellietcommunicatiesystemen, RF-operaties, carrier-monitoring, workflows van grondstations en infrastructuur voor ruimtecommunicatie.",
+        "Eerste training ontvangen van de teams Satellite Control Center (SCC) en Carrier Operations & Communication Control (COCC) om de operaties van SCF-L te begrijpen.",
+        "Na de training aangesloten bij het COCC-team en ploegendiensten uitgevoerd voor carrier-monitoring, klantondersteuning, rapportage, observatie van interferentie en ondersteuning van communicatiediensten.",
+        "Inzicht verdiept in satellietcommunicatie, waaronder uplink-/downlink-operaties, RF-ketens, antennesystemen, spectrummonitoring, modulatietechnieken, link budgeting, C-band, Ku-band, Ka-band, HTS en VSAT-communicatie.",
+        "RF- en antenneactiviteiten uitgevoerd, waaronder montage/demontage van 0,98 m en 1,2 m Ka-band-antennes, peak pointing, metingen van antennestralingspatronen op een gemotoriseerde 7 m Ku-band-antenne, cross-polarisatieafstelling, spectrumanalyse en LNB/LNA/BUC-tests.",
+        "Bijgedragen aan meerdere interne softwareprojecten met Python voor hardware-integratie en JavaScript voor webinterfaces, waaronder een live RF-dashboard voor operationele Paksat-gebruikers."
+      ]
+    },
+    "softwareEngineer": {
+      "title": "Software-engineer",
+      "job": "ML Bench, Lahore",
+      "date": "mrt. 2025 - aug. 2025",
+      "contents": [
+        "Hoogwaardige web- en mobiele applicaties ontwikkeld met de MERN-stack, React Native, Next.js, Node.js, Express.js, MongoDB en PostgreSQL.",
+        "Schaalbare frontend- en backend-architecturen gebouwd met aandacht voor performance, onderhoudbaarheid, herbruikbare componenten en helder systeemontwerp.",
+        "Responsieve en SEO-geoptimaliseerde webinterfaces ontworpen met Next.js, inclusief server-side rendering, statische generatie en moderne frontend-optimalisatietechnieken.",
+        "Cross-platform mobiele applicaties ontwikkeld met React Native, met integratie van APIs, herbruikbare UI-componenten, state management en apparaatspecifieke functies.",
+        "Veilige backend-systemen geïmplementeerd, waaronder REST APIs, authenticatiestromen, role-based access, databasemodellen, validatie en API-beveiligingspraktijken.",
+        "Gewerkt aan AI-gestuurde applicatiefuncties met Python-gebaseerde services en intelligente workflows geïntegreerd in webplatformen."
+      ]
+    },
+    "associateSoftwareEngineer": {
+      "title": "Associate software-engineer",
+      "job": "Dexterz Solutions, Lahore",
+      "date": "sep. 2024 - feb. 2025",
+      "contents": [
+        "Backend-systemen gebouwd en geoptimaliseerd met Node.js en Express.js, geïntegreerd met React.js en Next.js om schaalbare full-stackoplossingen te leveren.",
+        "RESTful APIs ontwikkeld, gedocumenteerd en onderhouden, met veilige en soepele datastromen tussen frontendinterfaces en backendservices.",
+        "Deelgenomen aan sprintplanning, featureontwikkeling, debugging, testen, code reviews en cross-functionele samenwerking om de bruikbaarheid van het product te verbeteren.",
+        "Legacy-codebases gerefactord en geavanceerde performanceverbeteringen toegepast om efficiëntie, betrouwbaarheid en onderhoudbaarheid van systemen te verhogen.",
+        "Ondersteund bij technische documentatie, API-tests, ontwikkeling van herbruikbare componenten, onboarding en begeleiding van junior developers."
+      ]
+    },
+    "supplyChainIntern": {
+      "title": "Supply chain-stagiair",
+      "job": "PepsiCo Pakistan, Lahore",
+      "date": "jul. 2024 - aug. 2024",
+      "contents": [
+        "Gewerkt aan het project “Spares Mapping & Criticality Analysis” om voorraadzichtbaarheid, classificatie van reserveonderdelen en supply chain-besluitvorming te verbeteren.",
+        "Reserveonderdelen en operationele verbruiksartikelen gecategoriseerd met HFM-, ABC- en XYZ-analyses om criticaliteit, gebruikspatronen en voorraadprioriteiten te bepalen.",
+        "Een driejarig voorraadprojectiemodel ontwikkeld ter ondersteuning van planning, forecasting en langetermijnvoorraadbeheer.",
+        "Voorraadgegevens geanalyseerd om kansen te vinden voor debadging, lokalisatie en importpotentieel van leveranciers.",
+        "Praktische ervaring opgedaan met supply chain-operaties, voorraadplanning, leveranciersanalyse, beheer van reserveonderdelen en industriële inkoopprocessen."
+      ]
+    }
+  },
+  "education": {
+    "title": "Mijn opleiding",
+    "bachelors": {
+      "title": "Bachelor in computerwetenschappen",
+      "institute": "University of Central Punjab, Lahore",
+      "date": "okt. 2020 - jul. 2024",
+      "contents": [
+        "Afgestudeerd met een CGPA van 3,42.",
+        "Een op CGPA gebaseerde beurs van 50% ontvangen van oktober 2020 tot juli 2024.",
+        "Vakken afgerond in kerngebieden zoals programmeren, datastructuren, algoritmen, databasesystemen, webontwikkeling, kunstmatige intelligentie en deep learning.",
+        "Een afstudeerproject voltooid met geavanceerde concepten uit software-engineering en AI."
+      ]
+    },
+    "intermediate": {
+      "title": "Intermediate in Computer Science (natuurkunde)",
+      "institute": "Punjab College, Lahore",
+      "date": "sep. 2018 - jun. 2020",
+      "contents": [
+        "Afgestudeerd met grade A.",
+        "Gespecialiseerd in informatica en natuurkunde."
+      ]
+    },
+    "matriculation": {
+      "title": "Matriculation (natuurwetenschappen)",
+      "institute": "The Punjab School, Lahore",
+      "date": "mrt. 2016 - mei 2018",
+      "contents": [
+        "Afgestudeerd met grade A.",
+        "Eerste plaats behaald in een Engelse schrijfwedstrijd tussen secties in de 8e klas.",
+        "Met mijn team een intercampus tafeltenniscompetitie gewonnen."
+      ]
+    }
+  },
+  "contact": {
+    "title": "Laten we praten",
+    "description": "Of je nu een nieuwe website wilt bouwen, je bestaande platform wilt verbeteren of een uniek project tot leven wilt brengen, ik help graag.",
+    "form": {
+      "legend": "Contactgegevens",
+      "name": {
+        "label": "Volledige naam",
+        "placeholder": "Jan Jansen"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "jan@email.com"
+      },
+      "message": {
+        "label": "Bericht",
+        "placeholder": "Deel je gedachten..."
+      },
+      "submit": "Verzenden",
+      "submitting": "Verzenden...",
+      "validation": {
+        "nameRequired": "Naam is verplicht",
+        "nameMaxLength": "Naam moet minder dan 50 tekens bevatten",
+        "emailInvalid": "Voer een geldig e-mailadres in",
+        "messageMinLength": "Bericht moet minstens 10 tekens lang zijn",
+        "messageMaxLength": "Bericht moet minder dan 1000 tekens bevatten"
+      }
+    },
+    "alerts": {
+      "success": "Je bericht is verzonden!",
+      "error": "Er is iets misgegaan!",
+      "emailError": "E-mail verzenden mislukt"
+    }
+  },
+  "footer": {
+    "termsConditions": "Algemene voorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "copyright": "Alle rechten voorbehouden."
+  }
+}

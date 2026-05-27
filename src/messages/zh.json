@@ -95,7 +95,11 @@
     "dedicatedText": "致力于打造",
     "buildingText": "构建",
     "webSolutions": "智能化解决方案",
-    "flipWords": ["数据驱动", "可扩展", "创新"]
+    "flipWords": [
+      "数据驱动",
+      "可扩展",
+      "创新"
+    ]
   },
   "about": {
     "title": "关于我",
@@ -118,9 +122,9 @@
   "experiences": {
     "title": "我的工作经历",
     "traineeEngineer": {
-      "title": "见习工程师官",
+      "title": "见习工程师",
       "job": "SUPARCO，卫星控制设施（拉合尔）",
-      "date": "Nov 2025 - May 2026",
+      "date": "2025年11月 - 2026年5月",
       "contents": [
         "在拉合尔卫星控制设施完成了为期六个月的见习，接触了卫星通信系统、射频操作、载波监控、地面站工作流程和空间通信基础设施。",
         "接受了来自卫星控制中心（SCC）和载波运营与通信控制（COCC）团队的初始培训，以了解 SCF-L 的运行。",
@@ -133,7 +137,7 @@
     "softwareEngineer": {
       "title": "软件工程师",
       "job": "ML Bench，拉合尔",
-      "date": "Mar 2025 - Aug 2025",
+      "date": "2025年3月 - 2025年8月",
       "contents": [
         "使用 MERN 技术栈、React Native、Next.js、Node.js、Express.js、MongoDB 和 PostgreSQL 开发高性能 Web 与移动应用。",
         "构建了可扩展的前端和后端架构，重点关注性能、可维护性、可复用组件和清晰的系统设计。",
@@ -146,7 +150,7 @@
     "associateSoftwareEngineer": {
       "title": "助理软件工程师",
       "job": "Dexterz Solutions，拉合尔",
-      "date": "Sep 2024 - Feb 2025",
+      "date": "2024年9月 - 2025年2月",
       "contents": [
         "使用 Node.js 和 Express.js 构建并优化后端系统，并与 React.js 和 Next.js 集成，交付可扩展的全栈解决方案。",
         "开发、文档化并维护 RESTful API，确保前端界面与后端服务之间安全且顺畅的数据流。",
@@ -158,7 +162,7 @@
     "supplyChainIntern": {
       "title": "供应链实习生",
       "job": "PepsiCo Pakistan，拉合尔",
-      "date": "Jul 2024 - Aug 2024",
+      "date": "2024年7月 - 2024年8月",
       "contents": [
         "参与了名为“备件映射与关键性分析”的项目，以提升库存可视化、备件分类和供应链决策能力。",
         "使用 HFM、ABC 和 XYZ 分析对备件和运营物资进行分类，以识别关键性、使用模式和库存优先级。",
@@ -173,7 +177,7 @@
     "bachelors": {
       "title": "计算机科学理学学士",
       "institute": "中央旁遮普大学，拉合尔",
-      "date": "Oct 2020 - Jul 2024",
+      "date": "2020年10月 - 2024年7月",
       "contents": [
         "毕业平均绩点为 3.42。",
         "2020年10月至2024年7月期间获得 50% 的基于 CGPA 奖学金。",
@@ -182,15 +186,18 @@
       ]
     },
     "intermediate": {
-      "title": "计算机科学预科（物理方向）",
+      "title": "计算机科学中级课程（物理）",
       "institute": "旁遮普学院，拉合尔",
-      "date": "Sep 2018 - Jun 2020",
-      "contents": ["以 A 等成绩毕业。", "主修计算机科学和物理。"]
+      "date": "2018年9月 - 2020年6月",
+      "contents": [
+        "以 A 等成绩毕业。",
+        "主修计算机科学和物理。"
+      ]
     },
     "matriculation": {
       "title": "中学毕业（理科）",
       "institute": "The Punjab School，拉合尔",
-      "date": "Mar 2016 - May 2018",
+      "date": "2016年3月 - 2018年5月",
       "contents": [
         "以 A 等成绩毕业。",
         "在八年级班级组英语写作比赛中获得第一名。",

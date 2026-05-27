@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "title": "Roman Farooq | Ingénieur IA et logiciel | RF, communication satellite et technologie spatiale",
+    "description": "Roman Farooq est ingénieur logiciel et IA, spécialisé dans la création de systèmes d’ingénierie intelligents couvrant le logiciel, l’intelligence artificielle, les systèmes RF, la communication satellite, les SIG, la télédétection et la technologie spatiale. Son travail associe développement full-stack, AI/ML, applications pilotées par les données, technologies géospatiales, traitement numérique du signal et logiciels d’ingénierie pour des opérations techniques réelles.",
+    "openGraphTitle": "Roman Farooq | Ingénieur IA et logiciel | RF, communication satellite et technologie spatiale",
+    "openGraphDescription": "Roman Farooq est ingénieur logiciel et IA avec un intérêt croissant pour les systèmes RF, la communication satellite, les SIG, la télédétection et la technologie spatiale. Il construit des systèmes logiciels intelligents qui relient IA, données, workflows d’ingénierie, analyse géospatiale et opérations techniques réelles.",
+    "openGraphSiteName": "Portfolio IA, logiciel et technologie spatiale de Roman Farooq",
+    "twitterTitle": "Roman Farooq | Ingénieur IA et logiciel | RF et technologie spatiale",
+    "twitterDescription": "Ingénieur logiciel et IA spécialisé dans les systèmes RF, la communication satellite, les SIG, la télédétection, la technologie spatiale et les logiciels d’ingénierie intelligents.",
+    "applicationName": "Portfolio IA, logiciel et technologie spatiale de Roman Farooq",
+    "category": "Portfolio",
+    "classification": "Portfolio, génie logiciel, intelligence artificielle, systèmes RF, communication satellite, SIG, télédétection, technologie spatiale, logiciel d’ingénierie",
+    "keywords": [
+      "Roman Farooq",
+      "AI Engineer",
+      "Software Engineer",
+      "Artificial Intelligence",
+      "Machine Learning Engineer",
+      "Deep Learning",
+      "Natural Language Processing",
+      "NLP",
+      "LLM Applications",
+      "RAG",
+      "LangChain",
+      "Engineering Software",
+      "RF Systems",
+      "RF Engineering",
+      "Satellite Communication",
+      "Satellite Communications",
+      "Space Technology",
+      "Ground Station Operations",
+      "Spectrum Monitoring",
+      "Carrier Monitoring",
+      "Antenna Systems",
+      "Link Budgeting",
+      "VSAT",
+      "C-band",
+      "Ku-band",
+      "Ka-band",
+      "HTS",
+      "GIS",
+      "Geographic Information Systems",
+      "Remote Sensing",
+      "Earth Observation",
+      "Geospatial Analysis",
+      "Hyperspectral Imaging",
+      "Digital Signal Processing",
+      "DSP",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "FastAPI",
+      "React",
+      "React Native",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "Flutter",
+      "MongoDB",
+      "SQL",
+      "PostgreSQL",
+      "Prisma",
+      "Docker",
+      "Tailwind CSS",
+      "QGIS",
+      "ESA SNAP",
+      "Google Earth Engine",
+      "GDAL",
+      "Rasterio",
+      "GeoPandas",
+      "Leaflet",
+      "Open Source",
+      "Remote Work",
+      "Pakistan",
+      "Lahore",
+      "Portfolio Website"
+    ]
+  },
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "work": "Travaux",
+    "experience": "Expérience",
+    "education": "Formation",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis Roman",
+    "developerText": "Ingénieur IA et logiciel",
+    "dedicatedText": "Dédié à la création de",
+    "buildingText": "Construire",
+    "webSolutions": "solutions intelligentes",
+    "flipWords": [
+      "Pilotées par les données",
+      "Évolutives",
+      "Innovantes"
+    ]
+  },
+  "about": {
+    "title": "À propos de moi",
+    "greeting": "Bonjour, je suis Roman Farooq",
+    "description": "Ingénieur logiciel et IA avec un intérêt croissant pour les systèmes RF, la communication satellite, les SIG, la télédétection et la technologie spatiale. Je m’intéresse à la création de systèmes d’ingénierie intelligents qui relient logiciel, IA, données et opérations techniques réelles.",
+    "metaCertTitle": "Développeur front-end Meta",
+    "metaCertSubtitle": "Certificat professionnel",
+    "metaCertDescription": "Obtenu grâce au programme rigoureux de Meta sur Coursera, ce certificat valide des compétences en développement front-end, notamment React, JavaScript, principes de conception UI, débogage, gestion de versions avec Git et déploiement d’applications prêtes pour la production.",
+    "viewCertificate": "🎓 Voir le certificat",
+    "locationTitle": "Localisation",
+    "locationDescription": "Je suis basé à Lahore, Pakistan",
+    "academicCollaboration": "Ouvert aux collaborations académiques, à la recherche AI/ML, aux systèmes RF, à la communication satellite, aux SIG, à la télédétection et aux projets de logiciels d’ingénierie.",
+    "techStackTitle": "Stack technique",
+    "techStackDescription": "Compétent en Python (Pandas, NumPy, Matplotlib, FastAPI), JavaScript/TypeScript et avec des frameworks comme React, Next.js, Node.js et React Native. Expérimenté en gestion de bases de données (MongoDB, PostgreSQL), intégrations d’API d’IA, workflows LLM et déploiement cloud. À l’aise avec scikit-learn, PyTorch, TensorFlow, LangChain, Tailwind CSS, Docker, Prisma, Redux, Flutter, QGIS, ESA SNAP, Google Earth Engine, GDAL, Rasterio, GeoPandas, Leaflet et l’architecture backend évolutive."
+  },
+  "copyEmail": {
+    "copyButton": "Copier l’adresse e-mail",
+    "copiedMessage": "E-mail copié"
+  },
+  "experiences": {
+    "title": "Mon expérience professionnelle",
+    "traineeEngineer": {
+      "title": "Ingénieur stagiaire",
+      "job": "SUPARCO, Satellite Control Facility Lahore",
+      "date": "nov. 2025 - mai 2026",
+      "contents": [
+        "A terminé un stage de six mois à la Satellite Control Facility Lahore, avec une exposition aux systèmes de communication satellite, aux opérations RF, au suivi des porteuses, aux workflows de station sol et à l’infrastructure de communication spatiale.",
+        "A reçu une formation initiale des équipes Satellite Control Center (SCC) et Carrier Operations & Communication Control (COCC) afin de comprendre les opérations de SCF-L.",
+        "A rejoint l’équipe COCC après la formation et a assuré des missions en rotation liées au suivi des porteuses, au support client, au reporting, à l’observation des interférences et au support des services de communication.",
+        "A approfondi la compréhension des concepts de communication satellite, notamment les opérations uplink/downlink, les chaînes RF, les systèmes d’antennes, la surveillance du spectre, les techniques de modulation, le bilan de liaison, C-band, Ku-band, Ka-band, HTS et la communication VSAT.",
+        "A réalisé des activités RF et antennes, notamment le montage/démontage d’antennes Ka-band de 0,98 m et 1,2 m, le pointage au maximum, les tests de diagramme de rayonnement sur une antenne Ku-band motorisée de 7 m, l’ajustement de polarisation croisée, l’analyse spectrale et les tests LNB/LNA/BUC.",
+        "A contribué à plusieurs projets logiciels internes en utilisant Python pour l’intégration matérielle et JavaScript pour les interfaces web, dont un tableau de bord RF en direct destiné aux utilisateurs opérationnels de Paksat."
+      ]
+    },
+    "softwareEngineer": {
+      "title": "Ingénieur logiciel",
+      "job": "ML Bench, Lahore",
+      "date": "mars 2025 - août 2025",
+      "contents": [
+        "A développé des applications web et mobiles performantes avec le stack MERN, React Native, Next.js, Node.js, Express.js, MongoDB et PostgreSQL.",
+        "A construit des architectures frontend et backend évolutives, avec un accent sur la performance, la maintenabilité, les composants réutilisables et une conception système claire.",
+        "A conçu des interfaces web responsives et optimisées pour le SEO avec Next.js, incluant rendu côté serveur, génération statique et techniques modernes d’optimisation frontend.",
+        "A développé des applications mobiles multiplateformes avec React Native, en intégrant APIs, composants UI réutilisables, gestion d’état et fonctionnalités liées aux appareils.",
+        "A mis en place des systèmes backend sécurisés comprenant REST APIs, flux d’authentification, accès par rôles, modèles de base de données, validation et bonnes pratiques de sécurité API.",
+        "A travaillé sur des fonctionnalités applicatives propulsées par l’IA avec des services Python et a intégré des workflows intelligents dans des plateformes web."
+      ]
+    },
+    "associateSoftwareEngineer": {
+      "title": "Ingénieur logiciel associate",
+      "job": "Dexterz Solutions, Lahore",
+      "date": "sept. 2024 - févr. 2025",
+      "contents": [
+        "A construit et optimisé des systèmes backend avec Node.js et Express.js, intégrés à React.js et Next.js pour livrer des solutions full-stack évolutives.",
+        "A développé, documenté et maintenu des RESTful APIs, en assurant un flux de données sécurisé et fluide entre les interfaces frontend et les services backend.",
+        "A participé à la planification des sprints, au développement de fonctionnalités, au débogage, aux tests, aux revues de code et à la collaboration interfonctionnelle pour améliorer l’utilisabilité du produit.",
+        "A refactorisé des bases de code héritées et appliqué des améliorations avancées de performance afin de renforcer l’efficacité, la fiabilité et la maintenabilité du système.",
+        "A contribué à la documentation technique, aux tests d’API, au développement de composants réutilisables, à l’onboarding et au support des développeurs juniors."
+      ]
+    },
+    "supplyChainIntern": {
+      "title": "Stagiaire supply chain",
+      "job": "PepsiCo Pakistan, Lahore",
+      "date": "juil. 2024 - août 2024",
+      "contents": [
+        "A travaillé sur le projet « Spares Mapping & Criticality Analysis » afin d’améliorer la visibilité des stocks, la classification des pièces de rechange et la prise de décision supply chain.",
+        "A catégorisé les pièces de rechange et consommables opérationnels à l’aide des analyses HFM, ABC et XYZ pour identifier la criticité, les modèles d’utilisation et les priorités de stock.",
+        "A développé un modèle de projection des stocks sur trois ans pour soutenir la planification, les prévisions et la gestion long terme des stocks.",
+        "A analysé les données d’inventaire afin d’identifier des possibilités de suppression de marquage, de localisation et de potentiel d’importation fournisseur.",
+        "A acquis une expérience pratique des opérations supply chain, de la planification des stocks, de l’analyse fournisseurs, de la gestion des pièces de rechange et des processus d’achat industriel."
+      ]
+    }
+  },
+  "education": {
+    "title": "Ma formation",
+    "bachelors": {
+      "title": "Licence en informatique",
+      "institute": "University of Central Punjab, Lahore",
+      "date": "oct. 2020 - juil. 2024",
+      "contents": [
+        "Diplômé avec un CGPA de 3,42.",
+        "A obtenu une bourse de 50 % basée sur le CGPA d’octobre 2020 à juillet 2024.",
+        "A suivi des cours clés, notamment programmation, structures de données, algorithmes, systèmes de bases de données, développement web, intelligence artificielle et deep learning.",
+        "A réalisé un projet de fin d’études impliquant des concepts avancés de génie logiciel et d’IA."
+      ]
+    },
+    "intermediate": {
+      "title": "Études intermédiaires en informatique (physique)",
+      "institute": "Punjab College, Lahore",
+      "date": "sept. 2018 - juin 2020",
+      "contents": [
+        "Diplômé avec la note A.",
+        "Spécialisation en informatique et physique."
+      ]
+    },
+    "matriculation": {
+      "title": "Matriculation (sciences)",
+      "institute": "The Punjab School, Lahore",
+      "date": "mars 2016 - mai 2018",
+      "contents": [
+        "Diplômé avec la note A.",
+        "A remporté la première place lors d’un concours d’écriture en anglais inter-sections en 8e classe.",
+        "A remporté avec son équipe une compétition de tennis de table inter-campus."
+      ]
+    }
+  },
+  "contact": {
+    "title": "Discutons",
+    "description": "Que vous souhaitiez créer un nouveau site web, améliorer votre plateforme existante ou donner vie à un projet unique, je suis là pour vous aider.",
+    "form": {
+      "legend": "Informations de contact",
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Jean Dupont"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "jean@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Partagez vos idées..."
+      },
+      "submit": "Envoyer",
+      "submitting": "Envoi...",
+      "validation": {
+        "nameRequired": "Le nom est obligatoire",
+        "nameMaxLength": "Le nom doit contenir moins de 50 caractères",
+        "emailInvalid": "Veuillez saisir une adresse e-mail valide",
+        "messageMinLength": "Le message doit contenir au moins 10 caractères",
+        "messageMaxLength": "Le message doit contenir moins de 1000 caractères"
+      }
+    },
+    "alerts": {
+      "success": "Votre message a été envoyé!",
+      "error": "Une erreur est survenue!",
+      "emailError": "Échec de l’envoi de l’e-mail"
+    }
+  },
+  "footer": {
+    "termsConditions": "Conditions générales",
+    "privacyPolicy": "Politique de confidentialité",
+    "copyright": "Tous droits réservés."
+  }
+}

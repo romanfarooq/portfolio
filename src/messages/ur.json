@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "title": "Roman Farooq | AI اور سافٹ ویئر انجینئر | RF، سیٹلائٹ کمیونیکیشن اور خلائی ٹیکنالوجی",
+    "description": "رومن فاروق ایک سافٹ ویئر اور AI انجینئر ہیں جو سافٹ ویئر، مصنوعی ذہانت، RF سسٹمز، سیٹلائٹ کمیونیکیشن، GIS، ریموٹ سینسنگ اور خلائی ٹیکنالوجی میں ذہین انجینئرنگ سسٹمز بنانے پر کام کرتے ہیں۔ ان کا کام full-stack development، AI/ML، data-driven applications، geospatial technologies، digital signal processing اور engineering software کو حقیقی تکنیکی آپریشنز کے لیے یکجا کرتا ہے۔",
+    "openGraphTitle": "Roman Farooq | AI اور سافٹ ویئر انجینئر | RF، سیٹلائٹ کمیونیکیشن اور خلائی ٹیکنالوجی",
+    "openGraphDescription": "رومن فاروق سافٹ ویئر اور AI انجینئر ہیں جن کی بڑھتی ہوئی توجہ RF سسٹمز، سیٹلائٹ کمیونیکیشن، GIS، ریموٹ سینسنگ اور خلائی ٹیکنالوجی پر ہے۔ وہ ایسے ذہین سافٹ ویئر سسٹمز بناتے ہیں جو AI، data، engineering workflows، geospatial analysis اور حقیقی تکنیکی آپریشنز کو جوڑتے ہیں۔",
+    "openGraphSiteName": "Roman Farooq کا AI، سافٹ ویئر اور خلائی ٹیکنالوجی پورٹ فولیو",
+    "twitterTitle": "Roman Farooq | AI اور سافٹ ویئر انجینئر | RF اور خلائی ٹیکنالوجی",
+    "twitterDescription": "RF سسٹمز، سیٹلائٹ کمیونیکیشن، GIS، ریموٹ سینسنگ، خلائی ٹیکنالوجی اور ذہین engineering software پر کام کرنے والے سافٹ ویئر اور AI انجینئر۔",
+    "applicationName": "Roman Farooq کا AI، سافٹ ویئر اور خلائی ٹیکنالوجی پورٹ فولیو",
+    "category": "پورٹ فولیو",
+    "classification": "پورٹ فولیو، سافٹ ویئر انجینئرنگ، مصنوعی ذہانت، RF سسٹمز، سیٹلائٹ کمیونیکیشن، GIS، ریموٹ سینسنگ، خلائی ٹیکنالوجی، انجینئرنگ سافٹ ویئر",
+    "keywords": [
+      "Roman Farooq",
+      "AI Engineer",
+      "Software Engineer",
+      "Artificial Intelligence",
+      "Machine Learning Engineer",
+      "Deep Learning",
+      "Natural Language Processing",
+      "NLP",
+      "LLM Applications",
+      "RAG",
+      "LangChain",
+      "Engineering Software",
+      "RF Systems",
+      "RF Engineering",
+      "Satellite Communication",
+      "Satellite Communications",
+      "Space Technology",
+      "Ground Station Operations",
+      "Spectrum Monitoring",
+      "Carrier Monitoring",
+      "Antenna Systems",
+      "Link Budgeting",
+      "VSAT",
+      "C-band",
+      "Ku-band",
+      "Ka-band",
+      "HTS",
+      "GIS",
+      "Geographic Information Systems",
+      "Remote Sensing",
+      "Earth Observation",
+      "Geospatial Analysis",
+      "Hyperspectral Imaging",
+      "Digital Signal Processing",
+      "DSP",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "FastAPI",
+      "React",
+      "React Native",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "Flutter",
+      "MongoDB",
+      "SQL",
+      "PostgreSQL",
+      "Prisma",
+      "Docker",
+      "Tailwind CSS",
+      "QGIS",
+      "ESA SNAP",
+      "Google Earth Engine",
+      "GDAL",
+      "Rasterio",
+      "GeoPandas",
+      "Leaflet",
+      "Open Source",
+      "Remote Work",
+      "Pakistan",
+      "Lahore",
+      "Portfolio Website"
+    ]
+  },
+  "navbar": {
+    "home": "ہوم",
+    "about": "تعارف",
+    "work": "کام",
+    "experience": "تجربہ",
+    "education": "تعلیم",
+    "contact": "رابطہ"
+  },
+  "hero": {
+    "greeting": "سلام، میں Roman ہوں",
+    "developerText": "AI اور سافٹ ویئر انجینئر",
+    "dedicatedText": "بنانے کے لیے وقف",
+    "buildingText": "بنا رہا ہوں",
+    "webSolutions": "ذہین حل",
+    "flipWords": [
+      "ڈیٹا پر مبنی",
+      "قابل توسیع",
+      "جدید"
+    ]
+  },
+  "about": {
+    "title": "میرے بارے میں",
+    "greeting": "سلام، میں Roman Farooq ہوں",
+    "description": "میں ایک سافٹ ویئر اور AI انجینئر ہوں جس کی بڑھتی ہوئی توجہ RF سسٹمز، سیٹلائٹ کمیونیکیشن، GIS، ریموٹ سینسنگ اور خلائی ٹیکنالوجی پر ہے۔ مجھے ایسے ذہین انجینئرنگ سسٹمز بنانے میں دلچسپی ہے جو سافٹ ویئر، AI، data اور حقیقی تکنیکی آپریشنز کو جوڑتے ہیں۔",
+    "metaCertTitle": "Meta فرنٹ اینڈ ڈیولپر",
+    "metaCertSubtitle": "پروفیشنل سرٹیفکیٹ",
+    "metaCertDescription": "Coursera پر Meta کے سخت پروگرام کے ذریعے حاصل کیا گیا، یہ سرٹیفکیٹ front-end development، React، JavaScript، UI design principles، debugging، Git کے ساتھ version control اور production-ready applications deploy کرنے کی مہارت کی توثیق کرتا ہے۔",
+    "viewCertificate": "🎓 سرٹیفکیٹ دیکھیں",
+    "locationTitle": "مقام",
+    "locationDescription": "میں لاہور، پاکستان میں مقیم ہوں",
+    "academicCollaboration": "تعلیمی تعاون، AI/ML research، RF systems، satellite communication، GIS، remote sensing اور engineering software projects کے لیے دستیاب۔",
+    "techStackTitle": "ٹیک اسٹیک",
+    "techStackDescription": "Python (Pandas، NumPy، Matplotlib، FastAPI)، JavaScript/TypeScript اور React، Next.js، Node.js اور React Native جیسے frameworks میں مہارت۔ database management (MongoDB، PostgreSQL)، AI API integrations، LLM workflows اور cloud deployment کا تجربہ۔ scikit-learn، PyTorch، TensorFlow، LangChain، Tailwind CSS، Docker، Prisma، Redux، Flutter، QGIS، ESA SNAP، Google Earth Engine، GDAL، Rasterio، GeoPandas، Leaflet اور scalable backend architecture سے واقفیت۔"
+  },
+  "copyEmail": {
+    "copyButton": "ای میل ایڈریس کاپی کریں",
+    "copiedMessage": "ای میل کاپی ہو گئی"
+  },
+  "experiences": {
+    "title": "میرا عملی تجربہ",
+    "traineeEngineer": {
+      "title": "ٹرینی انجینئر آفیسر",
+      "job": "SUPARCO، Satellite Control Facility Lahore",
+      "date": "نومبر 2025 - مئی 2026",
+      "contents": [
+        "Satellite Control Facility Lahore میں چھ ماہ کی traineeship مکمل کی، جس میں satellite communication systems، RF operations، carrier monitoring، ground station workflow اور space communication infrastructure کا عملی تعارف حاصل ہوا۔",
+        "Satellite Control Center (SCC) اور Carrier Operations & Communication Control (COCC) ٹیموں سے ابتدائی training حاصل کی تاکہ SCF-L operations کو سمجھا جا سکے۔",
+        "training کے بعد COCC team میں شامل ہوا اور shift-based duties انجام دیں، جن میں carrier monitoring، customer support، reporting، interference observation اور communication service support شامل تھے۔",
+        "satellite communication concepts کی سمجھ حاصل کی، جن میں uplink/downlink operations، RF chains، antenna systems، spectrum monitoring، modulation techniques، link budgeting، C-band، Ku-band، Ka-band، HTS اور VSAT communication شامل ہیں۔",
+        "RF اور antenna activities انجام دیں، جن میں 0.98 m اور 1.2 m Ka-band antenna assembly/dismantling، peak pointing، 7 m Ku-band motorized antenna پر antenna radiation pattern testing، cross-polarization adjustment، spectrum analysis اور LNB/LNA/BUC testing شامل تھے۔",
+        "hardware integration کے لیے Python اور web interfaces کے لیے JavaScript استعمال کرتے ہوئے کئی internal software projects میں حصہ لیا، جن میں Paksat operational users کے لیے live RF dashboard بھی شامل تھا۔"
+      ]
+    },
+    "softwareEngineer": {
+      "title": "سافٹ ویئر انجینئر",
+      "job": "ML Bench، Lahore",
+      "date": "مارچ 2025 - اگست 2025",
+      "contents": [
+        "MERN stack، React Native، Next.js، Node.js، Express.js، MongoDB اور PostgreSQL استعمال کرتے ہوئے high-performance web اور mobile applications تیار کیں۔",
+        "performance، maintainability، reusable components اور clean system design کو مدنظر رکھتے ہوئے scalable frontend اور backend architectures بنائیں۔",
+        "Next.js استعمال کرتے ہوئے responsive اور SEO-optimized web interfaces ڈیزائن کیں، جن میں server-side rendering، static generation اور modern frontend optimization techniques شامل تھیں۔",
+        "React Native کے ذریعے cross-platform mobile applications تیار کیں، جن میں APIs، reusable UI components، state management اور device-related features integrate کیے گئے۔",
+        "محفوظ backend systems implement کیے، جن میں REST APIs، authentication flows، role-based access، database models، validation اور API security practices شامل تھیں۔",
+        "Python-based services استعمال کرتے ہوئے AI-powered application features پر کام کیا اور intelligent workflows کو web platforms میں integrate کیا۔"
+      ]
+    },
+    "associateSoftwareEngineer": {
+      "title": "ایسوسی ایٹ سافٹ ویئر انجینئر",
+      "job": "Dexterz Solutions، Lahore",
+      "date": "ستمبر 2024 - فروری 2025",
+      "contents": [
+        "Node.js اور Express.js استعمال کرتے ہوئے backend systems بنائے اور optimize کیے، اور انہیں React.js اور Next.js کے ساتھ integrate کر کے scalable full-stack solutions فراہم کیے۔",
+        "RESTful APIs develop، document اور maintain کیں، تاکہ frontend interfaces اور backend services کے درمیان secure اور smooth data flow برقرار رہے۔",
+        "product usability بہتر بنانے کے لیے sprint planning، feature development، debugging، testing، code reviews اور cross-functional collaboration میں حصہ لیا۔",
+        "legacy codebases کو refactor کیا اور system efficiency، reliability اور maintainability بہتر بنانے کے لیے advanced performance improvements apply کیں۔",
+        "technical documentation، API testing، reusable component development، onboarding اور junior developers کی support میں معاونت کی۔"
+      ]
+    },
+    "supplyChainIntern": {
+      "title": "سپلائی چین انٹرن",
+      "job": "PepsiCo Pakistan، Lahore",
+      "date": "جولائی 2024 - اگست 2024",
+      "contents": [
+        "“Spares Mapping & Criticality Analysis” project پر کام کیا تاکہ inventory visibility، spare parts classification اور supply chain decision-making بہتر ہو سکے۔",
+        "HFM، ABC اور XYZ analysis استعمال کرتے ہوئے spares اور operating supplies کو categorize کیا تاکہ criticality، usage patterns اور inventory prioritization معلوم ہو سکے۔",
+        "planning، forecasting اور long-term inventory management کی support کے لیے تین سالہ inventory projection model تیار کیا۔",
+        "inventory data کا تجزیہ کیا تاکہ unbadging، localization اور vendor import potential کے مواقع معلوم کیے جا سکیں۔",
+        "supply chain operations، inventory planning، vendor analysis، spare parts management اور industrial procurement workflows کا عملی تجربہ حاصل کیا۔"
+      ]
+    }
+  },
+  "education": {
+    "title": "میری تعلیم",
+    "bachelors": {
+      "title": "بیچلر آف سائنس ان کمپیوٹر سائنس",
+      "institute": "University of Central Punjab، Lahore",
+      "date": "اکتوبر 2020 - جولائی 2024",
+      "contents": [
+        "CGPA 3.42 کے ساتھ گریجویشن مکمل کی۔",
+        "اکتوبر 2020 سے جولائی 2024 تک CGPA کی بنیاد پر 50% scholarship حاصل کی۔",
+        "Programming، Data Structures، Algorithms، Database Systems، Web Development، Artificial Intelligence اور Deep Learning جیسے اہم subjects میں coursework مکمل کیا۔",
+        "advanced software engineering اور AI concepts پر مشتمل Final Year Project مکمل کیا۔"
+      ]
+    },
+    "intermediate": {
+      "title": "انٹرمیڈیٹ ان کمپیوٹر سائنس (فزکس)",
+      "institute": "Punjab College، Lahore",
+      "date": "ستمبر 2018 - جون 2020",
+      "contents": [
+        "Grade A کے ساتھ گریجویشن مکمل کی۔",
+        "Computer Science اور Physics میں specialization کی۔"
+      ]
+    },
+    "matriculation": {
+      "title": "میٹرک (سائنس)",
+      "institute": "The Punjab School، Lahore",
+      "date": "مارچ 2016 - مئی 2018",
+      "contents": [
+        "Grade A کے ساتھ گریجویشن مکمل کی۔",
+        "آٹھویں جماعت میں inter-section English writing competition میں پہلی پوزیشن حاصل کی۔",
+        "اپنی ٹیم کے ساتھ inter-campus table tennis competition میں کامیابی حاصل کی۔"
+      ]
+    }
+  },
+  "contact": {
+    "title": "آئیں بات کرتے ہیں",
+    "description": "چاہے آپ نئی ویب سائٹ بنانا چاہتے ہوں، موجودہ platform بہتر کرنا چاہتے ہوں، یا کوئی منفرد project حقیقت بنانا چاہتے ہوں، میں مدد کے لیے حاضر ہوں۔",
+    "form": {
+      "legend": "رابطے کی معلومات",
+      "name": {
+        "label": "پورا نام",
+        "placeholder": "علی خان"
+      },
+      "email": {
+        "label": "ای میل",
+        "placeholder": "email@example.com"
+      },
+      "message": {
+        "label": "پیغام",
+        "placeholder": "اپنے خیالات شیئر کریں..."
+      },
+      "submit": "بھیجیں",
+      "submitting": "بھیجا جا رہا ہے...",
+      "validation": {
+        "nameRequired": "نام ضروری ہے",
+        "nameMaxLength": "نام 50 حروف سے کم ہونا چاہیے",
+        "emailInvalid": "براہ کرم درست ای میل ایڈریس درج کریں",
+        "messageMinLength": "پیغام کم از کم 10 حروف کا ہونا چاہیے",
+        "messageMaxLength": "پیغام 1000 حروف سے کم ہونا چاہیے"
+      }
+    },
+    "alerts": {
+      "success": "آپ کا پیغام بھیج دیا گیا!",
+      "error": "کچھ غلط ہو گیا!",
+      "emailError": "ای میل بھیجنے میں ناکامی"
+    }
+  },
+  "footer": {
+    "termsConditions": "شرائط و ضوابط",
+    "privacyPolicy": "رازداری کی پالیسی",
+    "copyright": "جملہ حقوق محفوظ ہیں۔"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "title": "Roman Farooq | AI- ja ohjelmistoinsinööri | RF, satelliittiviestintä ja avaruusteknologia",
+    "description": "Roman Farooq on ohjelmisto- ja AI-insinööri, joka keskittyy rakentamaan älykkäitä insinöörijärjestelmiä ohjelmistojen, tekoälyn, RF-järjestelmien, satelliittiviestinnän, GIS:n, kaukokartoituksen ja avaruusteknologian alueilla. Hänen työnsä yhdistää full-stack-kehityksen, AI/ML:n, datavetoiset sovellukset, geospatiaaliset teknologiat, digitaalisen signaalinkäsittelyn ja insinööriohjelmistot todellisiin teknisiin operaatioihin.",
+    "openGraphTitle": "Roman Farooq | AI- ja ohjelmistoinsinööri | RF, satelliittiviestintä ja avaruusteknologia",
+    "openGraphDescription": "Roman Farooq on ohjelmisto- ja AI-insinööri, jonka kasvava painopiste on RF-järjestelmissä, satelliittiviestinnässä, GIS:ssä, kaukokartoituksessa ja avaruusteknologiassa. Hän rakentaa älykkäitä ohjelmistojärjestelmiä, jotka yhdistävät AI:n, datan, insinöörityönkulut, geospatiaalisen analyysin ja todelliset tekniset operaatiot.",
+    "openGraphSiteName": "Roman Farooqin AI-, ohjelmisto- ja avaruusteknologiaportfolio",
+    "twitterTitle": "Roman Farooq | AI- ja ohjelmistoinsinööri | RF ja avaruusteknologia",
+    "twitterDescription": "Ohjelmisto- ja AI-insinööri, joka keskittyy RF-järjestelmiin, satelliittiviestintään, GIS:ään, kaukokartoitukseen, avaruusteknologiaan ja älykkäisiin insinööriohjelmistoihin.",
+    "applicationName": "Roman Farooqin AI-, ohjelmisto- ja avaruusteknologiaportfolio",
+    "category": "Portfolio",
+    "classification": "Portfolio, ohjelmistotekniikka, tekoäly, RF-järjestelmät, satelliittiviestintä, GIS, kaukokartoitus, avaruusteknologia, insinööriohjelmisto",
+    "keywords": [
+      "Roman Farooq",
+      "AI Engineer",
+      "Software Engineer",
+      "Artificial Intelligence",
+      "Machine Learning Engineer",
+      "Deep Learning",
+      "Natural Language Processing",
+      "NLP",
+      "LLM Applications",
+      "RAG",
+      "LangChain",
+      "Engineering Software",
+      "RF Systems",
+      "RF Engineering",
+      "Satellite Communication",
+      "Satellite Communications",
+      "Space Technology",
+      "Ground Station Operations",
+      "Spectrum Monitoring",
+      "Carrier Monitoring",
+      "Antenna Systems",
+      "Link Budgeting",
+      "VSAT",
+      "C-band",
+      "Ku-band",
+      "Ka-band",
+      "HTS",
+      "GIS",
+      "Geographic Information Systems",
+      "Remote Sensing",
+      "Earth Observation",
+      "Geospatial Analysis",
+      "Hyperspectral Imaging",
+      "Digital Signal Processing",
+      "DSP",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "FastAPI",
+      "React",
+      "React Native",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "Flutter",
+      "MongoDB",
+      "SQL",
+      "PostgreSQL",
+      "Prisma",
+      "Docker",
+      "Tailwind CSS",
+      "QGIS",
+      "ESA SNAP",
+      "Google Earth Engine",
+      "GDAL",
+      "Rasterio",
+      "GeoPandas",
+      "Leaflet",
+      "Open Source",
+      "Remote Work",
+      "Pakistan",
+      "Lahore",
+      "Portfolio Website"
+    ]
+  },
+  "navbar": {
+    "home": "Etusivu",
+    "about": "Tietoa",
+    "work": "Työt",
+    "experience": "Kokemus",
+    "education": "Koulutus",
+    "contact": "Yhteys"
+  },
+  "hero": {
+    "greeting": "Hei, olen Roman",
+    "developerText": "AI- ja ohjelmistoinsinööri",
+    "dedicatedText": "Omistautunut rakentamaan",
+    "buildingText": "Rakennan",
+    "webSolutions": "älykkäitä ratkaisuja",
+    "flipWords": [
+      "Datavetoisia",
+      "Skaalautuvia",
+      "Innovatiivisia"
+    ]
+  },
+  "about": {
+    "title": "Tietoa minusta",
+    "greeting": "Hei, olen Roman Farooq",
+    "description": "Olen ohjelmisto- ja AI-insinööri, jonka kasvava painopiste on RF-järjestelmissä, satelliittiviestinnässä, GIS:ssä, kaukokartoituksessa ja avaruusteknologiassa. Minua kiinnostaa rakentaa älykkäitä insinöörijärjestelmiä, jotka yhdistävät ohjelmistot, AI:n, datan ja todelliset tekniset operaatiot.",
+    "metaCertTitle": "Meta front-end -kehittäjä",
+    "metaCertSubtitle": "Ammatillinen sertifikaatti",
+    "metaCertDescription": "Suoritettu Metan vaativan Coursera-ohjelman kautta; sertifikaatti vahvistaa osaamisen front-end-kehityksessä, kuten Reactissa, JavaScriptissä, UI-suunnittelun periaatteissa, virheenkorjauksessa, Git-versionhallinnassa ja tuotantovalmiiden sovellusten käyttöönotossa.",
+    "viewCertificate": "🎓 Näytä sertifikaatti",
+    "locationTitle": "Sijainti",
+    "locationDescription": "Asun Lahoressa, Pakistanissa",
+    "academicCollaboration": "Avoin akateemiselle yhteistyölle, AI/ML-tutkimukselle, RF-järjestelmille, satelliittiviestinnälle, GIS:lle, kaukokartoitukselle ja insinööriohjelmistoprojekteille.",
+    "techStackTitle": "Teknologiapino",
+    "techStackDescription": "Osaamista Pythonissa (Pandas, NumPy, Matplotlib, FastAPI), JavaScript/TypeScriptissä sekä frameworkeissa kuten React, Next.js, Node.js ja React Native. Kokemusta tietokantojen hallinnasta (MongoDB, PostgreSQL), AI-API-integraatioista, LLM-työnkuluista ja pilvikäyttöönotosta. Tuttu scikit-learnin, PyTorchin, TensorFlow’n, LangChainin, Tailwind CSS:n, Dockerin, Prisman, Reduxin, Flutterin, QGIS:n, ESA SNAPin, Google Earth Enginen, GDALin, Rasterion, GeoPandan, Leafletin ja skaalautuvan backend-arkkitehtuurin kanssa."
+  },
+  "copyEmail": {
+    "copyButton": "Kopioi sähköpostiosoite",
+    "copiedMessage": "Sähköposti kopioitu"
+  },
+  "experiences": {
+    "title": "Työkokemukseni",
+    "traineeEngineer": {
+      "title": "Harjoittelijainsinööri",
+      "job": "SUPARCO, Satellite Control Facility Lahore",
+      "date": "marras 2025 - touko 2026",
+      "contents": [
+        "Suoritin kuuden kuukauden harjoittelun Satellite Control Facility Lahoressa ja sain kokemusta satelliittiviestintäjärjestelmistä, RF-toiminnoista, carrier-seurannasta, maa-asemien työnkuluista ja avaruusviestinnän infrastruktuurista.",
+        "Sain alkuvaiheen koulutusta Satellite Control Center (SCC)- ja Carrier Operations & Communication Control (COCC) -tiimeiltä SCF-L:n toiminnan ymmärtämiseksi.",
+        "Koulutuksen jälkeen liityin COCC-tiimiin ja tein vuorotyötä carrier-seurannassa, asiakastuessa, raportoinnissa, häiriöiden havainnoinnissa ja viestintäpalveluiden tuessa.",
+        "Syvensin ymmärrystäni satelliittiviestinnästä, mukaan lukien uplink/downlink-toiminnot, RF-ketjut, antennijärjestelmät, spektrin seuranta, modulaatiotekniikat, link budgeting, C-band, Ku-band, Ka-band, HTS ja VSAT-viestintä.",
+        "Tein RF- ja antennitöitä, kuten 0,98 m ja 1,2 m Ka-band -antennien kokoamista/purkamista, peak pointing -suuntausta, antennin säteilykuvion testausta 7 m moottoroidulla Ku-band -antennilla, ristipolarisaation säätöä, spektrianalyysiä sekä LNB/LNA/BUC-testejä.",
+        "Osallistuin useisiin sisäisiin ohjelmistoprojekteihin käyttäen Pythonia laitteistointegraatioon ja JavaScriptiä web-käyttöliittymiin, mukaan lukien live RF-dashboard Paksatin operatiivisille käyttäjille."
+      ]
+    },
+    "softwareEngineer": {
+      "title": "Ohjelmistoinsinööri",
+      "job": "ML Bench, Lahore",
+      "date": "maalis 2025 - elo 2025",
+      "contents": [
+        "Kehitin suorituskykyisiä web- ja mobiilisovelluksia MERN-stackilla, React Nativella, Next.js:llä, Node.js:llä, Express.js:llä, MongoDB:llä ja PostgreSQL:llä.",
+        "Rakensin skaalautuvia frontend- ja backend-arkkitehtuureja, joissa painottuivat suorituskyky, ylläpidettävyys, uudelleenkäytettävät komponentit ja selkeä järjestelmäsuunnittelu.",
+        "Suunnittelin responsiivisia ja SEO-optimoituja web-käyttöliittymiä Next.js:llä, mukaan lukien server-side rendering, staattinen generointi ja modernit frontend-optimointitekniikat.",
+        "Kehitin monialustaisia mobiilisovelluksia React Nativella ja integroin API:t, uudelleenkäytettävät UI-komponentit, tilanhallinnan ja laitekohtaiset ominaisuudet.",
+        "Toteutin turvallisia backend-järjestelmiä, mukaan lukien REST APIs, autentikointivirrat, roolipohjainen käyttöoikeus, tietokantamallit, validointi ja API-turvakäytännöt.",
+        "Työskentelin AI-pohjaisten sovellusominaisuuksien parissa Python-palveluilla ja integroin älykkäitä työnkulkuja web-alustoihin."
+      ]
+    },
+    "associateSoftwareEngineer": {
+      "title": "Associate-ohjelmistoinsinööri",
+      "job": "Dexterz Solutions, Lahore",
+      "date": "syys 2024 - helmi 2025",
+      "contents": [
+        "Rakensin ja optimoin backend-järjestelmiä Node.js:llä ja Express.js:llä sekä integroin ne React.js:n ja Next.js:n kanssa skaalautuvien full-stack-ratkaisujen toimittamiseksi.",
+        "Kehitin, dokumentoin ja ylläpidin RESTful API:eja varmistaen turvallisen ja sujuvan datavirran frontend-käyttöliittymien ja backend-palveluiden välillä.",
+        "Osallistuin sprinttisuunnitteluun, ominaisuuskehitykseen, virheenkorjaukseen, testaukseen, code review -työhön ja monialaiseen yhteistyöhön tuotteen käytettävyyden parantamiseksi.",
+        "Refaktoroin vanhoja koodipohjia ja toteutin edistyneitä suorituskykyparannuksia järjestelmän tehokkuuden, luotettavuuden ja ylläpidettävyyden parantamiseksi.",
+        "Avustin teknisessä dokumentaatiossa, API-testauksessa, uudelleenkäytettävien komponenttien kehityksessä, perehdytyksessä ja junior-kehittäjien tukemisessa."
+      ]
+    },
+    "supplyChainIntern": {
+      "title": "Supply chain -harjoittelija",
+      "job": "PepsiCo Pakistan, Lahore",
+      "date": "heinä 2024 - elo 2024",
+      "contents": [
+        "Työskentelin projektissa “Spares Mapping & Criticality Analysis” parantaakseni varaston näkyvyyttä, varaosien luokittelua ja supply chain -päätöksentekoa.",
+        "Luokittelin varaosia ja käyttötarvikkeita HFM-, ABC- ja XYZ-analyysien avulla kriittisyyden, käyttötapojen ja varastoprioriteettien tunnistamiseksi.",
+        "Kehitin kolmen vuoden varastoennustemallin suunnittelun, ennustamisen ja pitkän aikavälin varastonhallinnan tueksi.",
+        "Analysoin varastodataa tunnistaakseni mahdollisuuksia debadgingiin, lokalisointiin ja toimittajien tuontipotentiaaliin.",
+        "Sain käytännön kokemusta supply chain -toiminnoista, varastosuunnittelusta, toimittaja-analyysistä, varaosien hallinnasta ja teollisista hankintaprosesseista."
+      ]
+    }
+  },
+  "education": {
+    "title": "Koulutukseni",
+    "bachelors": {
+      "title": "Luonnontieteiden kandidaatti, tietojenkäsittelytiede",
+      "institute": "University of Central Punjab, Lahore",
+      "date": "loka 2020 - heinä 2024",
+      "contents": [
+        "Valmistuin CGPA-arvosanalla 3,42.",
+        "Sain 50% CGPA-pohjaisen stipendin lokakuusta 2020 heinäkuuhun 2024.",
+        "Suoritin keskeisiä kursseja, kuten ohjelmointi, tietorakenteet, algoritmit, tietokantajärjestelmät, web-kehitys, tekoäly ja deep learning.",
+        "Suoritin lopputyöprojektin, joka sisälsi edistyneitä ohjelmistotekniikan ja AI:n käsitteitä."
+      ]
+    },
+    "intermediate": {
+      "title": "Intermediate in Computer Science (fysiikka)",
+      "institute": "Punjab College, Lahore",
+      "date": "syys 2018 - kesä 2020",
+      "contents": [
+        "Valmistuin arvosanalla A.",
+        "Erikoistuin tietojenkäsittelytieteeseen ja fysiikkaan."
+      ]
+    },
+    "matriculation": {
+      "title": "Matriculation (luonnontieteet)",
+      "institute": "The Punjab School, Lahore",
+      "date": "maalis 2016 - touko 2018",
+      "contents": [
+        "Valmistuin arvosanalla A.",
+        "Voitin ensimmäisen sijan 8. luokan osastojen välisessä englannin kirjoituskilpailussa.",
+        "Voitin kampusten välisen pöytätenniskilpailun yhdessä tiimini kanssa."
+      ]
+    }
+  },
+  "contact": {
+    "title": "Jutellaan",
+    "description": "Jos haluat rakentaa uuden verkkosivuston, parantaa nykyistä alustaa tai toteuttaa ainutlaatuisen projektin, olen täällä auttamassa.",
+    "form": {
+      "legend": "Yhteystiedot",
+      "name": {
+        "label": "Koko nimi",
+        "placeholder": "Matti Meikäläinen"
+      },
+      "email": {
+        "label": "Sähköposti",
+        "placeholder": "matti@email.com"
+      },
+      "message": {
+        "label": "Viesti",
+        "placeholder": "Jaa ajatuksesi..."
+      },
+      "submit": "Lähetä",
+      "submitting": "Lähetetään...",
+      "validation": {
+        "nameRequired": "Nimi on pakollinen",
+        "nameMaxLength": "Nimen on oltava alle 50 merkkiä",
+        "emailInvalid": "Anna kelvollinen sähköpostiosoite",
+        "messageMinLength": "Viestin on oltava vähintään 10 merkkiä pitkä",
+        "messageMaxLength": "Viestin on oltava alle 1000 merkkiä"
+      }
+    },
+    "alerts": {
+      "success": "Viestisi on lähetetty!",
+      "error": "Jokin meni pieleen!",
+      "emailError": "Sähköpostin lähetys epäonnistui"
+    }
+  },
+  "footer": {
+    "termsConditions": "Käyttöehdot",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "copyright": "Kaikki oikeudet pidätetään."
+  }
+}
