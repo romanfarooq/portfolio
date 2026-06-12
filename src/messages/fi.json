@@ -110,7 +110,7 @@
         "Sain alkuvaiheen koulutusta Satellite Control Center (SCC)- ja Carrier Operations & Communication Control (COCC) -tiimeiltä SCF-L:n toiminnan ymmärtämiseksi.",
         "Koulutuksen jälkeen liityin COCC-tiimiin ja tein vuorotyötä carrier-seurannassa, asiakastuessa, raportoinnissa, häiriöiden havainnoinnissa ja viestintäpalveluiden tuessa.",
         "Syvensin ymmärrystäni satelliittiviestinnästä, mukaan lukien uplink/downlink-toiminnot, RF-ketjut, antennijärjestelmät, spektrin seuranta, modulaatiotekniikat, link budgeting, C-band, Ku-band, Ka-band, HTS ja VSAT-viestintä.",
-        "Tein RF- ja antennitöitä, kuten 0,98 m ja 1,2 m Ka-band -antennien kokoamista/purkamista, peak pointing -suuntausta, antennin säteilykuvion testausta 7 m moottoroidulla Ku-band -antennilla, ristipolarisaation säätöä, spektrianalyysiä sekä LNB/LNA/BUC-testejä.",
+        "Tein RF- ja antennitöitä, kuten 0,98 m ja 1,2 m Ka-band -antennien kokoamista/purkamista, peak pointing -suuntausta, ESVA-testausta 7 m moottoroidulla Ku-band -antennilla, ristipolarisaation säätöä, spektrianalyysiä sekä LNB/LNA/BUC-testejä.",
         "Osallistuin useisiin sisäisiin ohjelmistoprojekteihin käyttäen Pythonia laitteistointegraatioon ja JavaScriptiä web-käyttöliittymiin, mukaan lukien live RF-dashboard Paksatin operatiivisille käyttäjille."
       ]
     },

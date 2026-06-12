@@ -110,7 +110,7 @@
         "Fick inledande utbildning av teamen Satellite Control Center (SCC) och Carrier Operations & Communication Control (COCC) för att förstå SCF-L:s verksamhet.",
         "Gick efter utbildningen med i COCC-teamet och utförde skiftarbete med carrier-övervakning, kundsupport, rapportering, störningsobservation och stöd för kommunikationstjänster.",
         "Fördjupade förståelsen för satellitkommunikation, inklusive uplink/downlink-drift, RF-kedjor, antennsystem, spektrumövervakning, modulationstekniker, link budgeting, C-band, Ku-band, Ka-band, HTS och VSAT-kommunikation.",
-        "Utförde RF- och antennarbete, inklusive montering/demontering av 0,98 m och 1,2 m Ka-band-antenner, peak pointing, mätning av antennstrålningsmönster på en motoriserad 7 m Ku-band-antenn, korspolarisationsjustering, spektrumanalys och LNB/LNA/BUC-tester.",
+        "Utförde RF- och antennarbete, inklusive montering/demontering av 0,98 m och 1,2 m Ka-band-antenner, peak pointing, ESVA-testning på en motoriserad 7 m Ku-band-antenn, korspolarisationsjustering, spektrumanalys och LNB/LNA/BUC-tester.",
         "Bidrog till flera interna mjukvaruprojekt med Python för hårdvaruintegration och JavaScript för webbgränssnitt, inklusive en live RF-dashboard för operativa Paksat-användare."
       ]
     },

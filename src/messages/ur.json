@@ -110,7 +110,7 @@
         "Satellite Control Center (SCC) اور Carrier Operations & Communication Control (COCC) ٹیموں سے ابتدائی training حاصل کی تاکہ SCF-L operations کو سمجھا جا سکے۔",
         "training کے بعد COCC team میں شامل ہوا اور shift-based duties انجام دیں، جن میں carrier monitoring، customer support، reporting، interference observation اور communication service support شامل تھے۔",
         "satellite communication concepts کی سمجھ حاصل کی، جن میں uplink/downlink operations، RF chains، antenna systems، spectrum monitoring، modulation techniques، link budgeting، C-band، Ku-band، Ka-band، HTS اور VSAT communication شامل ہیں۔",
-        "RF اور antenna activities انجام دیں، جن میں 0.98 m اور 1.2 m Ka-band antenna assembly/dismantling، peak pointing، 7 m Ku-band motorized antenna پر antenna radiation pattern testing، cross-polarization adjustment، spectrum analysis اور LNB/LNA/BUC testing شامل تھے۔",
+        "RF اور antenna activities انجام دیں، جن میں 0.98 m اور 1.2 m Ka-band antenna assembly/dismantling، peak pointing، 7 m Ku-band motorized antenna پر ESVA testing، cross-polarization adjustment، spectrum analysis اور LNB/LNA/BUC testing شامل تھے۔",
         "hardware integration کے لیے Python اور web interfaces کے لیے JavaScript استعمال کرتے ہوئے کئی internal software projects میں حصہ لیا، جن میں پاک سیٹ operational users کے لیے live RF dashboard بھی شامل تھا۔"
       ]
     },
