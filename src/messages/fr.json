@@ -67,11 +67,7 @@
     "dedicatedText": "Dédié à la création de",
     "buildingText": "Construire",
     "webSolutions": "solutions intelligentes",
-    "flipWords": [
-      "Pilotées par les données",
-      "Évolutives",
-      "Innovantes"
-    ]
+    "flipWords": ["Pilotées par les données", "Évolutives", "Innovantes"]
   },
   "about": {
     "title": "À propos de moi",
@@ -228,7 +224,6 @@
     "ariaLabel": "Changer de langue",
     "languages": {
       "en": "anglais",
-      "zh": "chinois",
       "de": "allemand",
       "fr": "français",
       "es": "espagnol",
@@ -236,9 +231,11 @@
       "nl": "néerlandais",
       "sv": "suédois",
       "fi": "finnois",
+      "zh": "chinois",
+      "ja": "japonais",
+      "ko": "coréen",
       "ar": "arabe",
-      "ur": "ourdou",
-      "ja": "japonais"
+      "ur": "ourdou"
     }
   }
 }
