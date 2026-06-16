@@ -105,8 +105,10 @@
         "Satellite Control Facility Lahoreで6か月間のトレーニーシップを完了し、衛星通信システム、RF運用、carrier監視、地上局ワークフロー、宇宙通信インフラに関する経験を得ました。",
         "SCF-Lの運用を理解するため、Satellite Control Center (SCC) と Carrier Operations & Communication Control (COCC) の各チームから初期トレーニングを受けました。",
         "トレーニング後にCOCCチームへ参加し、carrier監視、顧客サポート、報告、干渉観測、通信サービス支援を含むシフト業務を担当しました。",
-        "uplink/downlink運用、RFチェーン、アンテナシステム、スペクトラム監視、変調技術、link budgeting、C-band、Ku-band、Ka-band、HTS、VSAT通信など、衛星通信の概念理解を深めました。",
-        "0.98 mおよび1.2 mのKa-bandアンテナの組み立て/分解、peak pointing、7 m Ku-band電動アンテナでのESVA試験、交差偏波調整、スペクトラム解析、LNB/LNA/BUC試験など、RFおよびアンテナ関連作業を実施しました。",
+        "パキスタンの静止通信衛星 Paksat-1R と Paksat-MM1 に関連する運用概念を学び、通信ペイロード、テレメトリおよびテレコマンドのワークフロー、衛星サブシステム、追跡、ステーションキーピングの基礎を理解しました。",
+        "PRSS-1、PakTES-1A、PRSC-EOS、HS-1 など、パキスタンの地球観測およびリモートセンシング衛星プログラムに触れ、光学・マルチスペクトル・ハイパースペクトル衛星データが農業、環境監視、災害管理、土地マッピング、都市計画をどのように支援するかを理解しました。",
+        "QGIS、Google Earth Engine、SNAP、Python、GeoPandas、Rasterio、Shapely、PyProj、Fiona、GDAL、Xarray、rioxarray、NetCDF4、Pandas、NumPy、Matplotlib、geemap、Folium、Scikit-learn などのツールを用いた GIS、リモートセンシング、地理空間ワークフローに取り組み、衛星画像処理、ラスタおよびベクタ解析、空間データ処理、地理空間可視化、地球観測アプリケーションを扱いました。",
+        "0.98 mおよび1.2 mのKa-bandアンテナの組み立て/分解、peak pointing、7 m Ku-band電動アンテナでのESVA試験、交差偏波調整、スペクトラム解析、データ転送用1.8 m Ku-band VSATリンクの運用、LNB/LNA/BUC試験など、RFおよびアンテナ関連作業を実施しました。",
         "ハードウェア統合にPython、WebインターフェースにJavaScriptを用いた複数の社内ソフトウェアプロジェクトに貢献し、パکサット運用ユーザー向けのリアルタイムRFダッシュボードも含まれます。"
       ]
     },
